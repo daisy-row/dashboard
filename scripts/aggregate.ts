@@ -1,11 +1,9 @@
-import { glob } from 'glob';
 import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-// Go up to the W directory and then into ghe
-const ROOT_DIR = path.resolve(__dirname, '../../../ghe');
+const ROOT_DIR = path.resolve(__dirname, '../../ghe/new-actions');
 const OUTPUT_FILE = path.resolve(__dirname, '../public/data.json');
 
 interface ActivityEvent {
@@ -31,12 +29,28 @@ interface ProjectActivity {
   activityTypes: Record<string, number>;
 }
 
+function getAllFiles(dir: string, fileList: string[] = []): string[] {
+  if (!fs.existsSync(dir)) return fileList;
+  const files = fs.readdirSync(dir);
+  files.forEach(file => {
+    const filePath = path.join(dir, file);
+    if (fs.statSync(filePath).isDirectory()) {
+      getAllFiles(filePath, fileList);
+    } else if (file.endsWith('.json')) {
+      fileList.push(filePath);
+    }
+  });
+  return fileList;
+}
+
 async function aggregate() {
   try {
-    console.log('Absolute Scanning path:', ROOT_DIR);
-    
-    // Try to find ANY json files under new-actions
-    const files = await glob('new-actions/**/*.json', { cwd: ROOT_DIR });
+    console.log('Scanning directory:', ROOT_DIR);
+    if (!fs.existsSync(ROOT_DIR)) {
+      throw new Error(`Directory ${ROOT_DIR} does not exist`);
+    }
+
+    const files = getAllFiles(ROOT_DIR);
     console.log(`Found ${files.length} files. Aggregating...`);
     
     if (files.length > 0) {
@@ -45,18 +59,17 @@ async function aggregate() {
 
     const projects: Record<string, ProjectActivity> = {};
 
-    for (const file of files) {
-      // file is like "new-actions/hyperledger-actions/username.json"
-      const parts = file.split(/[\\/]/);
-      if (parts.length < 3) continue;
+    for (const filePath of files) {
+      const relativePath = path.relative(ROOT_DIR, filePath);
+      const parts = relativePath.split(path.sep);
+      if (parts.length < 2) continue;
       
-      const projectName = parts[1].replace('-actions', '');
+      const projectName = parts[0].replace('-actions', '');
       
       if (!projects[projectName]) {
         projects[projectName] = { name: projectName, count: 0, repos: {}, activityTypes: {} };
       }
 
-      const filePath = path.join(ROOT_DIR, file);
       const content = await fs.readJson(filePath);
       const events: ActivityEvent[] = Array.isArray(content) ? content : [];
 
