@@ -1,0 +1,52 @@
+name: Deploy Activity Dashboard
+
+on:
+  push:
+    branches: [ main ]
+#  schedule:
+#    - cron: '0 * * * *' # Run every hour to update data
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: dashboard/package.json
+          
+      - name: Install dependencies
+        run: |
+          cd dashboard
+          npm install
+          
+      - name: Build Dashboard (Aggregates + Vite)
+        run: |
+          cd dashboard
+          npm run build
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
