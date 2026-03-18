@@ -43,19 +43,16 @@ interface ProjectActivity {
 async function aggregate() {
   try {
     console.log('Scanning files from:', ROOT_DIR);
-    // Find all JSON files in the new-actions directory
-    const files = await glob('new-actions/*.json', { cwd: ROOT_DIR });
+    // Find all JSON files in new-actions/*-actions/
+    const files = await glob('new-actions/*-actions/*.json', { cwd: ROOT_DIR });
     console.log(`Found ${files.length} files. Aggregating...`);
     
     const projects: Record<string, ProjectActivity> = {};
 
     for (const file of files) {
-      // Extract project name from filename (e.g., "hyperledger-aries-actions.json")
-      const filename = path.basename(file);
-      const projectName = filename
-        .replace('-actors-actions.json', '')
-        .replace('-actors.json', '')
-        .replace('-actions.json', '');
+      // Extract project name from path (e.g., "new-actions/anoncreds-actions/some.json")
+      const parts = file.split(path.sep);
+      const projectName = parts[1].replace('-actions', '');
       
       if (!projects[projectName]) {
         projects[projectName] = { name: projectName, count: 0, repos: {}, activityTypes: {} };
