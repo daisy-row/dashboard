@@ -4,6 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// Go up to the W directory and then into ghe
 const ROOT_DIR = path.resolve(__dirname, '../../../ghe');
 const OUTPUT_FILE = path.resolve(__dirname, '../public/data.json');
 
@@ -15,22 +16,12 @@ interface ActivityEvent {
   timestamp: string;
 }
 
-interface UserActivity {
-  name: string;
-  count: number;
-}
-
-interface ActivityType {
-  name: string;
-  count: number;
-}
-
 interface RepoActivity {
   name: string;
   count: number;
   users: Record<string, number>;
   activityTypes: Record<string, number>;
-  events: { t: string; u: string; tp: string }[]; // minified: timestamp, user, type
+  events: { t: string; u: string; tp: string }[];
 }
 
 interface ProjectActivity {
@@ -42,16 +33,23 @@ interface ProjectActivity {
 
 async function aggregate() {
   try {
-    console.log('Scanning files from:', ROOT_DIR);
-    // Find all JSON files in new-actions/*-actions/
-    const files = await glob('new-actions/*-actions/*.json', { cwd: ROOT_DIR });
+    console.log('Absolute Scanning path:', ROOT_DIR);
+    
+    // Try to find ANY json files under new-actions
+    const files = await glob('new-actions/**/*.json', { cwd: ROOT_DIR });
     console.log(`Found ${files.length} files. Aggregating...`);
     
+    if (files.length > 0) {
+      console.log('First 3 files:', files.slice(0, 3));
+    }
+
     const projects: Record<string, ProjectActivity> = {};
 
     for (const file of files) {
-      // Extract project name from path (e.g., "new-actions/anoncreds-actions/some.json")
-      const parts = file.split(path.sep);
+      // file is like "new-actions/hyperledger-actions/username.json"
+      const parts = file.split(/[\\/]/);
+      if (parts.length < 3) continue;
+      
       const projectName = parts[1].replace('-actions', '');
       
       if (!projects[projectName]) {
@@ -109,7 +107,7 @@ async function aggregate() {
     };
 
     await fs.ensureDir(path.dirname(OUTPUT_FILE));
-    await fs.writeJson(OUTPUT_FILE, result, { spaces: 0 }); // Minify for smaller download
+    await fs.writeJson(OUTPUT_FILE, result, { spaces: 0 });
     console.log(`Successfully generated ${OUTPUT_FILE} (${Math.round(JSON.stringify(result).length / 1024)} KB)`);
   } catch (error) {
     console.error('Aggregation failed:', error);
