@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import axios from 'axios';
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
   PieChart, Pie, Cell, Legend
 } from 'recharts';
 import { 
-  Search, RefreshCw, Layers, GitBranch, Users, ArrowLeft, ExternalLink, Activity, Calendar
+  Search, RefreshCw, Layers, GitBranch, Users, ArrowLeft, ExternalLink, Activity, Calendar, AlertCircle
 } from 'lucide-react';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
@@ -45,33 +45,106 @@ interface ProjectActivity {
   activityTypes: ActivityType[];
 }
 
+interface DataIndex {
+  availableMonths: string[];
+  lastUpdated: string;
+}
+
 const COLORS = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899', '#06b6d4', '#f43f5e'];
 
 const App: React.FC = () => {
-  const [rawProjects, setRawProjects] = useState<ProjectActivity[]>([]);
-  const [lastUpdated, setLastUpdated] = useState<string>('');
+  const [dataIndex, setDataIndex] = useState<DataIndex | null>(null);
+  const [loadedMonths, setLoadedMonths] = useState<Record<string, ProjectActivity[]>>({});
   const [loading, setLoading] = useState(false);
   const [selectedProjectName, setSelectedProjectName] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [startDate, setStartDate] = useState('');
   const [endDate, setEndDate] = useState('');
+  const [error, setError] = useState<string | null>(null);
 
-  const fetchData = async () => {
+  const fetchIndex = async () => {
+    try {
+      const response = await axios.get('./data/index.json');
+      setDataIndex(response.data);
+      // Load most recent month by default
+      if (response.data.availableMonths.length > 0) {
+        const latestMonth = response.data.availableMonths[response.data.availableMonths.length - 1];
+        loadMonth(latestMonth);
+      }
+    } catch (err) {
+      console.error('Error fetching data index:', err);
+      setError('Failed to load data index. Please check if the site is still building.');
+    }
+  };
+
+  const loadMonth = async (monthKey: string) => {
+    if (loadedMonths[monthKey]) return;
+    
     setLoading(true);
     try {
-      const response = await axios.get('./data.json');
-      setRawProjects(response.data.projects);
-      setLastUpdated(response.data.lastUpdated);
-    } catch (error) {
-      console.error('Error fetching data:', error);
+      const response = await axios.get(`./data/${monthKey}.json`);
+      setLoadedMonths(prev => ({ ...prev, [monthKey]: response.data.projects }));
+    } catch (err) {
+      console.error(`Error loading month ${monthKey}:`, err);
     } finally {
       setLoading(false);
     }
   };
 
   useEffect(() => {
-    fetchData();
+    fetchIndex();
   }, []);
+
+  // When dates change, check if we need to load more months
+  useEffect(() => {
+    if (!dataIndex || (!startDate && !endDate)) return;
+
+    const start = startDate ? new Date(startDate) : new Date(0);
+    const end = endDate ? new Date(endDate) : new Date();
+
+    const monthsToLoad = dataIndex.availableMonths.filter(monthKey => {
+      const [year, month] = monthKey.split('-').map(Number);
+      const monthStart = new Date(year, month - 1, 1);
+      const monthEnd = new Date(year, month, 0, 23, 59, 59);
+      
+      return (monthStart <= end && monthEnd >= start);
+    });
+
+    monthsToLoad.forEach(loadMonth);
+  }, [startDate, endDate, dataIndex]);
+
+  const rawProjects = useMemo(() => {
+    // Merge all loaded months
+    const projectMap: Record<string, ProjectActivity> = {};
+
+    Object.values(loadedMonths).flat().forEach(monthProj => {
+      if (!projectMap[monthProj.name]) {
+        // Clone to avoid mutating state
+        projectMap[monthProj.name] = { 
+          name: monthProj.name, 
+          count: 0, 
+          repos: [], 
+          activityTypes: [] 
+        };
+      }
+
+      const proj = projectMap[monthProj.name];
+      proj.count += monthProj.count;
+      
+      // Merge repos
+      monthProj.repos.forEach(monthRepo => {
+        let repo = proj.repos.find(r => r.name === monthRepo.name);
+        if (!repo) {
+          repo = { name: monthRepo.name, count: 0, users: [], activityTypes: [], events: [] };
+          proj.repos.push(repo);
+        }
+        repo.count += monthRepo.count;
+        repo.events.push(...monthRepo.events);
+      });
+    });
+
+    return Object.values(projectMap);
+  }, [loadedMonths]);
 
   const processedData = useMemo(() => {
     const start = startDate ? new Date(startDate) : null;
@@ -80,7 +153,6 @@ const App: React.FC = () => {
     return rawProjects.map(project => {
       const filteredRepos = project.repos.map(repo => {
         const filteredEvents = repo.events.filter(e => {
-          if (!e.t) return true;
           const d = new Date(e.t);
           if (start && d < start) return false;
           if (end && d > end) return false;
@@ -153,9 +225,9 @@ const App: React.FC = () => {
                 Total Activity: {selectedProject.count} events
               </p>
             </div>
-            {lastUpdated && (
+            {dataIndex?.lastUpdated && (
               <div className="text-xs text-gray-400">
-                Data last updated: {new Date(lastUpdated).toLocaleString()}
+                Data last updated: {new Date(dataIndex.lastUpdated).toLocaleString()}
               </div>
             )}
           </div>
@@ -317,18 +389,25 @@ const App: React.FC = () => {
               />
             </div>
             <button 
-              onClick={fetchData}
+              onClick={fetchIndex}
               disabled={loading}
               className="bg-blue-600 hover:bg-blue-700 disabled:bg-blue-300 text-white px-4 py-2 rounded-lg text-sm font-semibold flex items-center transition-colors shadow-sm"
             >
               <RefreshCw className={cn("w-4 h-4 mr-2", loading && "animate-spin")} />
-              {loading ? 'Scanning...' : 'Refresh'}
+              {loading ? 'Loading...' : 'Refresh'}
             </button>
           </div>
         </div>
       </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {error && (
+          <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-8 flex items-start">
+            <AlertCircle className="text-red-400 w-5 h-5 mr-3 flex-shrink-0 mt-0.5" />
+            <p className="text-sm text-red-700">{error}</p>
+          </div>
+        )}
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
             <div className="flex items-center justify-between mb-2">
@@ -346,17 +425,20 @@ const App: React.FC = () => {
           </div>
           <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
             <div className="flex items-center justify-between mb-2">
-              <span className="text-sm font-medium text-gray-500 uppercase tracking-wider">Avg Activity / Project</span>
-              <div className="text-yellow-500 w-5 h-5">Σ</div>
+              <span className="text-sm font-medium text-gray-500 uppercase tracking-wider">Months Loaded</span>
+              <Calendar className="text-yellow-500 w-5 h-5" />
             </div>
             <div className="text-2xl font-bold">
-              {processedData.length ? Math.round(totalActivity / processedData.length).toLocaleString() : 0}
+              {Object.keys(loadedMonths).length} / {dataIndex?.availableMonths.length || 0}
             </div>
           </div>
         </div>
 
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8 mb-8">
-          <h2 className="text-lg font-bold mb-6 text-gray-900">Activity Distribution by Project</h2>
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-lg font-bold text-gray-900">Activity Distribution by Project</h2>
+            {loading && <div className="text-xs text-blue-500 animate-pulse">Loading more data...</div>}
+          </div>
           <div className="h-[400px]">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={processedData.slice(0, 20)}>

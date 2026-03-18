@@ -4,7 +4,8 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '../new-actions');
-const OUTPUT_FILE = path.resolve(__dirname, '../public/data.json');
+const DATA_DIR = path.resolve(__dirname, '../public/data');
+const INDEX_FILE = path.join(DATA_DIR, 'index.json');
 
 interface ActivityEvent {
   action?: string;
@@ -55,59 +56,47 @@ async function aggregate() {
     const files = getAllFiles(ROOT_DIR);
     console.log(`Found ${files.length} files. Aggregating...`);
     
-    const projects: Record<string, ProjectActivity> = {};
+    // projectsByMonth[YYYY-MM][projectName]
+    const projectsByMonth: Record<string, Record<string, ProjectActivity>> = {};
 
     for (const filePath of files) {
       const rawContent = await fs.readFile(filePath, 'utf8');
       if (!rawContent.trim()) continue;
 
       let events: ActivityEvent[] = [];
-      
-      // Try parsing as standard JSON
       try {
         const parsed = JSON.parse(rawContent);
         events = Array.isArray(parsed) ? parsed : [parsed];
       } catch (e) {
-        // Try parsing as NDJSON
         events = rawContent.split('\n')
           .filter(line => line.trim())
           .map(line => {
-            try {
-              return JSON.parse(line);
-            } catch (err) {
-              return null;
-            }
+            try { return JSON.parse(line); } catch (err) { return null; }
           })
           .filter(ev => ev !== null);
       }
 
       const relativePath = path.relative(ROOT_DIR, filePath);
       const parts = relativePath.split(path.sep);
-      
-      // Determine project name from directory if it looks like the old structure
       let defaultProjectName = parts.length >= 2 && parts[0].endsWith('-actions') 
         ? parts[0].replace('-actions', '') 
         : null;
 
       for (const event of events) {
-        // Extract project name
         let projectName = defaultProjectName;
         if (!projectName && event.org && typeof event.org === 'object' && event.org.login) {
           projectName = event.org.login;
         } else if (!projectName && event.org && typeof event.org === 'string') {
           projectName = event.org;
         }
-        
         if (!projectName) projectName = 'other';
 
-        // Extract repo name
         let repoName = 'unknown';
         if (event.repo) {
           if (typeof event.repo === 'string') repoName = event.repo;
           else if (typeof event.repo === 'object' && event.repo.name) repoName = event.repo.name;
         }
 
-        // Extract actor
         let actor = 'unknown';
         if (event.actor) {
           if (typeof event.actor === 'string') actor = event.actor;
@@ -116,25 +105,23 @@ async function aggregate() {
           }
         }
 
-        // Extract type and timestamp
         const type = event.type || 'UnknownEvent';
         const timestamp = event.timestamp || event.created_at || new Date().toISOString();
+        const date = new Date(timestamp);
+        const monthKey = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
 
-        if (!projects[projectName]) {
-          projects[projectName] = { name: projectName, count: 0, repos: {}, activityTypes: {} };
+        if (!projectsByMonth[monthKey]) projectsByMonth[monthKey] = {};
+        if (!projectsByMonth[monthKey][projectName]) {
+          projectsByMonth[monthKey][projectName] = { name: projectName, count: 0, repos: {}, activityTypes: {} };
         }
 
-        const project = projects[projectName];
+        const project = projectsByMonth[monthKey][projectName];
         project.count++;
         project.activityTypes[type] = (project.activityTypes[type] || 0) + 1;
 
         if (!project.repos[repoName]) {
           project.repos[repoName] = { 
-            name: repoName, 
-            count: 0, 
-            users: {}, 
-            activityTypes: {},
-            events: []
+            name: repoName, count: 0, users: {}, activityTypes: {}, events: []
           };
         }
 
@@ -142,34 +129,48 @@ async function aggregate() {
         repo.count++;
         repo.users[actor] = (repo.users[actor] || 0) + 1;
         repo.activityTypes[type] = (repo.activityTypes[type] || 0) + 1;
-        
-        // Only keep events if we need them for filtering in the UI
-        // Limiting to keep data.json size manageable if needed, but for now keeping them
         repo.events.push({ t: timestamp, u: actor, tp: type });
       }
     }
 
-    const transformedProjects = Object.values(projects).map(p => ({
-      ...p,
-      activityTypes: Object.entries(p.activityTypes).map(([name, count]) => ({ name, count }))
-        .sort((a, b) => b.count - a.count),
-      repos: Object.values(p.repos).map(r => ({
-        ...r,
-        activityTypes: Object.entries(r.activityTypes).map(([name, count]) => ({ name, count }))
-          .sort((a, b) => b.count - a.count),
-        users: Object.entries(r.users).map(([name, count]) => ({ name, count }))
-          .sort((a, b) => b.count - a.count)
-      })).sort((a, b) => b.count - a.count)
-    })).sort((a, b) => b.count - a.count);
+    await fs.ensureDir(DATA_DIR);
+    // Clear existing monthly files to avoid stale data
+    const existingFiles = fs.readdirSync(DATA_DIR);
+    for (const file of existingFiles) {
+      if (file.match(/^\d{4}-\d{2}\.json$/)) {
+        fs.unlinkSync(path.join(DATA_DIR, file));
+      }
+    }
 
-    const result = {
-      projects: transformedProjects,
+    const availableMonths = Object.keys(projectsByMonth).sort();
+    
+    for (const monthKey of availableMonths) {
+      const monthProjects = projectsByMonth[monthKey];
+      const transformedProjects = Object.values(monthProjects).map(p => ({
+        ...p,
+        activityTypes: Object.entries(p.activityTypes).map(([name, count]) => ({ name, count }))
+          .sort((a, b) => b.count - a.count),
+        repos: Object.values(p.repos).map(r => ({
+          ...r,
+          activityTypes: Object.entries(r.activityTypes).map(([name, count]) => ({ name, count }))
+            .sort((a, b) => b.count - a.count),
+          users: Object.entries(r.users).map(([name, count]) => ({ name, count }))
+            .sort((a, b) => b.count - a.count)
+        })).sort((a, b) => b.count - a.count)
+      })).sort((a, b) => b.count - a.count);
+
+      const monthFile = path.join(DATA_DIR, `${monthKey}.json`);
+      await fs.writeJson(monthFile, { projects: transformedProjects }, { spaces: 0 });
+      console.log(`Generated ${monthFile}`);
+    }
+
+    const index = {
+      availableMonths,
       lastUpdated: new Date().toISOString()
     };
+    await fs.writeJson(INDEX_FILE, index, { spaces: 2 });
+    console.log(`Generated ${INDEX_FILE}`);
 
-    await fs.ensureDir(path.dirname(OUTPUT_FILE));
-    await fs.writeJson(OUTPUT_FILE, result, { spaces: 0 });
-    console.log(`Successfully generated ${OUTPUT_FILE} (${Math.round(JSON.stringify(result).length / 1024)} KB)`);
   } catch (error) {
     console.error('Aggregation failed:', error);
     process.exit(1);
