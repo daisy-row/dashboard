@@ -59,7 +59,7 @@ const App: React.FC = () => {
   const fetchData = async () => {
     setLoading(true);
     try {
-      const response = await axios.get('/data.json');
+      const response = await axios.get('./data.json');
       setRawProjects(response.data.projects);
       setLastUpdated(response.data.lastUpdated);
     } catch (error) {
