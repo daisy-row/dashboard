@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm run aggregate && vite",
+    "dev": "vite",
     "aggregate": "tsx scripts/aggregate.ts",
-    "build": "npm run aggregate && tsc && vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: npm install
           
-      - name: Build Dashboard (Aggregates + Vite)
+      - name: Build Dashboard (Vite)
         run: npm run build
           
       - name: Upload artifact
