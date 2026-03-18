@@ -29,12 +29,12 @@ interface RepoActivity {
   users: Record<string, number>;
   activityTypes: Record<string, number>;
 }
-interface ActivityEvent {
-  action: string;
-  actor: string;
-  repo: string;
-  type: string;
-  timestamp: string;
+
+interface ProjectActivity {
+  name: string;
+  count: number;
+  repos: Record<string, RepoActivity>;
+  activityTypes: Record<string, number>;
 }
 
 app.get('/api/activity', async (req, res) => {
@@ -92,11 +92,11 @@ app.get('/api/activity', async (req, res) => {
     }
 
     // Transform to array for easier frontend consumption
-    const result = Object.values(projects).map(p => ({
+    const result = Object.values(projects).map((p: ProjectActivity) => ({
       ...p,
       activityTypes: Object.entries(p.activityTypes).map(([name, count]) => ({ name, count }))
         .sort((a, b) => b.count - a.count),
-      repos: Object.values(p.repos).map(r => ({
+      repos: Object.values(p.repos).map((r: RepoActivity) => ({
         ...r,
         activityTypes: Object.entries(r.activityTypes).map(([name, count]) => ({ name, count }))
           .sort((a, b) => b.count - a.count),
