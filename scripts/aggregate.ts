@@ -7,11 +7,13 @@ const ROOT_DIR = path.resolve(__dirname, '../new-actions');
 const OUTPUT_FILE = path.resolve(__dirname, '../public/data.json');
 
 interface ActivityEvent {
-  action: string;
-  actor: string;
-  repo: string;
+  action?: string;
+  actor: any;
+  repo: any;
   type: string;
-  timestamp: string;
+  timestamp?: string;
+  created_at?: string;
+  org?: any;
 }
 
 interface RepoActivity {
@@ -53,36 +55,81 @@ async function aggregate() {
     const files = getAllFiles(ROOT_DIR);
     console.log(`Found ${files.length} files. Aggregating...`);
     
-    if (files.length > 0) {
-      console.log('First 3 files:', files.slice(0, 3));
-    }
-
     const projects: Record<string, ProjectActivity> = {};
 
     for (const filePath of files) {
-      const relativePath = path.relative(ROOT_DIR, filePath);
-      const parts = relativePath.split(path.sep);
-      if (parts.length < 2) continue;
+      const rawContent = await fs.readFile(filePath, 'utf8');
+      if (!rawContent.trim()) continue;
+
+      let events: ActivityEvent[] = [];
       
-      const projectName = parts[0].replace('-actions', '');
-      
-      if (!projects[projectName]) {
-        projects[projectName] = { name: projectName, count: 0, repos: {}, activityTypes: {} };
+      // Try parsing as standard JSON
+      try {
+        const parsed = JSON.parse(rawContent);
+        events = Array.isArray(parsed) ? parsed : [parsed];
+      } catch (e) {
+        // Try parsing as NDJSON
+        events = rawContent.split('\n')
+          .filter(line => line.trim())
+          .map(line => {
+            try {
+              return JSON.parse(line);
+            } catch (err) {
+              return null;
+            }
+          })
+          .filter(ev => ev !== null);
       }
 
-      const content = await fs.readJson(filePath);
-      const events: ActivityEvent[] = Array.isArray(content) ? content : [];
-
-      projects[projectName].count += events.length;
+      const relativePath = path.relative(ROOT_DIR, filePath);
+      const parts = relativePath.split(path.sep);
+      
+      // Determine project name from directory if it looks like the old structure
+      let defaultProjectName = parts.length >= 2 && parts[0].endsWith('-actions') 
+        ? parts[0].replace('-actions', '') 
+        : null;
 
       for (const event of events) {
-        const repoName = event.repo;
-        const actor = event.actor;
-        const type = event.type;
-        const timestamp = event.timestamp;
+        // Extract project name
+        let projectName = defaultProjectName;
+        if (!projectName && event.org && typeof event.org === 'object' && event.org.login) {
+          projectName = event.org.login;
+        } else if (!projectName && event.org && typeof event.org === 'string') {
+          projectName = event.org;
+        }
+        
+        if (!projectName) projectName = 'other';
 
-        if (!projects[projectName].repos[repoName]) {
-          projects[projectName].repos[repoName] = { 
+        // Extract repo name
+        let repoName = 'unknown';
+        if (event.repo) {
+          if (typeof event.repo === 'string') repoName = event.repo;
+          else if (typeof event.repo === 'object' && event.repo.name) repoName = event.repo.name;
+        }
+
+        // Extract actor
+        let actor = 'unknown';
+        if (event.actor) {
+          if (typeof event.actor === 'string') actor = event.actor;
+          else if (typeof event.actor === 'object' && (event.actor.login || event.actor.id)) {
+            actor = event.actor.login || String(event.actor.id);
+          }
+        }
+
+        // Extract type and timestamp
+        const type = event.type || 'UnknownEvent';
+        const timestamp = event.timestamp || event.created_at || new Date().toISOString();
+
+        if (!projects[projectName]) {
+          projects[projectName] = { name: projectName, count: 0, repos: {}, activityTypes: {} };
+        }
+
+        const project = projects[projectName];
+        project.count++;
+        project.activityTypes[type] = (project.activityTypes[type] || 0) + 1;
+
+        if (!project.repos[repoName]) {
+          project.repos[repoName] = { 
             name: repoName, 
             count: 0, 
             users: {}, 
@@ -91,13 +138,14 @@ async function aggregate() {
           };
         }
 
-        const repo = projects[projectName].repos[repoName];
+        const repo = project.repos[repoName];
         repo.count++;
         repo.users[actor] = (repo.users[actor] || 0) + 1;
         repo.activityTypes[type] = (repo.activityTypes[type] || 0) + 1;
-        repo.events.push({ t: timestamp, u: actor, tp: type });
         
-        projects[projectName].activityTypes[type] = (projects[projectName].activityTypes[type] || 0) + 1;
+        // Only keep events if we need them for filtering in the UI
+        // Limiting to keep data.json size manageable if needed, but for now keeping them
+        repo.events.push({ t: timestamp, u: actor, tp: type });
       }
     }
 
