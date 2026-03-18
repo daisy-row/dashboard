@@ -2,7 +2,7 @@ name: Deploy Activity Dashboard
 
 on:
   push:
-    branches: [ main ]
+    branches: [ gh-pages ]
 #  schedule:
 #    - cron: '0 * * * *' # Run every hour to update data
   workflow_dispatch: # Allow manual trigger
