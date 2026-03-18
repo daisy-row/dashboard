@@ -43,15 +43,19 @@ interface ProjectActivity {
 async function aggregate() {
   try {
     console.log('Scanning files from:', ROOT_DIR);
-    const files = await glob('**/*-actions/*.json', { cwd: ROOT_DIR });
+    // Find all JSON files in the new-actions directory
+    const files = await glob('new-actions/*.json', { cwd: ROOT_DIR });
     console.log(`Found ${files.length} files. Aggregating...`);
     
     const projects: Record<string, ProjectActivity> = {};
 
     for (const file of files) {
-      // Extract project name from filename (e.g., "hyperledger-aries-actors-actions.json")
+      // Extract project name from filename (e.g., "hyperledger-aries-actions.json")
       const filename = path.basename(file);
-      const projectName = filename.replace('-actors-actions.json', '').replace('-actions.json', '');
+      const projectName = filename
+        .replace('-actors-actions.json', '')
+        .replace('-actors.json', '')
+        .replace('-actions.json', '');
       
       if (!projects[projectName]) {
         projects[projectName] = { name: projectName, count: 0, repos: {}, activityTypes: {} };
@@ -109,7 +113,7 @@ async function aggregate() {
 
     await fs.ensureDir(path.dirname(OUTPUT_FILE));
     await fs.writeJson(OUTPUT_FILE, result, { spaces: 0 }); // Minify for smaller download
-    console.log(`Successfully generated ${OUTPUT_FILE}`);
+    console.log(`Successfully generated ${OUTPUT_FILE} (${Math.round(JSON.stringify(result).length / 1024)} KB)`);
   } catch (error) {
     console.error('Aggregation failed:', error);
     process.exit(1);
