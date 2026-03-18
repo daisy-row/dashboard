@@ -4,7 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT_DIR = path.resolve(__dirname, '../../');
+const ROOT_DIR = path.resolve(__dirname, '../../../ghe');
 const OUTPUT_FILE = path.resolve(__dirname, '../public/data.json');
 
 interface ActivityEvent {
