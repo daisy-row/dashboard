@@ -6,6 +6,12 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '../new-actions');
 const DATA_DIR = path.resolve(__dirname, '../public/data');
 const INDEX_FILE = path.join(DATA_DIR, 'index.json');
+const PROJECTS_CONFIG = path.resolve(__dirname, '../projects.json');
+
+interface ProjectConfig {
+  name: string;
+  repos: string[];
+}
 
 interface ActivityEvent {
   action?: string;
@@ -56,6 +62,18 @@ async function aggregate() {
     const files = getAllFiles(ROOT_DIR);
     console.log(`Found ${files.length} files. Aggregating...`);
     
+    // Load project config
+    const repoToProject: Record<string, string> = {};
+    if (fs.existsSync(PROJECTS_CONFIG)) {
+      const config: ProjectConfig[] = await fs.readJson(PROJECTS_CONFIG);
+      for (const project of config) {
+        for (const repo of project.repos) {
+          repoToProject[repo] = project.name;
+        }
+      }
+      console.log(`Loaded ${config.length} projects with ${Object.keys(repoToProject).length} repos.`);
+    }
+
     // projectsByMonth[YYYY-MM][projectName]
     const projectsByMonth: Record<string, Record<string, ProjectActivity>> = {};
 
@@ -76,26 +94,15 @@ async function aggregate() {
           .filter(ev => ev !== null);
       }
 
-      const relativePath = path.relative(ROOT_DIR, filePath);
-      const parts = relativePath.split(path.sep);
-      let defaultProjectName = parts.length >= 2 && parts[0].endsWith('-actions') 
-        ? parts[0].replace('-actions', '') 
-        : null;
-
       for (const event of events) {
-        let projectName = defaultProjectName;
-        if (!projectName && event.org && typeof event.org === 'object' && event.org.login) {
-          projectName = event.org.login;
-        } else if (!projectName && event.org && typeof event.org === 'string') {
-          projectName = event.org;
-        }
-        if (!projectName) projectName = 'other';
-
         let repoName = 'unknown';
         if (event.repo) {
           if (typeof event.repo === 'string') repoName = event.repo;
           else if (typeof event.repo === 'object' && event.repo.name) repoName = event.repo.name;
         }
+
+        const projectName = repoToProject[repoName];
+        if (!projectName) continue; // Only read data from projects and repos in the projects.json file
 
         let actor = 'unknown';
         if (event.actor) {
