@@ -56,20 +56,66 @@ const App: React.FC = () => {
   const [dataIndex, setDataIndex] = useState<DataIndex | null>(null);
   const [loadedMonths, setLoadedMonths] = useState<Record<string, ProjectActivity[]>>({});
   const [loading, setLoading] = useState(false);
-  const [selectedProjectName, setSelectedProjectName] = useState<string | null>(null);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [userSearchTerm, setUserSearchTerm] = useState('');
-  const [repoSearchTerm, setRepoSearchTerm] = useState('');
-  const [startDate, setStartDate] = useState('');
-  const [endDate, setEndDate] = useState('');
+  
+  // Initialize state from URL query parameters
+  const [selectedProjectName, setSelectedProjectName] = useState<string | null>(() => {
+    return new URLSearchParams(window.location.search).get('project');
+  });
+  const [searchTerm, setSearchTerm] = useState(() => {
+    return new URLSearchParams(window.location.search).get('search') || '';
+  });
+  const [userSearchTerm, setUserSearchTerm] = useState(() => {
+    return new URLSearchParams(window.location.search).get('user') || '';
+  });
+  const [repoSearchTerm, setRepoSearchTerm] = useState(() => {
+    return new URLSearchParams(window.location.search).get('repo') || '';
+  });
+  const [startDate, setStartDate] = useState(() => {
+    return new URLSearchParams(window.location.search).get('start') || '';
+  });
+  const [endDate, setEndDate] = useState(() => {
+    return new URLSearchParams(window.location.search).get('end') || '';
+  });
+  
   const [error, setError] = useState<string | null>(null);
+
+  // Sync state to URL
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (selectedProjectName) params.set('project', selectedProjectName);
+    if (searchTerm) params.set('search', searchTerm);
+    if (userSearchTerm) params.set('user', userSearchTerm);
+    if (repoSearchTerm) params.set('repo', repoSearchTerm);
+    if (startDate) params.set('start', startDate);
+    if (endDate) params.set('end', endDate);
+
+    const queryString = params.toString();
+    const newRelativePathQuery = window.location.pathname + (queryString ? '?' + queryString : '');
+    window.history.replaceState(null, '', newRelativePathQuery);
+  }, [selectedProjectName, searchTerm, userSearchTerm, repoSearchTerm, startDate, endDate]);
+
+  // Listen for back/forward navigation
+  useEffect(() => {
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      setSelectedProjectName(params.get('project'));
+      setSearchTerm(params.get('search') || '');
+      setUserSearchTerm(params.get('user') || '');
+      setRepoSearchTerm(params.get('repo') || '');
+      setStartDate(params.get('start') || '');
+      setEndDate(params.get('end') || '');
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
 
   const fetchIndex = async () => {
     try {
       const response = await axios.get('./data/index.json');
       setDataIndex(response.data);
-      // Load most recent month by default
-      if (response.data.availableMonths.length > 0) {
+      // Load most recent month by default if no date range specified
+      if (response.data.availableMonths.length > 0 && !startDate && !endDate) {
         const latestMonth = response.data.availableMonths[response.data.availableMonths.length - 1];
         loadMonth(latestMonth);
       }
