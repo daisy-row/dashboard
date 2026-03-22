@@ -2,11 +2,11 @@
   "projects": [
     {
       "name": "Fabric",
-      "count": 2847,
+      "count": 2839,
       "repos": [
         {
           "name": "hyperledger/fabric",
-          "count": 1557,
+          "count": 1548,
           "users": [
             {
               "name": "mergify[bot]",
@@ -14,19 +14,19 @@
             },
             {
               "name": "manish-sethi",
-              "count": 143
-            },
-            {
-              "name": "cendhu",
-              "count": 103
+              "count": 142
             },
             {
               "name": "sykesm",
               "count": 101
             },
             {
+              "name": "cendhu",
+              "count": 100
+            },
+            {
               "name": "btl5037",
-              "count": 91
+              "count": 90
             },
             {
               "name": "denyeart",
@@ -82,7 +82,7 @@
             },
             {
               "name": "guoger",
-              "count": 15
+              "count": 14
             },
             {
               "name": "hello2mao",
@@ -233,10 +233,6 @@
               "count": 2
             },
             {
-              "name": "AMatFour",
-              "count": 2
-            },
-            {
               "name": "435420057",
               "count": 1
             },
@@ -246,6 +242,14 @@
             },
             {
               "name": "1095267274",
+              "count": 1
+            },
+            {
+              "name": "preetidangi21",
+              "count": 1
+            },
+            {
+              "name": "SimonOsaka",
               "count": 1
             },
             {
@@ -1343,32 +1347,20 @@
             {
               "name": "Rick10119",
               "count": 1
-            },
-            {
-              "name": "liangyuan531",
-              "count": 1
-            },
-            {
-              "name": "BattleCall3",
-              "count": 1
-            },
-            {
-              "name": "github-actions[bot]",
-              "count": 1
             }
           ],
           "activityTypes": [
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 484
+              "count": 481
             },
             {
               "name": "PullRequestEvent",
-              "count": 317
+              "count": 316
             },
             {
               "name": "IssueCommentEvent",
-              "count": 249
+              "count": 246
             },
             {
               "name": "ForkEvent",
@@ -1376,7 +1368,7 @@
             },
             {
               "name": "WatchEvent",
-              "count": 157
+              "count": 155
             },
             {
               "name": "PushEvent",
@@ -1396,6 +1388,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2020-05-01T03:13:05Z",
+              "u": "preetidangi21",
+              "tp": "ForkEvent"
+            },
             {
               "t": "2020-05-01T11:55:07Z",
               "u": "manish-sethi",
@@ -1460,6 +1457,11 @@
               "t": "2020-05-01T17:37:02Z",
               "u": "nikhil550",
               "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2020-05-01T03:52:35Z",
+              "u": "SimonOsaka",
+              "tp": "WatchEvent"
             },
             {
               "t": "2020-05-01T14:32:20Z",
@@ -1615,6 +1617,11 @@
               "t": "2020-05-01T20:54:36Z",
               "u": "yacovm",
               "tp": "PushEvent"
+            },
+            {
+              "t": "2020-05-01T04:33:57Z",
+              "u": "cendhu",
+              "tp": "PullRequestReviewCommentEvent"
             },
             {
               "t": "2020-05-01T12:33:34Z",
@@ -9120,72 +9127,12 @@
               "t": "2020-05-31T08:09:41Z",
               "u": "cendhu",
               "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2020-06-01T00:34:20Z",
-              "u": "manish-sethi",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2020-06-01T01:45:30Z",
-              "u": "liangyuan531",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2020-06-01T00:50:50Z",
-              "u": "BattleCall3",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2020-06-01T00:38:11Z",
-              "u": "guoger",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2020-06-01T01:32:40Z",
-              "u": "AMatFour",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2020-06-01T01:32:42Z",
-              "u": "AMatFour",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2020-06-01T00:38:22Z",
-              "u": "github-actions[bot]",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2020-06-01T02:50:16Z",
-              "u": "cendhu",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2020-06-01T02:51:48Z",
-              "u": "cendhu",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2020-06-01T02:56:54Z",
-              "u": "cendhu",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2020-06-01T02:58:40Z",
-              "u": "cendhu",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2020-06-01T00:51:10Z",
-              "u": "btl5037",
-              "tp": "IssueCommentEvent"
             }
           ]
         },
         {
           "name": "hyperledger/fabric-samples",
-          "count": 222,
+          "count": 221,
           "users": [
             {
               "name": "lehors",
@@ -9658,16 +9605,12 @@
             {
               "name": "HurSungYun",
               "count": 1
-            },
-            {
-              "name": "smartheye",
-              "count": 1
             }
           ],
           "activityTypes": [
             {
               "name": "ForkEvent",
-              "count": 63
+              "count": 62
             },
             {
               "name": "WatchEvent",
@@ -10803,11 +10746,6 @@
               "t": "2020-05-31T04:16:14Z",
               "u": "HurSungYun",
               "tp": "WatchEvent"
-            },
-            {
-              "t": "2020-06-01T02:33:10Z",
-              "u": "smartheye",
-              "tp": "ForkEvent"
             }
           ]
         },
@@ -12633,6 +12571,10 @@
               "count": 2
             },
             {
+              "name": "leolimcav",
+              "count": 1
+            },
+            {
               "name": "balabhaskar27",
               "count": 1
             },
@@ -12727,10 +12669,6 @@
             {
               "name": "hehui0316",
               "count": 1
-            },
-            {
-              "name": "IgorWang",
-              "count": 1
             }
           ],
           "activityTypes": [
@@ -12760,6 +12698,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2020-05-01T06:53:49Z",
+              "u": "leolimcav",
+              "tp": "WatchEvent"
+            },
             {
               "t": "2020-05-01T12:52:31Z",
               "u": "balabhaskar27",
@@ -13344,11 +13287,6 @@
               "t": "2020-05-31T19:23:49Z",
               "u": "btl5037",
               "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2020-06-01T05:54:39Z",
-              "u": "IgorWang",
-              "tp": "WatchEvent"
             }
           ]
         },
@@ -15578,7 +15516,7 @@
         },
         {
           "name": "hyperledger/fabric-chaincode-java",
-          "count": 58,
+          "count": 59,
           "users": [
             {
               "name": "mbwhite",
@@ -15591,6 +15529,10 @@
             {
               "name": "jt-nti",
               "count": 9
+            },
+            {
+              "name": "HJhao",
+              "count": 1
             },
             {
               "name": "SHHSSH",
@@ -15631,12 +15573,12 @@
               "count": 7
             },
             {
-              "name": "IssueCommentEvent",
+              "name": "WatchEvent",
               "count": 4
             },
             {
-              "name": "WatchEvent",
-              "count": 3
+              "name": "IssueCommentEvent",
+              "count": 4
             },
             {
               "name": "ForkEvent",
@@ -15652,6 +15594,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2020-05-01T04:01:08Z",
+              "u": "HJhao",
+              "tp": "WatchEvent"
+            },
             {
               "t": "2020-05-08T08:38:12Z",
               "u": "SHHSSH",
@@ -16626,7 +16573,7 @@
         },
         {
           "name": "hyperledger/fabric-gateway-java",
-          "count": 32,
+          "count": 33,
           "users": [
             {
               "name": "bestbeforetoday",
@@ -16639,6 +16586,10 @@
             {
               "name": "hlfdev-azp",
               "count": 4
+            },
+            {
+              "name": "HJhao",
+              "count": 1
             },
             {
               "name": "zhangxiongfei2012",
@@ -16683,16 +16634,16 @@
           ],
           "activityTypes": [
             {
+              "name": "WatchEvent",
+              "count": 8
+            },
+            {
               "name": "PullRequestEvent",
               "count": 8
             },
             {
               "name": "PushEvent",
               "count": 8
-            },
-            {
-              "name": "WatchEvent",
-              "count": 7
             },
             {
               "name": "ForkEvent",
@@ -16708,6 +16659,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2020-05-01T03:58:54Z",
+              "u": "HJhao",
+              "tp": "WatchEvent"
+            },
             {
               "t": "2020-05-04T15:18:22Z",
               "u": "zhangxiongfei2012",
@@ -17927,19 +17883,19 @@
       "activityTypes": [
         {
           "name": "PullRequestReviewCommentEvent",
-          "count": 687
+          "count": 684
         },
         {
           "name": "PullRequestEvent",
-          "count": 632
+          "count": 631
         },
         {
           "name": "IssueCommentEvent",
-          "count": 466
+          "count": 463
         },
         {
           "name": "ForkEvent",
-          "count": 327
+          "count": 326
         },
         {
           "name": "PushEvent",
@@ -17973,11 +17929,11 @@
     },
     {
       "name": "Open Quantum Safe",
-      "count": 521,
+      "count": 517,
       "repos": [
         {
           "name": "open-quantum-safe/openssl",
-          "count": 239,
+          "count": 240,
           "users": [
             {
               "name": "xvzcf",
@@ -17985,7 +17941,7 @@
             },
             {
               "name": "baentsch",
-              "count": 58
+              "count": 59
             },
             {
               "name": "dstebila",
@@ -18039,7 +17995,7 @@
           "activityTypes": [
             {
               "name": "IssueCommentEvent",
-              "count": 60
+              "count": 61
             },
             {
               "name": "PushEvent",
@@ -18082,6 +18038,11 @@
             {
               "t": "2020-05-01T23:11:07Z",
               "u": "christianpaquin",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2020-05-01T05:37:15Z",
+              "u": "baentsch",
               "tp": "IssueCommentEvent"
             },
             {
@@ -19278,7 +19239,7 @@
         },
         {
           "name": "open-quantum-safe/liboqs",
-          "count": 139,
+          "count": 135,
           "users": [
             {
               "name": "dstebila",
@@ -19294,7 +19255,7 @@
             },
             {
               "name": "baentsch",
-              "count": 12
+              "count": 8
             },
             {
               "name": "gadoofou87",
@@ -19392,7 +19353,7 @@
             },
             {
               "name": "PullRequestEvent",
-              "count": 22
+              "count": 21
             },
             {
               "name": "PullRequestReviewCommentEvent",
@@ -19408,7 +19369,7 @@
             },
             {
               "name": "DeleteEvent",
-              "count": 9
+              "count": 8
             },
             {
               "name": "IssuesEvent",
@@ -19416,7 +19377,7 @@
             },
             {
               "name": "CreateEvent",
-              "count": 7
+              "count": 5
             },
             {
               "name": "ForkEvent",
@@ -20106,26 +20067,6 @@
               "t": "2020-05-29T12:36:36Z",
               "u": "onavratil-monetplus",
               "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2020-06-01T06:09:36Z",
-              "u": "baentsch",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2020-06-01T06:14:32Z",
-              "u": "baentsch",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2020-06-01T06:18:58Z",
-              "u": "baentsch",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2020-06-01T06:29:54Z",
-              "u": "baentsch",
-              "tp": "PullRequestEvent"
             }
           ]
         },
@@ -21014,25 +20955,17 @@
         },
         {
           "name": "open-quantum-safe/liboqs-python",
-          "count": 3,
+          "count": 2,
           "users": [
             {
               "name": "vsoftco",
               "count": 2
-            },
-            {
-              "name": "yberlin",
-              "count": 1
             }
           ],
           "activityTypes": [
             {
               "name": "PushEvent",
               "count": 2
-            },
-            {
-              "name": "WatchEvent",
-              "count": 1
             }
           ],
           "events": [
@@ -21045,11 +20978,6 @@
               "t": "2020-05-12T17:59:16Z",
               "u": "vsoftco",
               "tp": "PushEvent"
-            },
-            {
-              "t": "2020-06-01T01:30:44Z",
-              "u": "yberlin",
-              "tp": "WatchEvent"
             }
           ]
         },
@@ -21112,7 +21040,7 @@
       "activityTypes": [
         {
           "name": "IssueCommentEvent",
-          "count": 125
+          "count": 126
         },
         {
           "name": "PushEvent",
@@ -21120,7 +21048,7 @@
         },
         {
           "name": "PullRequestEvent",
-          "count": 98
+          "count": 97
         },
         {
           "name": "PullRequestReviewCommentEvent",
@@ -21132,15 +21060,15 @@
         },
         {
           "name": "WatchEvent",
-          "count": 29
+          "count": 28
         },
         {
           "name": "CreateEvent",
-          "count": 25
+          "count": 23
         },
         {
           "name": "DeleteEvent",
-          "count": 24
+          "count": 23
         },
         {
           "name": "GollumEvent",
@@ -21158,11 +21086,11 @@
     },
     {
       "name": "Hyperledger Labs",
-      "count": 501,
+      "count": 509,
       "repos": [
         {
           "name": "hyperledger-labs/private-data-objects",
-          "count": 128,
+          "count": 130,
           "users": [
             {
               "name": "prakashngit",
@@ -21177,16 +21105,16 @@
               "count": 26
             },
             {
+              "name": "cmickeyb",
+              "count": 8
+            },
+            {
               "name": "bvavala",
               "count": 7
             },
             {
               "name": "lgtm-com[bot]",
               "count": 7
-            },
-            {
-              "name": "cmickeyb",
-              "count": 6
             },
             {
               "name": "sambacha",
@@ -21204,7 +21132,7 @@
             },
             {
               "name": "PullRequestEvent",
-              "count": 18
+              "count": 19
             },
             {
               "name": "IssueCommentEvent",
@@ -21216,7 +21144,7 @@
             },
             {
               "name": "PushEvent",
-              "count": 2
+              "count": 3
             },
             {
               "name": "ForkEvent",
@@ -21228,6 +21156,16 @@
             }
           ],
           "events": [
+            {
+              "t": "2020-05-01T01:11:38Z",
+              "u": "cmickeyb",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2020-05-01T01:11:39Z",
+              "u": "cmickeyb",
+              "tp": "PushEvent"
+            },
             {
               "t": "2020-05-06T22:54:48Z",
               "u": "masomel",
@@ -21872,19 +21810,19 @@
         },
         {
           "name": "hyperledger-labs/minbft",
-          "count": 101,
+          "count": 98,
           "users": [
-            {
-              "name": "ynamiki",
-              "count": 39
-            },
             {
               "name": "sergefdrv",
               "count": 38
             },
             {
+              "name": "ynamiki",
+              "count": 38
+            },
+            {
               "name": "Naoya-Horiguchi",
-              "count": 21
+              "count": 19
             },
             {
               "name": "wisepythagoras",
@@ -21914,7 +21852,7 @@
             },
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 8
+              "count": 5
             },
             {
               "name": "WatchEvent",
@@ -22411,21 +22349,6 @@
               "t": "2020-05-31T03:34:18Z",
               "u": "yubc",
               "tp": "WatchEvent"
-            },
-            {
-              "t": "2020-06-01T01:20:44Z",
-              "u": "ynamiki",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2020-06-01T00:15:34Z",
-              "u": "Naoya-Horiguchi",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2020-06-01T02:27:33Z",
-              "u": "Naoya-Horiguchi",
-              "tp": "PullRequestReviewCommentEvent"
             }
           ]
         },
@@ -22981,11 +22904,11 @@
         },
         {
           "name": "hyperledger-labs/pluggable-hcs",
-          "count": 82,
+          "count": 91,
           "users": [
             {
               "name": "xin-hedera",
-              "count": 80
+              "count": 89
             },
             {
               "name": "serial-coder",
@@ -22999,30 +22922,75 @@
           "activityTypes": [
             {
               "name": "PullRequestEvent",
-              "count": 30
+              "count": 32
             },
             {
               "name": "PushEvent",
-              "count": 18
-            },
-            {
-              "name": "CreateEvent",
-              "count": 15
+              "count": 19
             },
             {
               "name": "DeleteEvent",
-              "count": 14
+              "count": 17
+            },
+            {
+              "name": "CreateEvent",
+              "count": 17
+            },
+            {
+              "name": "IssueCommentEvent",
+              "count": 3
             },
             {
               "name": "WatchEvent",
               "count": 3
-            },
-            {
-              "name": "IssueCommentEvent",
-              "count": 2
             }
           ],
           "events": [
+            {
+              "t": "2020-05-01T03:54:22Z",
+              "u": "xin-hedera",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2020-05-01T04:06:01Z",
+              "u": "xin-hedera",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2020-05-01T04:07:47Z",
+              "u": "xin-hedera",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2020-05-01T04:21:17Z",
+              "u": "xin-hedera",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2020-05-01T04:27:12Z",
+              "u": "xin-hedera",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2020-05-01T04:28:41Z",
+              "u": "xin-hedera",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2020-05-01T04:28:42Z",
+              "u": "xin-hedera",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2020-05-01T04:28:44Z",
+              "u": "xin-hedera",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2020-05-01T04:34:10Z",
+              "u": "xin-hedera",
+              "tp": "CreateEvent"
+            },
             {
               "t": "2020-05-01T13:28:20Z",
               "u": "xin-hedera",
@@ -24263,23 +24231,23 @@
       "activityTypes": [
         {
           "name": "PullRequestEvent",
-          "count": 152
+          "count": 155
         },
         {
           "name": "PullRequestReviewCommentEvent",
-          "count": 97
+          "count": 94
         },
         {
           "name": "IssueCommentEvent",
-          "count": 76
+          "count": 77
         },
         {
           "name": "PushEvent",
-          "count": 66
+          "count": 68
         },
         {
           "name": "CreateEvent",
-          "count": 28
+          "count": 30
         },
         {
           "name": "WatchEvent",
@@ -24287,7 +24255,7 @@
         },
         {
           "name": "DeleteEvent",
-          "count": 23
+          "count": 26
         },
         {
           "name": "IssuesEvent",
@@ -24309,7 +24277,7 @@
       "repos": [
         {
           "name": "hyperledger-archives/composer-sample-applications",
-          "count": 30,
+          "count": 29,
           "users": [
             {
               "name": "Santosh-Kanchinadham",
@@ -24410,16 +24378,12 @@
             {
               "name": "ppj1991",
               "count": 1
-            },
-            {
-              "name": "tunks",
-              "count": 1
             }
           ],
           "activityTypes": [
             {
               "name": "ForkEvent",
-              "count": 29
+              "count": 28
             },
             {
               "name": "WatchEvent",
@@ -24571,11 +24535,6 @@
               "t": "2020-05-31T02:00:36Z",
               "u": "ppj1991",
               "tp": "ForkEvent"
-            },
-            {
-              "t": "2020-06-01T01:38:01Z",
-              "u": "tunks",
-              "tp": "ForkEvent"
             }
           ]
         },
@@ -24685,7 +24644,7 @@
         },
         {
           "name": "hyperledger-archives/education",
-          "count": 8,
+          "count": 9,
           "users": [
             {
               "name": "dbytecoderc",
@@ -24694,6 +24653,10 @@
             {
               "name": "jplaui",
               "count": 2
+            },
+            {
+              "name": "davidsetyanugraha",
+              "count": 1
             },
             {
               "name": "PrashantShinagare",
@@ -24710,15 +24673,20 @@
           ],
           "activityTypes": [
             {
-              "name": "ForkEvent",
-              "count": 4
+              "name": "WatchEvent",
+              "count": 5
             },
             {
-              "name": "WatchEvent",
+              "name": "ForkEvent",
               "count": 4
             }
           ],
           "events": [
+            {
+              "t": "2020-05-01T03:12:37Z",
+              "u": "davidsetyanugraha",
+              "tp": "WatchEvent"
+            },
             {
               "t": "2020-05-01T11:29:10Z",
               "u": "PrashantShinagare",
@@ -24820,11 +24788,11 @@
       "activityTypes": [
         {
           "name": "ForkEvent",
-          "count": 43
+          "count": 42
         },
         {
           "name": "WatchEvent",
-          "count": 8
+          "count": 9
         }
       ]
     },

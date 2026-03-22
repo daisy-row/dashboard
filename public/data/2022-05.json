@@ -2,26 +2,22 @@
   "projects": [
     {
       "name": "Fabric",
-      "count": 2044,
+      "count": 2022,
       "repos": [
         {
           "name": "hyperledger/fabric",
-          "count": 791,
+          "count": 767,
           "users": [
             {
               "name": "denyeart",
-              "count": 173
+              "count": 162
             },
             {
               "name": "mergify[bot]",
-              "count": 62
+              "count": 55
             },
             {
               "name": "WaleedMortaja",
-              "count": 38
-            },
-            {
-              "name": "ale-linux",
               "count": 36
             },
             {
@@ -31,6 +27,10 @@
             {
               "name": "andrew-coleman",
               "count": 33
+            },
+            {
+              "name": "ale-linux",
+              "count": 30
             },
             {
               "name": "jkneubuh",
@@ -105,6 +105,10 @@
               "count": 3
             },
             {
+              "name": "t-edge-products",
+              "count": 2
+            },
+            {
               "name": "freemanpdwork",
               "count": 2
             },
@@ -162,6 +166,10 @@
             },
             {
               "name": "664028812",
+              "count": 1
+            },
+            {
+              "name": "Andrew-X-D",
               "count": 1
             },
             {
@@ -1075,16 +1083,12 @@
             {
               "name": "anuj-upadhyay-inferenz",
               "count": 1
-            },
-            {
-              "name": "mgr-cse",
-              "count": 1
             }
           ],
           "activityTypes": [
             {
               "name": "IssueCommentEvent",
-              "count": 183
+              "count": 179
             },
             {
               "name": "WatchEvent",
@@ -1092,19 +1096,19 @@
             },
             {
               "name": "PullRequestEvent",
-              "count": 129
+              "count": 120
             },
             {
               "name": "ForkEvent",
-              "count": 93
+              "count": 95
             },
             {
               "name": "PullRequestReviewEvent",
-              "count": 84
+              "count": 79
             },
             {
               "name": "PushEvent",
-              "count": 52
+              "count": 48
             },
             {
               "name": "IssuesEvent",
@@ -1112,18 +1116,33 @@
             },
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 32
+              "count": 31
             },
             {
               "name": "CreateEvent",
-              "count": 16
+              "count": 14
             },
             {
               "name": "DeleteEvent",
-              "count": 15
+              "count": 14
             }
           ],
           "events": [
+            {
+              "t": "2022-05-01T03:03:18Z",
+              "u": "t-edge-products",
+              "tp": "ForkEvent"
+            },
+            {
+              "t": "2022-05-01T03:08:08Z",
+              "u": "t-edge-products",
+              "tp": "ForkEvent"
+            },
+            {
+              "t": "2022-05-01T05:06:35Z",
+              "u": "Andrew-X-D",
+              "tp": "ForkEvent"
+            },
             {
               "t": "2022-05-01T19:42:47Z",
               "u": "bobvanratingen",
@@ -4943,141 +4962,6 @@
               "t": "2022-05-31T05:46:04Z",
               "u": "anuj-upadhyay-inferenz",
               "tp": "WatchEvent"
-            },
-            {
-              "t": "2022-06-01T04:05:48Z",
-              "u": "denyeart",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2022-06-01T04:05:48Z",
-              "u": "denyeart",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2022-06-01T04:06:34Z",
-              "u": "denyeart",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2022-06-01T04:06:40Z",
-              "u": "denyeart",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2022-06-01T04:06:48Z",
-              "u": "denyeart",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2022-06-01T04:08:38Z",
-              "u": "denyeart",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2022-06-01T04:08:44Z",
-              "u": "denyeart",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2022-06-01T04:11:38Z",
-              "u": "denyeart",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2022-06-01T04:11:44Z",
-              "u": "denyeart",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2022-06-01T04:21:05Z",
-              "u": "denyeart",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2022-06-01T04:21:28Z",
-              "u": "denyeart",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2022-06-01T00:13:19Z",
-              "u": "WaleedMortaja",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2022-06-01T03:45:28Z",
-              "u": "WaleedMortaja",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2022-06-01T06:25:30Z",
-              "u": "ale-linux",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2022-06-01T06:25:36Z",
-              "u": "ale-linux",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2022-06-01T06:25:41Z",
-              "u": "ale-linux",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2022-06-01T06:25:55Z",
-              "u": "ale-linux",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2022-06-01T06:26:00Z",
-              "u": "ale-linux",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2022-06-01T06:26:01Z",
-              "u": "ale-linux",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2022-06-01T04:12:22Z",
-              "u": "mergify[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2022-06-01T04:12:22Z",
-              "u": "mergify[bot]",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2022-06-01T04:12:23Z",
-              "u": "mergify[bot]",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2022-06-01T04:12:39Z",
-              "u": "mergify[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2022-06-01T04:12:39Z",
-              "u": "mergify[bot]",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2022-06-01T04:12:40Z",
-              "u": "mergify[bot]",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2022-06-01T06:26:06Z",
-              "u": "mergify[bot]",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2022-06-01T04:51:17Z",
-              "u": "mgr-cse",
-              "tp": "ForkEvent"
             }
           ]
         },
@@ -6813,7 +6697,7 @@
         },
         {
           "name": "hyperledger/fabric-docs-i18n",
-          "count": 128,
+          "count": 129,
           "users": [
             {
               "name": "FrancescoUrbano",
@@ -6841,7 +6725,7 @@
             },
             {
               "name": "satomicchy",
-              "count": 3
+              "count": 4
             },
             {
               "name": "sxkm",
@@ -6874,12 +6758,12 @@
               "count": 13
             },
             {
-              "name": "IssuesEvent",
+              "name": "IssueCommentEvent",
               "count": 7
             },
             {
-              "name": "IssueCommentEvent",
-              "count": 6
+              "name": "IssuesEvent",
+              "count": 7
             },
             {
               "name": "WatchEvent",
@@ -6891,6 +6775,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2022-05-01T06:48:27Z",
+              "u": "satomicchy",
+              "tp": "IssueCommentEvent"
+            },
             {
               "t": "2022-05-01T09:20:03Z",
               "u": "sxkm",
@@ -12246,7 +12135,7 @@
         },
         {
           "name": "hyperledger/fabric-gateway-java",
-          "count": 19,
+          "count": 20,
           "users": [
             {
               "name": "bestbeforetoday",
@@ -12263,6 +12152,10 @@
             {
               "name": "andrew-coleman",
               "count": 2
+            },
+            {
+              "name": "tongqingyu",
+              "count": 1
             },
             {
               "name": "Janson404",
@@ -12291,15 +12184,15 @@
               "count": 4
             },
             {
+              "name": "WatchEvent",
+              "count": 3
+            },
+            {
               "name": "IssueCommentEvent",
               "count": 3
             },
             {
               "name": "ForkEvent",
-              "count": 2
-            },
-            {
-              "name": "WatchEvent",
               "count": 2
             },
             {
@@ -12320,6 +12213,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2022-05-01T04:54:13Z",
+              "u": "tongqingyu",
+              "tp": "WatchEvent"
+            },
             {
               "t": "2022-05-04T09:27:19Z",
               "u": "Janson404",
@@ -13536,31 +13434,31 @@
       "activityTypes": [
         {
           "name": "PullRequestEvent",
-          "count": 365
+          "count": 356
         },
         {
           "name": "IssueCommentEvent",
-          "count": 325
+          "count": 322
         },
         {
           "name": "PullRequestReviewEvent",
-          "count": 289
+          "count": 284
         },
         {
           "name": "WatchEvent",
-          "count": 265
+          "count": 266
         },
         {
           "name": "PushEvent",
-          "count": 232
+          "count": 228
         },
         {
           "name": "ForkEvent",
-          "count": 182
+          "count": 184
         },
         {
           "name": "PullRequestReviewCommentEvent",
-          "count": 154
+          "count": 153
         },
         {
           "name": "IssuesEvent",
@@ -13568,11 +13466,11 @@
         },
         {
           "name": "CreateEvent",
-          "count": 49
+          "count": 47
         },
         {
           "name": "DeleteEvent",
-          "count": 42
+          "count": 41
         },
         {
           "name": "ReleaseEvent",
@@ -13582,11 +13480,11 @@
     },
     {
       "name": "Firefly",
-      "count": 1228,
+      "count": 1234,
       "repos": [
         {
           "name": "hyperledger/firefly",
-          "count": 684,
+          "count": 689,
           "users": [
             {
               "name": "awrichar",
@@ -13594,7 +13492,7 @@
             },
             {
               "name": "peterbroadhurst",
-              "count": 157
+              "count": 162
             },
             {
               "name": "nguyer",
@@ -13788,7 +13686,7 @@
           "activityTypes": [
             {
               "name": "PullRequestReviewEvent",
-              "count": 216
+              "count": 217
             },
             {
               "name": "PullRequestReviewCommentEvent",
@@ -13796,7 +13694,7 @@
             },
             {
               "name": "PullRequestEvent",
-              "count": 90
+              "count": 92
             },
             {
               "name": "IssueCommentEvent",
@@ -13804,7 +13702,7 @@
             },
             {
               "name": "PushEvent",
-              "count": 48
+              "count": 50
             },
             {
               "name": "WatchEvent",
@@ -13841,6 +13739,31 @@
               "t": "2022-05-01T18:19:21Z",
               "u": "codecov-commenter",
               "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2022-05-01T02:51:24Z",
+              "u": "peterbroadhurst",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2022-05-01T02:51:25Z",
+              "u": "peterbroadhurst",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2022-05-01T02:52:40Z",
+              "u": "peterbroadhurst",
+              "tp": "PullRequestReviewEvent"
+            },
+            {
+              "t": "2022-05-01T02:52:45Z",
+              "u": "peterbroadhurst",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2022-05-01T02:52:47Z",
+              "u": "peterbroadhurst",
+              "tp": "PushEvent"
             },
             {
               "t": "2022-05-02T18:53:37Z",
@@ -17256,7 +17179,7 @@
         },
         {
           "name": "hyperledger/firefly-fir",
-          "count": 146,
+          "count": 144,
           "users": [
             {
               "name": "awrichar",
@@ -17272,17 +17195,17 @@
             },
             {
               "name": "shorsher",
-              "count": 4
+              "count": 2
             }
           ],
           "activityTypes": [
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 68
+              "count": 67
             },
             {
               "name": "PullRequestReviewEvent",
-              "count": 65
+              "count": 64
             },
             {
               "name": "PushEvent",
@@ -18013,16 +17936,6 @@
               "t": "2022-05-31T18:22:22Z",
               "u": "peterbroadhurst",
               "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2022-06-01T03:20:14Z",
-              "u": "shorsher",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2022-06-01T03:20:14Z",
-              "u": "shorsher",
-              "tp": "PullRequestReviewCommentEvent"
             }
           ]
         },
@@ -19061,7 +18974,7 @@
         },
         {
           "name": "hyperledger/firefly-cli",
-          "count": 50,
+          "count": 51,
           "users": [
             {
               "name": "nguyer",
@@ -19069,7 +18982,7 @@
             },
             {
               "name": "peterbroadhurst",
-              "count": 11
+              "count": 12
             },
             {
               "name": "awrichar",
@@ -19118,12 +19031,12 @@
               "count": 5
             },
             {
-              "name": "IssuesEvent",
+              "name": "CreateEvent",
               "count": 4
             },
             {
-              "name": "CreateEvent",
-              "count": 3
+              "name": "IssuesEvent",
+              "count": 4
             },
             {
               "name": "ForkEvent",
@@ -19147,6 +19060,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2022-05-01T04:06:38Z",
+              "u": "peterbroadhurst",
+              "tp": "CreateEvent"
+            },
             {
               "t": "2022-05-03T13:06:03Z",
               "u": "nguyer",
@@ -19679,11 +19597,11 @@
         },
         {
           "name": "hyperledger/firefly-signer",
-          "count": 24,
+          "count": 26,
           "users": [
             {
               "name": "peterbroadhurst",
-              "count": 15
+              "count": 17
             },
             {
               "name": "nguyer",
@@ -19704,11 +19622,15 @@
               "count": 6
             },
             {
+              "name": "CreateEvent",
+              "count": 5
+            },
+            {
               "name": "PushEvent",
               "count": 5
             },
             {
-              "name": "CreateEvent",
+              "name": "ReleaseEvent",
               "count": 4
             },
             {
@@ -19718,13 +19640,19 @@
             {
               "name": "IssueCommentEvent",
               "count": 3
-            },
-            {
-              "name": "ReleaseEvent",
-              "count": 3
             }
           ],
           "events": [
+            {
+              "t": "2022-05-01T02:40:06Z",
+              "u": "peterbroadhurst",
+              "tp": "ReleaseEvent"
+            },
+            {
+              "t": "2022-05-01T02:40:07Z",
+              "u": "peterbroadhurst",
+              "tp": "CreateEvent"
+            },
             {
               "t": "2022-05-05T18:20:45Z",
               "u": "awrichar",
@@ -20914,26 +20842,26 @@
         },
         {
           "name": "PullRequestReviewCommentEvent",
-          "count": 277
+          "count": 276
         },
         {
           "name": "PullRequestEvent",
-          "count": 193
+          "count": 195
         },
         {
           "name": "PushEvent",
-          "count": 116
+          "count": 118
         },
         {
           "name": "IssueCommentEvent",
           "count": 88
         },
         {
-          "name": "WatchEvent",
-          "count": 49
+          "name": "CreateEvent",
+          "count": 51
         },
         {
-          "name": "CreateEvent",
+          "name": "WatchEvent",
           "count": 49
         },
         {
@@ -20942,7 +20870,7 @@
         },
         {
           "name": "ReleaseEvent",
-          "count": 26
+          "count": 27
         },
         {
           "name": "DeleteEvent",
@@ -20956,7 +20884,7 @@
     },
     {
       "name": "Hyperledger Labs",
-      "count": 1083,
+      "count": 1076,
       "repos": [
         {
           "name": "hyperledger-labs/weaver-dlt-interoperability",
@@ -22382,7 +22310,7 @@
         },
         {
           "name": "hyperledger-labs/go-perun",
-          "count": 156,
+          "count": 146,
           "users": [
             {
               "name": "matthiasgeihs",
@@ -22390,7 +22318,7 @@
             },
             {
               "name": "cryptphil",
-              "count": 56
+              "count": 46
             },
             {
               "name": "RmbRT",
@@ -22400,11 +22328,11 @@
           "activityTypes": [
             {
               "name": "PullRequestReviewEvent",
-              "count": 63
+              "count": 59
             },
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 58
+              "count": 52
             },
             {
               "name": "PullRequestEvent",
@@ -23164,56 +23092,6 @@
             {
               "t": "2022-05-31T15:00:46Z",
               "u": "matthiasgeihs",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2022-06-01T06:20:53Z",
-              "u": "cryptphil",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2022-06-01T06:20:54Z",
-              "u": "cryptphil",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2022-06-01T06:24:54Z",
-              "u": "cryptphil",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2022-06-01T06:25:01Z",
-              "u": "cryptphil",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2022-06-01T06:25:02Z",
-              "u": "cryptphil",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2022-06-01T06:27:26Z",
-              "u": "cryptphil",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2022-06-01T06:34:27Z",
-              "u": "cryptphil",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2022-06-01T06:34:28Z",
-              "u": "cryptphil",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2022-06-01T06:41:05Z",
-              "u": "cryptphil",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2022-06-01T06:41:06Z",
-              "u": "cryptphil",
               "tp": "PullRequestReviewEvent"
             }
           ]
@@ -25240,7 +25118,7 @@
         },
         {
           "name": "hyperledger-labs/blockchain-carbon-accounting",
-          "count": 53,
+          "count": 55,
           "users": [
             {
               "name": "sichen1234",
@@ -25249,6 +25127,10 @@
             {
               "name": "brioux",
               "count": 5
+            },
+            {
+              "name": "tongqingyu",
+              "count": 2
             },
             {
               "name": "jwickers",
@@ -25305,12 +25187,12 @@
               "count": 20
             },
             {
-              "name": "PullRequestEvent",
+              "name": "WatchEvent",
               "count": 9
             },
             {
-              "name": "WatchEvent",
-              "count": 8
+              "name": "PullRequestEvent",
+              "count": 9
             },
             {
               "name": "IssueCommentEvent",
@@ -25321,12 +25203,12 @@
               "count": 4
             },
             {
-              "name": "CreateEvent",
+              "name": "ForkEvent",
               "count": 2
             },
             {
-              "name": "ForkEvent",
-              "count": 1
+              "name": "CreateEvent",
+              "count": 2
             },
             {
               "name": "DeleteEvent",
@@ -25334,6 +25216,16 @@
             }
           ],
           "events": [
+            {
+              "t": "2022-05-01T04:51:37Z",
+              "u": "tongqingyu",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2022-05-01T06:53:17Z",
+              "u": "tongqingyu",
+              "tp": "ForkEvent"
+            },
             {
               "t": "2022-05-02T19:58:39Z",
               "u": "sichen1234",
@@ -27111,6 +27003,105 @@
           ]
         },
         {
+          "name": "hyperledger-labs/mirbft",
+          "count": 9,
+          "users": [
+            {
+              "name": "jakeswenson",
+              "count": 1
+            },
+            {
+              "name": "miramax281",
+              "count": 1
+            },
+            {
+              "name": "chsjiang",
+              "count": 1
+            },
+            {
+              "name": "nicholasmusembi",
+              "count": 1
+            },
+            {
+              "name": "nujz",
+              "count": 1
+            },
+            {
+              "name": "stchrysa",
+              "count": 1
+            },
+            {
+              "name": "tomPundi",
+              "count": 1
+            },
+            {
+              "name": "Faker678",
+              "count": 1
+            },
+            {
+              "name": "luozui",
+              "count": 1
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "WatchEvent",
+              "count": 8
+            },
+            {
+              "name": "PullRequestEvent",
+              "count": 1
+            }
+          ],
+          "events": [
+            {
+              "t": "2022-05-01T02:51:25Z",
+              "u": "jakeswenson",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2022-05-05T17:17:43Z",
+              "u": "miramax281",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2022-05-06T23:39:16Z",
+              "u": "chsjiang",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2022-05-07T20:38:45Z",
+              "u": "nicholasmusembi",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2022-05-09T14:51:14Z",
+              "u": "nujz",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2022-05-12T08:37:56Z",
+              "u": "stchrysa",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2022-05-19T04:11:59Z",
+              "u": "tomPundi",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2022-05-24T07:40:13Z",
+              "u": "Faker678",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2022-05-30T02:42:33Z",
+              "u": "luozui",
+              "tp": "WatchEvent"
+            }
+          ]
+        },
+        {
           "name": "hyperledger-labs/yui-relayer",
           "count": 9,
           "users": [
@@ -27194,96 +27185,6 @@
               "t": "2022-05-17T01:39:36Z",
               "u": "dependabot[bot]",
               "tp": "PullRequestEvent"
-            }
-          ]
-        },
-        {
-          "name": "hyperledger-labs/mirbft",
-          "count": 8,
-          "users": [
-            {
-              "name": "miramax281",
-              "count": 1
-            },
-            {
-              "name": "chsjiang",
-              "count": 1
-            },
-            {
-              "name": "nicholasmusembi",
-              "count": 1
-            },
-            {
-              "name": "nujz",
-              "count": 1
-            },
-            {
-              "name": "stchrysa",
-              "count": 1
-            },
-            {
-              "name": "tomPundi",
-              "count": 1
-            },
-            {
-              "name": "Faker678",
-              "count": 1
-            },
-            {
-              "name": "luozui",
-              "count": 1
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "WatchEvent",
-              "count": 7
-            },
-            {
-              "name": "PullRequestEvent",
-              "count": 1
-            }
-          ],
-          "events": [
-            {
-              "t": "2022-05-05T17:17:43Z",
-              "u": "miramax281",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2022-05-06T23:39:16Z",
-              "u": "chsjiang",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2022-05-07T20:38:45Z",
-              "u": "nicholasmusembi",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2022-05-09T14:51:14Z",
-              "u": "nujz",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2022-05-12T08:37:56Z",
-              "u": "stchrysa",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2022-05-19T04:11:59Z",
-              "u": "tomPundi",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2022-05-24T07:40:13Z",
-              "u": "Faker678",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2022-05-30T02:42:33Z",
-              "u": "luozui",
-              "tp": "WatchEvent"
             }
           ]
         },
@@ -27907,11 +27808,11 @@
       "activityTypes": [
         {
           "name": "PullRequestReviewEvent",
-          "count": 268
+          "count": 264
         },
         {
           "name": "PullRequestReviewCommentEvent",
-          "count": 208
+          "count": 202
         },
         {
           "name": "PullRequestEvent",
@@ -27931,7 +27832,7 @@
         },
         {
           "name": "WatchEvent",
-          "count": 68
+          "count": 70
         },
         {
           "name": "CreateEvent",
@@ -27943,7 +27844,7 @@
         },
         {
           "name": "ForkEvent",
-          "count": 21
+          "count": 22
         },
         {
           "name": "ReleaseEvent",

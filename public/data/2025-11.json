@@ -2,15 +2,15 @@
   "projects": [
     {
       "name": "Hiero",
-      "count": 7804,
+      "count": 7820,
       "repos": [
         {
           "name": "hiero-ledger/hiero-consensus-node",
-          "count": 2509,
+          "count": 2520,
           "users": [
             {
               "name": "Neeharika-Sompalli",
-              "count": 189
+              "count": 193
             },
             {
               "name": "rbarker-dev",
@@ -22,7 +22,7 @@
             },
             {
               "name": "alex-kuzmin-hg",
-              "count": 128
+              "count": 130
             },
             {
               "name": "imalygin",
@@ -34,7 +34,7 @@
             },
             {
               "name": "artemananiev",
-              "count": 103
+              "count": 104
             },
             {
               "name": "mhess-swl",
@@ -65,20 +65,20 @@
               "count": 80
             },
             {
+              "name": "swirlds-automation",
+              "count": 74
+            },
+            {
               "name": "codecov[bot]",
               "count": 72
             },
             {
-              "name": "swirlds-automation",
-              "count": 71
+              "name": "codacy-production[bot]",
+              "count": 60
             },
             {
               "name": "timfn-hg",
               "count": 60
-            },
-            {
-              "name": "codacy-production[bot]",
-              "count": 59
             },
             {
               "name": "petreze",
@@ -268,11 +268,11 @@
           "activityTypes": [
             {
               "name": "PushEvent",
-              "count": 627
+              "count": 632
             },
             {
               "name": "PullRequestReviewEvent",
-              "count": 527
+              "count": 528
             },
             {
               "name": "PullRequestReviewCommentEvent",
@@ -280,7 +280,7 @@
             },
             {
               "name": "IssueCommentEvent",
-              "count": 288
+              "count": 289
             },
             {
               "name": "IssuesEvent",
@@ -292,11 +292,11 @@
             },
             {
               "name": "DeleteEvent",
-              "count": 158
+              "count": 161
             },
             {
               "name": "CreateEvent",
-              "count": 125
+              "count": 126
             },
             {
               "name": "WatchEvent",
@@ -308,6 +308,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2025-11-01T00:49:17Z",
+              "u": "alex-kuzmin-hg",
+              "tp": "PushEvent"
+            },
             {
               "t": "2025-11-01T13:07:43Z",
               "u": "MuradIsazade777",
@@ -329,8 +334,58 @@
               "tp": "IssueCommentEvent"
             },
             {
+              "t": "2025-11-01T01:05:53Z",
+              "u": "Neeharika-Sompalli",
+              "tp": "PullRequestReviewEvent"
+            },
+            {
+              "t": "2025-11-01T01:34:03Z",
+              "u": "swirlds-automation",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-01T01:34:03Z",
+              "u": "swirlds-automation",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-01T01:34:03Z",
+              "u": "swirlds-automation",
+              "tp": "DeleteEvent"
+            },
+            {
               "t": "2025-11-01T21:50:03Z",
               "u": "mhess-swl",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T02:16:19Z",
+              "u": "Neeharika-Sompalli",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T02:40:11Z",
+              "u": "artemananiev",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-01T03:05:05Z",
+              "u": "codacy-production[bot]",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T03:32:11Z",
+              "u": "alex-kuzmin-hg",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T04:32:45Z",
+              "u": "Neeharika-Sompalli",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T04:41:43Z",
+              "u": "Neeharika-Sompalli",
               "tp": "PushEvent"
             },
             {
@@ -12857,15 +12912,15 @@
         },
         {
           "name": "hiero-ledger/solo",
-          "count": 1260,
+          "count": 1271,
           "users": [
             {
               "name": "github-actions[bot]",
-              "count": 498
+              "count": 504
             },
             {
               "name": "jeromy-cannon",
-              "count": 227
+              "count": 229
             },
             {
               "name": "trunk-io[bot]",
@@ -12873,7 +12928,7 @@
             },
             {
               "name": "JeffreyDallas",
-              "count": 128
+              "count": 129
             },
             {
               "name": "instamenta",
@@ -12889,7 +12944,7 @@
             },
             {
               "name": "codacy-production[bot]",
-              "count": 34
+              "count": 35
             },
             {
               "name": "swirlds-automation",
@@ -12912,6 +12967,10 @@
               "count": 3
             },
             {
+              "name": "github-advanced-security[bot]",
+              "count": 1
+            },
+            {
               "name": "tomsdy",
               "count": 1
             },
@@ -12927,11 +12986,11 @@
           "activityTypes": [
             {
               "name": "IssueCommentEvent",
-              "count": 582
+              "count": 589
             },
             {
               "name": "PushEvent",
-              "count": 202
+              "count": 204
             },
             {
               "name": "IssuesEvent",
@@ -12943,7 +13002,7 @@
             },
             {
               "name": "CreateEvent",
-              "count": 70
+              "count": 71
             },
             {
               "name": "DeleteEvent",
@@ -12955,7 +13014,7 @@
             },
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 18
+              "count": 19
             },
             {
               "name": "ReleaseEvent",
@@ -12970,6 +13029,61 @@
             },
             {
               "t": "2025-11-01T16:34:34Z",
+              "u": "github-actions[bot]",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T01:30:20Z",
+              "u": "jeromy-cannon",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-01T01:33:39Z",
+              "u": "jeromy-cannon",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T01:35:01Z",
+              "u": "github-advanced-security[bot]",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T01:44:59Z",
+              "u": "github-actions[bot]",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T02:14:52Z",
+              "u": "github-actions[bot]",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T02:32:14Z",
+              "u": "github-actions[bot]",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T02:47:53Z",
+              "u": "github-actions[bot]",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T02:48:08Z",
+              "u": "codacy-production[bot]",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T03:30:41Z",
+              "u": "JeffreyDallas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T03:49:31Z",
+              "u": "github-actions[bot]",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T03:52:41Z",
               "u": "github-actions[bot]",
               "tp": "IssueCommentEvent"
             },
@@ -19267,7 +19381,7 @@
         },
         {
           "name": "hiero-ledger/hiero-mirror-node",
-          "count": 901,
+          "count": 862,
           "users": [
             {
               "name": "xin-hedera",
@@ -19279,7 +19393,7 @@
             },
             {
               "name": "dependabot[bot]",
-              "count": 161
+              "count": 131
             },
             {
               "name": "bilyana-gospodinova",
@@ -19295,7 +19409,7 @@
             },
             {
               "name": "lfdt-bot",
-              "count": 45
+              "count": 41
             },
             {
               "name": "hedera-github-bot",
@@ -19307,7 +19421,7 @@
             },
             {
               "name": "codacy-production[bot]",
-              "count": 34
+              "count": 29
             },
             {
               "name": "ashumahajan",
@@ -19353,7 +19467,7 @@
           "activityTypes": [
             {
               "name": "PullRequestEvent",
-              "count": 189
+              "count": 169
             },
             {
               "name": "PushEvent",
@@ -19369,7 +19483,7 @@
             },
             {
               "name": "IssueCommentEvent",
-              "count": 99
+              "count": 88
             },
             {
               "name": "IssuesEvent",
@@ -19377,11 +19491,11 @@
             },
             {
               "name": "CreateEvent",
-              "count": 73
+              "count": 68
             },
             {
               "name": "DeleteEvent",
-              "count": 60
+              "count": 57
             },
             {
               "name": "WatchEvent",
@@ -23706,207 +23820,12 @@
               "t": "2025-11-29T22:49:26Z",
               "u": "jnels124",
               "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-12-01T02:06:46Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:06:46Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:06:53Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:07:19Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:07:19Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:07:19Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:07:37Z",
-              "u": "dependabot[bot]",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-12-01T02:07:41Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:07:41Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:07:53Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:08:02Z",
-              "u": "dependabot[bot]",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-12-01T02:08:02Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:08:02Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:08:15Z",
-              "u": "dependabot[bot]",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-12-01T02:08:18Z",
-              "u": "lfdt-bot",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:33:00Z",
-              "u": "codacy-production[bot]",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:33:47Z",
-              "u": "codacy-production[bot]",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:35:34Z",
-              "u": "codacy-production[bot]",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:36:48Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:36:48Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:36:56Z",
-              "u": "dependabot[bot]",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-12-01T02:37:09Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:37:09Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:37:11Z",
-              "u": "dependabot[bot]",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:37:12Z",
-              "u": "dependabot[bot]",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-12-01T02:37:29Z",
-              "u": "lfdt-bot",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:37:35Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:37:35Z",
-              "u": "dependabot[bot]",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-12-01T02:37:37Z",
-              "u": "dependabot[bot]",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:37:39Z",
-              "u": "dependabot[bot]",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-12-01T02:37:51Z",
-              "u": "lfdt-bot",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:39:51Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:39:52Z",
-              "u": "dependabot[bot]",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-12-01T02:39:51Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:39:51Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:39:59Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:40:16Z",
-              "u": "lfdt-bot",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:49:24Z",
-              "u": "codacy-production[bot]",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:57:38Z",
-              "u": "codacy-production[bot]",
-              "tp": "IssueCommentEvent"
             }
           ]
         },
         {
           "name": "hiero-ledger/hiero-sdk-python",
-          "count": 796,
+          "count": 799,
           "users": [
             {
               "name": "exploreriii",
@@ -23938,7 +23857,7 @@
             },
             {
               "name": "Raja-89",
-              "count": 16
+              "count": 17
             },
             {
               "name": "tech0priyanshu",
@@ -23962,7 +23881,7 @@
             },
             {
               "name": "Pranay22077",
-              "count": 8
+              "count": 9
             },
             {
               "name": "Akshat8510",
@@ -23982,7 +23901,7 @@
             },
             {
               "name": "DinethShakya23",
-              "count": 4
+              "count": 5
             },
             {
               "name": "mukundkumarjha",
@@ -24044,11 +23963,11 @@
           "activityTypes": [
             {
               "name": "IssueCommentEvent",
-              "count": 231
+              "count": 234
             },
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 171
+              "count": 170
             },
             {
               "name": "PullRequestReviewEvent",
@@ -24060,7 +23979,7 @@
             },
             {
               "name": "PullRequestEvent",
-              "count": 62
+              "count": 63
             },
             {
               "name": "PushEvent",
@@ -24189,6 +24108,26 @@
               "t": "2025-11-01T21:35:04Z",
               "u": "exploreriii",
               "tp": "PullRequestReviewEvent"
+            },
+            {
+              "t": "2025-11-01T04:07:23Z",
+              "u": "Pranay22077",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T05:49:38Z",
+              "u": "Raja-89",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T06:09:42Z",
+              "u": "manishdait",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T06:48:32Z",
+              "u": "DinethShakya23",
+              "tp": "IssueCommentEvent"
             },
             {
               "t": "2025-11-01T09:06:55Z",
@@ -28054,21 +27993,16 @@
               "t": "2025-11-30T07:32:32Z",
               "u": "manishdait",
               "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:57:09Z",
-              "u": "manishdait",
-              "tp": "PullRequestReviewCommentEvent"
             }
           ]
         },
         {
           "name": "hiero-ledger/hiero-block-node",
-          "count": 714,
+          "count": 713,
           "users": [
             {
               "name": "Nana-EC",
-              "count": 149
+              "count": 146
             },
             {
               "name": "jsync-swirlds",
@@ -28076,7 +28010,7 @@
             },
             {
               "name": "AlfredoG87",
-              "count": 120
+              "count": 122
             },
             {
               "name": "ata-nas",
@@ -28118,7 +28052,7 @@
           "activityTypes": [
             {
               "name": "PullRequestReviewEvent",
-              "count": 165
+              "count": 166
             },
             {
               "name": "PullRequestReviewCommentEvent",
@@ -28126,7 +28060,7 @@
             },
             {
               "name": "PushEvent",
-              "count": 129
+              "count": 131
             },
             {
               "name": "IssueCommentEvent",
@@ -28138,7 +28072,7 @@
             },
             {
               "name": "IssuesEvent",
-              "count": 52
+              "count": 48
             },
             {
               "name": "DeleteEvent",
@@ -28154,6 +28088,21 @@
             }
           ],
           "events": [
+            {
+              "t": "2025-11-01T00:27:08Z",
+              "u": "Nana-EC",
+              "tp": "PullRequestReviewEvent"
+            },
+            {
+              "t": "2025-11-01T03:57:22Z",
+              "u": "AlfredoG87",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T05:20:23Z",
+              "u": "AlfredoG87",
+              "tp": "PushEvent"
+            },
             {
               "t": "2025-11-03T13:46:08Z",
               "u": "ata-nas",
@@ -31703,26 +31652,6 @@
               "t": "2025-11-30T03:38:38Z",
               "u": "Nana-EC",
               "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T02:54:14Z",
-              "u": "Nana-EC",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2025-12-01T03:05:47Z",
-              "u": "Nana-EC",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2025-12-01T03:07:37Z",
-              "u": "Nana-EC",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2025-12-01T03:07:37Z",
-              "u": "Nana-EC",
-              "tp": "IssuesEvent"
             }
           ]
         },
@@ -35788,19 +35717,19 @@
         },
         {
           "name": "hiero-ledger/hiero-sdk-js",
-          "count": 183,
+          "count": 214,
           "users": [
             {
               "name": "dependabot[bot]",
-              "count": 48
+              "count": 73
+            },
+            {
+              "name": "lfdt-bot",
+              "count": 36
             },
             {
               "name": "ivaylonikolov7",
               "count": 32
-            },
-            {
-              "name": "lfdt-bot",
-              "count": 30
             },
             {
               "name": "venilinvasilev",
@@ -35849,20 +35778,20 @@
           ],
           "activityTypes": [
             {
+              "name": "PullRequestEvent",
+              "count": 57
+            },
+            {
               "name": "PushEvent",
               "count": 46
             },
             {
-              "name": "PullRequestEvent",
-              "count": 38
-            },
-            {
               "name": "IssueCommentEvent",
-              "count": 25
+              "count": 31
             },
             {
               "name": "CreateEvent",
-              "count": 24
+              "count": 30
             },
             {
               "name": "PullRequestReviewEvent",
@@ -35886,6 +35815,161 @@
             }
           ],
           "events": [
+            {
+              "t": "2025-11-01T02:02:36Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:02:36Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:02:37Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:02:37Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:02:37Z",
+              "u": "dependabot[bot]",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-01T02:02:51Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:02:51Z",
+              "u": "dependabot[bot]",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-01T02:03:04Z",
+              "u": "lfdt-bot",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T02:03:15Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:03:15Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:03:26Z",
+              "u": "lfdt-bot",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T02:04:13Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:04:13Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:04:14Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:04:14Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:04:14Z",
+              "u": "dependabot[bot]",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-01T02:04:26Z",
+              "u": "lfdt-bot",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T02:04:33Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:04:33Z",
+              "u": "dependabot[bot]",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-01T02:04:33Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:04:33Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:04:55Z",
+              "u": "dependabot[bot]",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-01T02:05:02Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:05:03Z",
+              "u": "dependabot[bot]",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-01T02:05:02Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:05:02Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:05:03Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:05:03Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:05:09Z",
+              "u": "lfdt-bot",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T02:05:17Z",
+              "u": "lfdt-bot",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T02:06:17Z",
+              "u": "lfdt-bot",
+              "tp": "IssueCommentEvent"
+            },
             {
               "t": "2025-11-03T14:53:45Z",
               "u": "PavelSBorisov",
@@ -41138,15 +41222,15 @@
       "activityTypes": [
         {
           "name": "PushEvent",
-          "count": 1511
+          "count": 1520
         },
         {
           "name": "IssueCommentEvent",
-          "count": 1493
+          "count": 1499
         },
         {
           "name": "PullRequestReviewEvent",
-          "count": 1215
+          "count": 1217
         },
         {
           "name": "PullRequestReviewCommentEvent",
@@ -41158,11 +41242,11 @@
         },
         {
           "name": "IssuesEvent",
-          "count": 729
+          "count": 725
         },
         {
           "name": "CreateEvent",
-          "count": 431
+          "count": 434
         },
         {
           "name": "DeleteEvent",
@@ -41184,31 +41268,31 @@
     },
     {
       "name": "PQ Code Package",
-      "count": 3905,
+      "count": 3724,
       "repos": [
         {
           "name": "pq-code-package/mldsa-native",
-          "count": 2974,
+          "count": 2863,
           "users": [
             {
               "name": "oqs-bot",
-              "count": 1178
+              "count": 1135
             },
             {
               "name": "github-actions[bot]",
-              "count": 804
+              "count": 763
             },
             {
               "name": "mkannwischer",
-              "count": 470
+              "count": 457
             },
             {
               "name": "hanno-becker",
-              "count": 219
+              "count": 218
             },
             {
               "name": "willieyz",
-              "count": 113
+              "count": 110
             },
             {
               "name": "jakemas",
@@ -41216,19 +41300,19 @@
             },
             {
               "name": "jammychiou1",
-              "count": 47
+              "count": 45
             },
             {
               "name": "rod-chapman",
               "count": 29
             },
             {
-              "name": "L-series",
-              "count": 24
+              "name": "dependabot[bot]",
+              "count": 18
             },
             {
-              "name": "dependabot[bot]",
-              "count": 19
+              "name": "L-series",
+              "count": 17
             },
             {
               "name": "jargh",
@@ -41254,39 +41338,39 @@
           "activityTypes": [
             {
               "name": "PushEvent",
-              "count": 1331
+              "count": 1300
             },
             {
               "name": "CommitCommentEvent",
-              "count": 741
+              "count": 723
             },
             {
               "name": "PullRequestReviewEvent",
-              "count": 479
+              "count": 433
             },
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 111
+              "count": 112
             },
             {
               "name": "IssuesEvent",
-              "count": 81
+              "count": 77
             },
             {
               "name": "PullRequestEvent",
-              "count": 65
+              "count": 59
             },
             {
               "name": "DeleteEvent",
-              "count": 60
-            },
-            {
-              "name": "CreateEvent",
               "count": 58
             },
             {
+              "name": "CreateEvent",
+              "count": 56
+            },
+            {
               "name": "IssueCommentEvent",
-              "count": 43
+              "count": 40
             },
             {
               "name": "WatchEvent",
@@ -41397,6 +41481,46 @@
               "t": "2025-11-01T16:58:42Z",
               "u": "willieyz",
               "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T02:26:04Z",
+              "u": "mkannwischer",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-01T02:27:27Z",
+              "u": "mkannwischer",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T02:45:32Z",
+              "u": "mkannwischer",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T02:51:55Z",
+              "u": "mkannwischer",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T03:20:34Z",
+              "u": "mkannwischer",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T05:05:57Z",
+              "u": "mkannwischer",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T05:05:59Z",
+              "u": "mkannwischer",
+              "tp": "PullRequestReviewEvent"
+            },
+            {
+              "t": "2025-11-01T06:40:25Z",
+              "u": "mkannwischer",
+              "tp": "PushEvent"
             },
             {
               "t": "2025-11-01T07:50:07Z",
@@ -55572,619 +55696,24 @@
               "t": "2025-11-30T06:38:18Z",
               "u": "github-actions[bot]",
               "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T00:17:53Z",
-              "u": "L-series",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T00:36:27Z",
-              "u": "L-series",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T00:41:22Z",
-              "u": "L-series",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-12-01T00:47:47Z",
-              "u": "L-series",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T01:42:11Z",
-              "u": "L-series",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T01:44:45Z",
-              "u": "L-series",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T01:49:28Z",
-              "u": "L-series",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T02:05:46Z",
-              "u": "mkannwischer",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:35:10Z",
-              "u": "mkannwischer",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:35:57Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:36:18Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:36:22Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:38:54Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:39:19Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:40:13Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:41:49Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:42:52Z",
-              "u": "mkannwischer",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:47:45Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:55:16Z",
-              "u": "mkannwischer",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2025-12-01T02:57:16Z",
-              "u": "mkannwischer",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2025-12-01T03:03:34Z",
-              "u": "mkannwischer",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:03:36Z",
-              "u": "mkannwischer",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-12-01T03:03:55Z",
-              "u": "mkannwischer",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:06:05Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:06:05Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:07:37Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:07:51Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:08:28Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:08:28Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:08:41Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:08:41Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:09:06Z",
-              "u": "github-actions[bot]",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:16:18Z",
-              "u": "github-actions[bot]",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:19:39Z",
-              "u": "github-actions[bot]",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:22:05Z",
-              "u": "github-actions[bot]",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:22:07Z",
-              "u": "github-actions[bot]",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:26:42Z",
-              "u": "mkannwischer",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-12-01T03:27:28Z",
-              "u": "mkannwischer",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T03:28:35Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T03:29:01Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T03:30:36Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T03:31:34Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T03:31:55Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T03:32:48Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T03:34:09Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T03:39:52Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T03:47:12Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T03:53:45Z",
-              "u": "mkannwischer",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2025-12-01T03:53:46Z",
-              "u": "mkannwischer",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-12-01T03:54:22Z",
-              "u": "github-actions[bot]",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:54:23Z",
-              "u": "github-actions[bot]",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:54:47Z",
-              "u": "github-actions[bot]",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:55:03Z",
-              "u": "mkannwischer",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:55:04Z",
-              "u": "mkannwischer",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T03:56:19Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T03:56:24Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:56:24Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:57:32Z",
-              "u": "github-actions[bot]",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:57:39Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:57:39Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:57:47Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T03:57:54Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:57:54Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:58:04Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:58:05Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:58:05Z",
-              "u": "willieyz",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-12-01T03:58:15Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:58:27Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:58:27Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:58:44Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:58:44Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:59:10Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T03:59:10Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T03:59:13Z",
-              "u": "willieyz",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T04:00:08Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T04:00:14Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T04:01:07Z",
-              "u": "github-actions[bot]",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T04:01:07Z",
-              "u": "github-actions[bot]",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T04:02:10Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T04:03:22Z",
-              "u": "github-actions[bot]",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T04:03:23Z",
-              "u": "github-actions[bot]",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T04:03:24Z",
-              "u": "github-actions[bot]",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T04:06:42Z",
-              "u": "jammychiou1",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T04:21:50Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T04:24:14Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T04:54:14Z",
-              "u": "mkannwischer",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T04:54:15Z",
-              "u": "mkannwischer",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T04:54:42Z",
-              "u": "mkannwischer",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T04:57:17Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T04:58:33Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T04:59:37Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:00:20Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:00:28Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:00:40Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:00:58Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:04:56Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:08:59Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:09:00Z",
-              "u": "mkannwischer",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T05:38:32Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:39:36Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:41:57Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:42:38Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:42:43Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:42:58Z",
-              "u": "mkannwischer",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T05:43:17Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:47:39Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:48:21Z",
-              "u": "hanno-becker",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2025-12-01T05:50:08Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T06:06:30Z",
-              "u": "willieyz",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T06:10:10Z",
-              "u": "dependabot[bot]",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T07:19:36Z",
-              "u": "mkannwischer",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:21:49Z",
-              "u": "jammychiou1",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:22:29Z",
-              "u": "mkannwischer",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T07:25:39Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T07:26:47Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T07:27:25Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T07:27:36Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T07:27:49Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T07:36:16Z",
-              "u": "github-actions[bot]",
-              "tp": "PullRequestReviewEvent"
             }
           ]
         },
         {
           "name": "pq-code-package/mlkem-native",
-          "count": 906,
+          "count": 841,
           "users": [
             {
               "name": "oqs-bot",
-              "count": 645
+              "count": 591
             },
             {
               "name": "hanno-becker",
-              "count": 128
+              "count": 126
             },
             {
               "name": "mkannwischer",
-              "count": 95
+              "count": 87
             },
             {
               "name": "rod-chapman",
@@ -56200,7 +55729,7 @@
             },
             {
               "name": "L-series",
-              "count": 6
+              "count": 5
             },
             {
               "name": "nmouha",
@@ -56218,39 +55747,39 @@
           "activityTypes": [
             {
               "name": "PushEvent",
-              "count": 437
+              "count": 414
             },
             {
               "name": "CommitCommentEvent",
-              "count": 233
+              "count": 218
             },
             {
               "name": "PullRequestReviewEvent",
-              "count": 91
+              "count": 70
             },
             {
               "name": "PullRequestEvent",
-              "count": 35
+              "count": 34
             },
             {
               "name": "DeleteEvent",
-              "count": 30
+              "count": 28
             },
             {
               "name": "CreateEvent",
               "count": 25
             },
             {
-              "name": "PullRequestReviewCommentEvent",
-              "count": 19
-            },
-            {
               "name": "IssueCommentEvent",
               "count": 18
             },
             {
-              "name": "IssuesEvent",
+              "name": "PullRequestReviewCommentEvent",
               "count": 18
+            },
+            {
+              "name": "IssuesEvent",
+              "count": 16
             }
           ],
           "events": [
@@ -60458,331 +59987,6 @@
               "t": "2025-11-29T04:47:39Z",
               "u": "oqs-bot",
               "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T01:52:06Z",
-              "u": "mkannwischer",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T01:53:34Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T01:56:09Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T01:56:10Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T01:56:37Z",
-              "u": "mkannwischer",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T01:56:37Z",
-              "u": "mkannwischer",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T01:57:11Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:00:37Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:01:21Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:02:22Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:03:21Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:03:36Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:03:41Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T02:04:55Z",
-              "u": "mkannwischer",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2025-12-01T02:31:01Z",
-              "u": "L-series",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T04:52:21Z",
-              "u": "mkannwischer",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-12-01T04:53:16Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T04:53:16Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T04:54:14Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T04:55:10Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T04:55:10Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T04:56:03Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T04:56:03Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T04:56:03Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T05:00:31Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:00:56Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:01:09Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T05:01:28Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T05:01:28Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T05:01:43Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:01:51Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T05:01:51Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T05:01:51Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T05:02:19Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:02:21Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:02:44Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:03:00Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T05:03:00Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T05:12:17Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T05:12:17Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T05:14:06Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T05:15:43Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T05:15:43Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T05:21:28Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T05:21:31Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T05:26:46Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T05:32:12Z",
-              "u": "oqs-bot",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T06:18:58Z",
-              "u": "hanno-becker",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2025-12-01T06:18:58Z",
-              "u": "hanno-becker",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2025-12-01T07:14:08Z",
-              "u": "mkannwischer",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:14:10Z",
-              "u": "mkannwischer",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-12-01T07:15:58Z",
-              "u": "mkannwischer",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:16:48Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:21:47Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:22:18Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:22:49Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:22:58Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T07:22:58Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:23:24Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T07:23:24Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:23:51Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:24:30Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:24:46Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:34:49Z",
-              "u": "oqs-bot",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2025-12-01T07:34:49Z",
-              "u": "oqs-bot",
-              "tp": "PushEvent"
             }
           ]
         },
@@ -60916,53 +60120,6 @@
           ]
         },
         {
-          "name": "pq-code-package/slhdsa-c",
-          "count": 5,
-          "users": [
-            {
-              "name": "dependabot[bot]",
-              "count": 5
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "PullRequestEvent",
-              "count": 4
-            },
-            {
-              "name": "CreateEvent",
-              "count": 1
-            }
-          ],
-          "events": [
-            {
-              "t": "2025-12-01T05:12:14Z",
-              "u": "dependabot[bot]",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-12-01T05:12:14Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T05:12:14Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T05:12:15Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T05:12:15Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            }
-          ]
-        },
-        {
           "name": "pq-code-package/mlkem-c-embedded",
           "count": 4,
           "users": [
@@ -61047,15 +60204,15 @@
       "activityTypes": [
         {
           "name": "PushEvent",
-          "count": 1772
+          "count": 1718
         },
         {
           "name": "CommitCommentEvent",
-          "count": 974
+          "count": 941
         },
         {
           "name": "PullRequestReviewEvent",
-          "count": 572
+          "count": 505
         },
         {
           "name": "PullRequestReviewCommentEvent",
@@ -61063,23 +60220,23 @@
         },
         {
           "name": "PullRequestEvent",
-          "count": 105
+          "count": 94
         },
         {
           "name": "IssuesEvent",
-          "count": 100
+          "count": 94
         },
         {
           "name": "DeleteEvent",
-          "count": 92
+          "count": 88
         },
         {
           "name": "CreateEvent",
-          "count": 87
+          "count": 84
         },
         {
           "name": "IssueCommentEvent",
-          "count": 66
+          "count": 63
         },
         {
           "name": "WatchEvent",
@@ -61093,7 +60250,7 @@
     },
     {
       "name": "Open Wallet Foundation",
-      "count": 2183,
+      "count": 2191,
       "repos": [
         {
           "name": "openwallet-foundation/acapy-plugins",
@@ -62719,11 +61876,11 @@
         },
         {
           "name": "openwallet-foundation-labs/eudiplo",
-          "count": 286,
+          "count": 292,
           "users": [
             {
               "name": "dependabot[bot]",
-              "count": 140
+              "count": 146
             },
             {
               "name": "cre8",
@@ -62753,7 +61910,7 @@
           "activityTypes": [
             {
               "name": "PullRequestEvent",
-              "count": 100
+              "count": 105
             },
             {
               "name": "PushEvent",
@@ -62769,7 +61926,7 @@
             },
             {
               "name": "CreateEvent",
-              "count": 27
+              "count": 28
             },
             {
               "name": "IssuesEvent",
@@ -62789,6 +61946,36 @@
             }
           ],
           "events": [
+            {
+              "t": "2025-11-01T05:20:20Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T05:20:20Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T05:20:20Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T05:20:20Z",
+              "u": "dependabot[bot]",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-01T05:20:20Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T05:20:20Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
             {
               "t": "2025-11-04T08:01:30Z",
               "u": "cre8",
@@ -64223,7 +63410,7 @@
         },
         {
           "name": "openwallet-foundation/credo-ts",
-          "count": 242,
+          "count": 243,
           "users": [
             {
               "name": "TimoGlastra",
@@ -64246,6 +63433,10 @@
               "count": 16
             },
             {
+              "name": "genaris",
+              "count": 2
+            },
+            {
               "name": "berendsliedrecht",
               "count": 2
             },
@@ -64255,10 +63446,6 @@
             },
             {
               "name": "sownak",
-              "count": 1
-            },
-            {
-              "name": "genaris",
               "count": 1
             },
             {
@@ -64273,7 +63460,7 @@
           "activityTypes": [
             {
               "name": "PushEvent",
-              "count": 65
+              "count": 66
             },
             {
               "name": "PullRequestEvent",
@@ -64309,6 +63496,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2025-11-01T00:34:01Z",
+              "u": "genaris",
+              "tp": "PushEvent"
+            },
             {
               "t": "2025-11-01T10:02:14Z",
               "u": "dependabot[bot]",
@@ -70419,19 +69611,19 @@
         },
         {
           "name": "openwallet-foundation-labs/wallet-framework-dotnet",
-          "count": 90,
+          "count": 89,
           "users": [
             {
               "name": "dependabot[bot]",
               "count": 58
             },
             {
-              "name": "JoTiTu",
+              "name": "Dindexx",
               "count": 15
             },
             {
-              "name": "Dindexx",
-              "count": 15
+              "name": "JoTiTu",
+              "count": 14
             },
             {
               "name": "ntsbs",
@@ -70461,7 +69653,7 @@
             },
             {
               "name": "PullRequestReviewEvent",
-              "count": 8
+              "count": 7
             },
             {
               "name": "PullRequestReviewCommentEvent",
@@ -70911,11 +70103,6 @@
             },
             {
               "t": "2025-11-26T10:55:48Z",
-              "u": "JoTiTu",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T07:08:24Z",
               "u": "JoTiTu",
               "tp": "PullRequestReviewEvent"
             }
@@ -72215,11 +71402,11 @@
         },
         {
           "name": "openwallet-foundation/multipaz-developer-website",
-          "count": 23,
+          "count": 25,
           "users": [
             {
               "name": "VishnuSanal",
-              "count": 16
+              "count": 18
             },
             {
               "name": "hanluOMH",
@@ -72233,11 +71420,11 @@
           "activityTypes": [
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 9
+              "count": 10
             },
             {
               "name": "PullRequestReviewEvent",
-              "count": 9
+              "count": 10
             },
             {
               "name": "IssueCommentEvent",
@@ -72253,6 +71440,16 @@
             }
           ],
           "events": [
+            {
+              "t": "2025-11-01T06:45:08Z",
+              "u": "VishnuSanal",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T06:46:56Z",
+              "u": "VishnuSanal",
+              "tp": "PullRequestReviewEvent"
+            },
             {
               "t": "2025-11-03T21:20:46Z",
               "u": "TheBlackBit",
@@ -73878,11 +73075,11 @@
       "activityTypes": [
         {
           "name": "PullRequestEvent",
-          "count": 440
+          "count": 445
         },
         {
           "name": "PushEvent",
-          "count": 420
+          "count": 421
         },
         {
           "name": "IssueCommentEvent",
@@ -73894,11 +73091,11 @@
         },
         {
           "name": "CreateEvent",
-          "count": 206
+          "count": 207
         },
         {
           "name": "PullRequestReviewCommentEvent",
-          "count": 179
+          "count": 180
         },
         {
           "name": "DeleteEvent",
@@ -73920,11 +73117,11 @@
     },
     {
       "name": "Hyperledger Labs",
-      "count": 1658,
+      "count": 1656,
       "repos": [
         {
           "name": "hyperledger-labs/splice",
-          "count": 1188,
+          "count": 1186,
           "users": [
             {
               "name": "nicu-da",
@@ -73940,7 +73137,7 @@
             },
             {
               "name": "julientinguely-da",
-              "count": 104
+              "count": 103
             },
             {
               "name": "moritzkiefer-da",
@@ -73964,7 +73161,7 @@
             },
             {
               "name": "dfordivam",
-              "count": 41
+              "count": 40
             },
             {
               "name": "rautenrieth-da",
@@ -74034,7 +73231,7 @@
             },
             {
               "name": "CreateEvent",
-              "count": 90
+              "count": 89
             },
             {
               "name": "DeleteEvent",
@@ -74042,7 +73239,7 @@
             },
             {
               "name": "IssueCommentEvent",
-              "count": 74
+              "count": 73
             },
             {
               "name": "PullRequestEvent",
@@ -79983,16 +79180,6 @@
               "t": "2025-11-30T20:29:36Z",
               "u": "pasindutennage-da",
               "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T02:59:17Z",
-              "u": "dfordivam",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T07:54:49Z",
-              "u": "julientinguely-da",
-              "tp": "CreateEvent"
             }
           ]
         },
@@ -82744,7 +81931,7 @@
         },
         {
           "name": "CreateEvent",
-          "count": 126
+          "count": 125
         },
         {
           "name": "DeleteEvent",
@@ -82760,7 +81947,7 @@
         },
         {
           "name": "IssueCommentEvent",
-          "count": 90
+          "count": 89
         },
         {
           "name": "ReleaseEvent",
@@ -82774,7 +81961,7 @@
     },
     {
       "name": "Fabric",
-      "count": 1253,
+      "count": 1249,
       "repos": [
         {
           "name": "hyperledger-labs/fabric-token-sdk",
@@ -85070,15 +84257,15 @@
         },
         {
           "name": "hyperledger/fabric-gateway",
-          "count": 145,
+          "count": 142,
           "users": [
             {
               "name": "dependabot[bot]",
-              "count": 99
+              "count": 95
             },
             {
               "name": "bestbeforetoday",
-              "count": 44
+              "count": 45
             },
             {
               "name": "ghpZ54K8ZRwU62zGVSePPs97yAv9swuAY0mVDR4",
@@ -85092,15 +84279,15 @@
           "activityTypes": [
             {
               "name": "PullRequestEvent",
-              "count": 82
+              "count": 79
             },
             {
               "name": "PushEvent",
-              "count": 20
+              "count": 21
             },
             {
               "name": "CreateEvent",
-              "count": 17
+              "count": 16
             },
             {
               "name": "PullRequestReviewEvent",
@@ -85124,6 +84311,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2025-11-01T01:00:02Z",
+              "u": "bestbeforetoday",
+              "tp": "PushEvent"
+            },
             {
               "t": "2025-11-03T11:09:29Z",
               "u": "bestbeforetoday",
@@ -85828,26 +85020,6 @@
               "t": "2025-11-28T17:04:24Z",
               "u": "bestbeforetoday",
               "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T05:13:12Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T05:13:12Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T05:13:12Z",
-              "u": "dependabot[bot]",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-12-01T05:13:13Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
             }
           ]
         },
@@ -89549,139 +88721,6 @@
           ]
         },
         {
-          "name": "hyperledger/fabric-admin-sdk",
-          "count": 15,
-          "users": [
-            {
-              "name": "dependabot[bot]",
-              "count": 8
-            },
-            {
-              "name": "bestbeforetoday",
-              "count": 3
-            },
-            {
-              "name": "SamYuan1990",
-              "count": 1
-            },
-            {
-              "name": "dimaxgl",
-              "count": 1
-            },
-            {
-              "name": "Earbeez",
-              "count": 1
-            },
-            {
-              "name": "particlebbq",
-              "count": 1
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "PullRequestEvent",
-              "count": 5
-            },
-            {
-              "name": "IssueCommentEvent",
-              "count": 4
-            },
-            {
-              "name": "PushEvent",
-              "count": 2
-            },
-            {
-              "name": "DeleteEvent",
-              "count": 2
-            },
-            {
-              "name": "CreateEvent",
-              "count": 1
-            },
-            {
-              "name": "WatchEvent",
-              "count": 1
-            }
-          ],
-          "events": [
-            {
-              "t": "2025-11-01T10:13:17Z",
-              "u": "SamYuan1990",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-11-01T07:49:47Z",
-              "u": "dimaxgl",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-11-05T10:23:25Z",
-              "u": "bestbeforetoday",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-11-05T10:56:19Z",
-              "u": "bestbeforetoday",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-10T14:34:59Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-10T14:34:59Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-21T14:08:57Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-21T14:08:58Z",
-              "u": "dependabot[bot]",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-21T15:53:39Z",
-              "u": "dependabot[bot]",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-24T00:40:16Z",
-              "u": "Earbeez",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2025-11-24T14:49:28Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-24T14:49:28Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-24T15:11:13Z",
-              "u": "bestbeforetoday",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-24T15:11:20Z",
-              "u": "dependabot[bot]",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-12-01T01:13:41Z",
-              "u": "particlebbq",
-              "tp": "IssueCommentEvent"
-            }
-          ]
-        },
-        {
           "name": "hyperledger/fabric-ca",
           "count": 15,
           "users": [
@@ -89815,6 +88854,130 @@
               "t": "2025-11-25T13:58:05Z",
               "u": "bestbeforetoday",
               "tp": "PushEvent"
+            }
+          ]
+        },
+        {
+          "name": "hyperledger/fabric-admin-sdk",
+          "count": 14,
+          "users": [
+            {
+              "name": "dependabot[bot]",
+              "count": 8
+            },
+            {
+              "name": "bestbeforetoday",
+              "count": 3
+            },
+            {
+              "name": "SamYuan1990",
+              "count": 1
+            },
+            {
+              "name": "dimaxgl",
+              "count": 1
+            },
+            {
+              "name": "Earbeez",
+              "count": 1
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "PullRequestEvent",
+              "count": 5
+            },
+            {
+              "name": "IssueCommentEvent",
+              "count": 3
+            },
+            {
+              "name": "PushEvent",
+              "count": 2
+            },
+            {
+              "name": "DeleteEvent",
+              "count": 2
+            },
+            {
+              "name": "CreateEvent",
+              "count": 1
+            },
+            {
+              "name": "WatchEvent",
+              "count": 1
+            }
+          ],
+          "events": [
+            {
+              "t": "2025-11-01T10:13:17Z",
+              "u": "SamYuan1990",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T07:49:47Z",
+              "u": "dimaxgl",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-05T10:23:25Z",
+              "u": "bestbeforetoday",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-05T10:56:19Z",
+              "u": "bestbeforetoday",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-10T14:34:59Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-10T14:34:59Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-21T14:08:57Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-21T14:08:58Z",
+              "u": "dependabot[bot]",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-21T15:53:39Z",
+              "u": "dependabot[bot]",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-24T00:40:16Z",
+              "u": "Earbeez",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2025-11-24T14:49:28Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-24T14:49:28Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-24T15:11:13Z",
+              "u": "bestbeforetoday",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-24T15:11:20Z",
+              "u": "dependabot[bot]",
+              "tp": "DeleteEvent"
             }
           ]
         },
@@ -90351,11 +89514,11 @@
       "activityTypes": [
         {
           "name": "PullRequestEvent",
-          "count": 268
+          "count": 265
         },
         {
           "name": "PushEvent",
-          "count": 261
+          "count": 262
         },
         {
           "name": "PullRequestReviewCommentEvent",
@@ -90367,7 +89530,7 @@
         },
         {
           "name": "CreateEvent",
-          "count": 83
+          "count": 82
         },
         {
           "name": "IssuesEvent",
@@ -90379,7 +89542,7 @@
         },
         {
           "name": "IssueCommentEvent",
-          "count": 50
+          "count": 49
         },
         {
           "name": "WatchEvent",
@@ -90393,11 +89556,11 @@
     },
     {
       "name": "Open Quantum Safe",
-      "count": 507,
+      "count": 504,
       "repos": [
         {
           "name": "open-quantum-safe/liboqs",
-          "count": 399,
+          "count": 397,
           "users": [
             {
               "name": "github-actions[bot]",
@@ -90546,14 +89709,6 @@
             {
               "name": "vsoftco",
               "count": 1
-            },
-            {
-              "name": "the-c0d3br34k3r",
-              "count": 1
-            },
-            {
-              "name": "ron93",
-              "count": 1
             }
           ],
           "activityTypes": [
@@ -90567,11 +89722,11 @@
             },
             {
               "name": "IssueCommentEvent",
-              "count": 24
+              "count": 23
             },
             {
               "name": "WatchEvent",
-              "count": 23
+              "count": 22
             },
             {
               "name": "PullRequestReviewEvent",
@@ -92591,16 +91746,6 @@
               "t": "2025-11-30T01:33:52Z",
               "u": "github-actions[bot]",
               "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T04:31:32Z",
-              "u": "the-c0d3br34k3r",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T07:07:19Z",
-              "u": "ron93",
-              "tp": "WatchEvent"
             }
           ]
         },
@@ -93232,7 +92377,7 @@
         },
         {
           "name": "open-quantum-safe/liboqs-python",
-          "count": 6,
+          "count": 5,
           "users": [
             {
               "name": "Guiliano99",
@@ -93249,10 +92394,6 @@
             {
               "name": "jensneuhaus",
               "count": 1
-            },
-            {
-              "name": "the-c0d3br34k3r",
-              "count": 1
             }
           ],
           "activityTypes": [
@@ -93261,11 +92402,11 @@
               "count": 3
             },
             {
-              "name": "IssueCommentEvent",
-              "count": 2
+              "name": "PullRequestEvent",
+              "count": 1
             },
             {
-              "name": "PullRequestEvent",
+              "name": "IssueCommentEvent",
               "count": 1
             }
           ],
@@ -93294,11 +92435,6 @@
               "t": "2025-11-15T09:18:33Z",
               "u": "jensneuhaus",
               "tp": "WatchEvent"
-            },
-            {
-              "t": "2025-12-01T03:57:04Z",
-              "u": "the-c0d3br34k3r",
-              "tp": "IssueCommentEvent"
             }
           ]
         },
@@ -93556,15 +92692,15 @@
         },
         {
           "name": "IssueCommentEvent",
-          "count": 54
-        },
-        {
-          "name": "WatchEvent",
-          "count": 37
+          "count": 52
         },
         {
           "name": "CommitCommentEvent",
           "count": 37
+        },
+        {
+          "name": "WatchEvent",
+          "count": 36
         },
         {
           "name": "PullRequestReviewEvent",
@@ -93602,27 +92738,23 @@
     },
     {
       "name": "Credbel",
-      "count": 334,
+      "count": 320,
       "repos": [
         {
           "name": "credebl/platform",
-          "count": 277,
+          "count": 265,
           "users": [
             {
               "name": "coderabbitai[bot]",
-              "count": 109
+              "count": 104
             },
             {
               "name": "GHkrishna",
-              "count": 61
+              "count": 58
             },
             {
               "name": "sonarqubecloud[bot]",
-              "count": 30
-            },
-            {
-              "name": "pranalidhanavade",
-              "count": 19
+              "count": 29
             },
             {
               "name": "RinkalBhojani",
@@ -93634,6 +92766,10 @@
             },
             {
               "name": "KambleSahil3",
+              "count": 16
+            },
+            {
+              "name": "pranalidhanavade",
               "count": 16
             },
             {
@@ -93668,19 +92804,19 @@
           "activityTypes": [
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 88
+              "count": 86
             },
             {
               "name": "IssueCommentEvent",
-              "count": 53
+              "count": 52
             },
             {
               "name": "PushEvent",
-              "count": 49
+              "count": 44
             },
             {
               "name": "PullRequestReviewEvent",
-              "count": 41
+              "count": 38
             },
             {
               "name": "PullRequestEvent",
@@ -93691,11 +92827,11 @@
               "count": 11
             },
             {
-              "name": "DeleteEvent",
-              "count": 11
+              "name": "IssuesEvent",
+              "count": 10
             },
             {
-              "name": "IssuesEvent",
+              "name": "DeleteEvent",
               "count": 10
             },
             {
@@ -95028,209 +94164,6 @@
               "t": "2025-11-30T04:11:51Z",
               "u": "reckziegelwilliam",
               "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T06:14:28Z",
-              "u": "GHkrishna",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T06:18:40Z",
-              "u": "coderabbitai[bot]",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2025-12-01T06:33:42Z",
-              "u": "coderabbitai[bot]",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2025-12-01T06:44:08Z",
-              "u": "pranalidhanavade",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:02:43Z",
-              "u": "GHkrishna",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:06:50Z",
-              "u": "GHkrishna",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-12-01T07:13:52Z",
-              "u": "pranalidhanavade",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:25:04Z",
-              "u": "coderabbitai[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T07:48:23Z",
-              "u": "pranalidhanavade",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T07:48:53Z",
-              "u": "sonarqubecloud[bot]",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-12-01T07:54:10Z",
-              "u": "coderabbitai[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T07:54:10Z",
-              "u": "coderabbitai[bot]",
-              "tp": "PullRequestReviewEvent"
-            }
-          ]
-        },
-        {
-          "name": "credebl/studio",
-          "count": 17,
-          "users": [
-            {
-              "name": "sujitaw",
-              "count": 5
-            },
-            {
-              "name": "ellipsis-dev[bot]",
-              "count": 5
-            },
-            {
-              "name": "pranalidhanavade",
-              "count": 4
-            },
-            {
-              "name": "shitrerohit",
-              "count": 1
-            },
-            {
-              "name": "GHkrishna",
-              "count": 1
-            },
-            {
-              "name": "Earbeez",
-              "count": 1
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "PushEvent",
-              "count": 8
-            },
-            {
-              "name": "PullRequestReviewEvent",
-              "count": 3
-            },
-            {
-              "name": "CreateEvent",
-              "count": 2
-            },
-            {
-              "name": "PullRequestReviewCommentEvent",
-              "count": 2
-            },
-            {
-              "name": "PullRequestEvent",
-              "count": 1
-            },
-            {
-              "name": "WatchEvent",
-              "count": 1
-            }
-          ],
-          "events": [
-            {
-              "t": "2025-11-03T10:27:35Z",
-              "u": "sujitaw",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-03T09:44:45Z",
-              "u": "sujitaw",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-03T09:52:17Z",
-              "u": "ellipsis-dev[bot]",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2025-11-03T09:52:17Z",
-              "u": "ellipsis-dev[bot]",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2025-11-03T09:52:19Z",
-              "u": "ellipsis-dev[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-11-05T06:14:30Z",
-              "u": "sujitaw",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-17T11:55:32Z",
-              "u": "pranalidhanavade",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-21T10:52:44Z",
-              "u": "pranalidhanavade",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-24T13:01:59Z",
-              "u": "pranalidhanavade",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-26T04:44:10Z",
-              "u": "sujitaw",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-26T04:45:22Z",
-              "u": "ellipsis-dev[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-11-26T04:52:36Z",
-              "u": "sujitaw",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-27T14:03:07Z",
-              "u": "shitrerohit",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-27T05:46:51Z",
-              "u": "GHkrishna",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-28T20:57:31Z",
-              "u": "Earbeez",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2025-12-01T07:29:26Z",
-              "u": "ellipsis-dev[bot]",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-12-01T07:45:03Z",
-              "u": "pranalidhanavade",
-              "tp": "PushEvent"
             }
           ]
         },
@@ -95365,6 +94298,139 @@
               "t": "2025-11-13T11:48:26Z",
               "u": "pranalidhanavade",
               "tp": "PushEvent"
+            }
+          ]
+        },
+        {
+          "name": "credebl/studio",
+          "count": 15,
+          "users": [
+            {
+              "name": "sujitaw",
+              "count": 5
+            },
+            {
+              "name": "ellipsis-dev[bot]",
+              "count": 4
+            },
+            {
+              "name": "pranalidhanavade",
+              "count": 3
+            },
+            {
+              "name": "shitrerohit",
+              "count": 1
+            },
+            {
+              "name": "GHkrishna",
+              "count": 1
+            },
+            {
+              "name": "Earbeez",
+              "count": 1
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "PushEvent",
+              "count": 7
+            },
+            {
+              "name": "CreateEvent",
+              "count": 2
+            },
+            {
+              "name": "PullRequestReviewCommentEvent",
+              "count": 2
+            },
+            {
+              "name": "PullRequestReviewEvent",
+              "count": 2
+            },
+            {
+              "name": "PullRequestEvent",
+              "count": 1
+            },
+            {
+              "name": "WatchEvent",
+              "count": 1
+            }
+          ],
+          "events": [
+            {
+              "t": "2025-11-03T10:27:35Z",
+              "u": "sujitaw",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-03T09:44:45Z",
+              "u": "sujitaw",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-03T09:52:17Z",
+              "u": "ellipsis-dev[bot]",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-03T09:52:17Z",
+              "u": "ellipsis-dev[bot]",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-03T09:52:19Z",
+              "u": "ellipsis-dev[bot]",
+              "tp": "PullRequestReviewEvent"
+            },
+            {
+              "t": "2025-11-05T06:14:30Z",
+              "u": "sujitaw",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-17T11:55:32Z",
+              "u": "pranalidhanavade",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-21T10:52:44Z",
+              "u": "pranalidhanavade",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-24T13:01:59Z",
+              "u": "pranalidhanavade",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-26T04:44:10Z",
+              "u": "sujitaw",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-26T04:45:22Z",
+              "u": "ellipsis-dev[bot]",
+              "tp": "PullRequestReviewEvent"
+            },
+            {
+              "t": "2025-11-26T04:52:36Z",
+              "u": "sujitaw",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-27T14:03:07Z",
+              "u": "shitrerohit",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-27T05:46:51Z",
+              "u": "GHkrishna",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-28T20:57:31Z",
+              "u": "Earbeez",
+              "tp": "WatchEvent"
             }
           ]
         },
@@ -95622,19 +94688,19 @@
       "activityTypes": [
         {
           "name": "PullRequestReviewCommentEvent",
-          "count": 95
+          "count": 93
         },
         {
           "name": "PushEvent",
-          "count": 68
+          "count": 62
         },
         {
           "name": "IssueCommentEvent",
-          "count": 57
+          "count": 56
         },
         {
           "name": "PullRequestReviewEvent",
-          "count": 50
+          "count": 46
         },
         {
           "name": "PullRequestEvent",
@@ -95646,7 +94712,7 @@
         },
         {
           "name": "DeleteEvent",
-          "count": 16
+          "count": 15
         },
         {
           "name": "IssuesEvent",
@@ -97446,11 +96512,11 @@
     },
     {
       "name": "Paladin",
-      "count": 177,
+      "count": 186,
       "repos": [
         {
           "name": "LFDT-Paladin/paladin",
-          "count": 155,
+          "count": 164,
           "users": [
             {
               "name": "annamcallister",
@@ -97462,7 +96528,7 @@
             },
             {
               "name": "github-actions[bot]",
-              "count": 27
+              "count": 29
             },
             {
               "name": "awrichar",
@@ -97470,7 +96536,7 @@
             },
             {
               "name": "peterbroadhurst",
-              "count": 6
+              "count": 13
             },
             {
               "name": "dwertent",
@@ -97499,24 +96565,24 @@
               "count": 35
             },
             {
+              "name": "PullRequestReviewCommentEvent",
+              "count": 31
+            },
+            {
               "name": "PullRequestReviewEvent",
               "count": 28
             },
             {
-              "name": "PullRequestReviewCommentEvent",
-              "count": 24
+              "name": "IssueCommentEvent",
+              "count": 17
             },
             {
-              "name": "IssueCommentEvent",
-              "count": 16
+              "name": "IssuesEvent",
+              "count": 15
             },
             {
               "name": "CreateEvent",
               "count": 15
-            },
-            {
-              "name": "IssuesEvent",
-              "count": 14
             },
             {
               "name": "PullRequestEvent",
@@ -97540,6 +96606,51 @@
             }
           ],
           "events": [
+            {
+              "t": "2025-11-01T00:00:46Z",
+              "u": "peterbroadhurst",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T00:11:30Z",
+              "u": "peterbroadhurst",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T00:13:55Z",
+              "u": "peterbroadhurst",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T00:13:58Z",
+              "u": "peterbroadhurst",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T00:24:10Z",
+              "u": "peterbroadhurst",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T00:34:41Z",
+              "u": "peterbroadhurst",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T00:37:07Z",
+              "u": "peterbroadhurst",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T02:11:06Z",
+              "u": "github-actions[bot]",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-01T02:11:09Z",
+              "u": "github-actions[bot]",
+              "tp": "IssuesEvent"
+            },
             {
               "t": "2025-11-02T02:12:50Z",
               "u": "github-actions[bot]",
@@ -98480,12 +97591,12 @@
           "count": 42
         },
         {
-          "name": "PullRequestReviewEvent",
+          "name": "PullRequestReviewCommentEvent",
           "count": 31
         },
         {
-          "name": "PullRequestReviewCommentEvent",
-          "count": 24
+          "name": "PullRequestReviewEvent",
+          "count": 31
         },
         {
           "name": "CreateEvent",
@@ -98493,11 +97604,11 @@
         },
         {
           "name": "IssueCommentEvent",
-          "count": 16
+          "count": 17
         },
         {
           "name": "IssuesEvent",
-          "count": 15
+          "count": 16
         },
         {
           "name": "PullRequestEvent",
@@ -98523,7 +97634,7 @@
     },
     {
       "name": "LFDT Labs",
-      "count": 158,
+      "count": 163,
       "repos": [
         {
           "name": "LF-Decentralized-Trust/contribute",
@@ -99170,11 +98281,15 @@
         },
         {
           "name": "LF-Decentralized-Trust-labs/LF-Decentralized-Trust-labs.github.io",
-          "count": 13,
+          "count": 17,
           "users": [
             {
               "name": "ghpZ54K8ZRwU62zGVSePPs97yAv9swuAY0mVDR4",
               "count": 5
+            },
+            {
+              "name": "KoushikGavini",
+              "count": 4
             },
             {
               "name": "petermetz",
@@ -99196,11 +98311,11 @@
           "activityTypes": [
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 5
+              "count": 7
             },
             {
               "name": "PullRequestReviewEvent",
-              "count": 5
+              "count": 7
             },
             {
               "name": "PushEvent",
@@ -99239,6 +98354,26 @@
             {
               "t": "2025-11-01T20:43:41Z",
               "u": "petermetz",
+              "tp": "PullRequestReviewEvent"
+            },
+            {
+              "t": "2025-11-01T05:27:40Z",
+              "u": "KoushikGavini",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T05:27:41Z",
+              "u": "KoushikGavini",
+              "tp": "PullRequestReviewEvent"
+            },
+            {
+              "t": "2025-11-01T05:35:55Z",
+              "u": "KoushikGavini",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-01T05:35:56Z",
+              "u": "KoushikGavini",
               "tp": "PullRequestReviewEvent"
             },
             {
@@ -99469,6 +98604,56 @@
           ]
         },
         {
+          "name": "LF-Decentralized-Trust-labs/cbweb3",
+          "count": 4,
+          "users": [
+            {
+              "name": "nayamhb",
+              "count": 2
+            },
+            {
+              "name": "leninortiz",
+              "count": 1
+            },
+            {
+              "name": "carolacnet",
+              "count": 1
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "IssueCommentEvent",
+              "count": 3
+            },
+            {
+              "name": "PullRequestReviewEvent",
+              "count": 1
+            }
+          ],
+          "events": [
+            {
+              "t": "2025-11-01T00:19:45Z",
+              "u": "leninortiz",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-05T01:21:34Z",
+              "u": "nayamhb",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-09T23:20:02Z",
+              "u": "nayamhb",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-13T18:05:23Z",
+              "u": "carolacnet",
+              "tp": "PullRequestReviewEvent"
+            }
+          ]
+        },
+        {
           "name": "LF-Decentralized-Trust/wiki",
           "count": 3,
           "users": [
@@ -99498,47 +98683,6 @@
               "t": "2025-11-21T01:28:40Z",
               "u": "davidwboswell",
               "tp": "GollumEvent"
-            }
-          ]
-        },
-        {
-          "name": "LF-Decentralized-Trust-labs/cbweb3",
-          "count": 3,
-          "users": [
-            {
-              "name": "nayamhb",
-              "count": 2
-            },
-            {
-              "name": "carolacnet",
-              "count": 1
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "IssueCommentEvent",
-              "count": 2
-            },
-            {
-              "name": "PullRequestReviewEvent",
-              "count": 1
-            }
-          ],
-          "events": [
-            {
-              "t": "2025-11-05T01:21:34Z",
-              "u": "nayamhb",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-11-09T23:20:02Z",
-              "u": "nayamhb",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-11-13T18:05:23Z",
-              "u": "carolacnet",
-              "tp": "PullRequestReviewEvent"
             }
           ]
         },
@@ -99761,7 +98905,7 @@
         },
         {
           "name": "IssueCommentEvent",
-          "count": 22
+          "count": 23
         },
         {
           "name": "PullRequestEvent",
@@ -99769,11 +98913,11 @@
         },
         {
           "name": "PullRequestReviewEvent",
-          "count": 11
+          "count": 13
         },
         {
           "name": "PullRequestReviewCommentEvent",
-          "count": 6
+          "count": 8
         },
         {
           "name": "WatchEvent",
@@ -99791,15 +98935,15 @@
     },
     {
       "name": "Verii",
-      "count": 139,
+      "count": 128,
       "repos": [
         {
           "name": "LFDT-Verii/core",
-          "count": 139,
+          "count": 128,
           "users": [
             {
               "name": "renovate[bot]",
-              "count": 57
+              "count": 47
             },
             {
               "name": "sloops77",
@@ -99815,7 +98959,7 @@
             },
             {
               "name": "github-actions[bot]",
-              "count": 11
+              "count": 10
             },
             {
               "name": "npyvovartseva",
@@ -99833,11 +98977,11 @@
           "activityTypes": [
             {
               "name": "PullRequestEvent",
-              "count": 37
+              "count": 29
             },
             {
               "name": "PushEvent",
-              "count": 31
+              "count": 29
             },
             {
               "name": "PullRequestReviewEvent",
@@ -99857,7 +99001,7 @@
             },
             {
               "name": "IssueCommentEvent",
-              "count": 11
+              "count": 10
             }
           ],
           "events": [
@@ -100500,61 +99644,6 @@
               "t": "2025-11-26T07:32:48Z",
               "u": "sloops77",
               "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-12-01T00:56:53Z",
-              "u": "renovate[bot]",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T00:56:56Z",
-              "u": "renovate[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T00:56:56Z",
-              "u": "renovate[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T00:56:56Z",
-              "u": "renovate[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T00:57:08Z",
-              "u": "renovate[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T00:57:08Z",
-              "u": "renovate[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T00:57:21Z",
-              "u": "renovate[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T00:58:09Z",
-              "u": "renovate[bot]",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-12-01T00:59:10Z",
-              "u": "renovate[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T00:59:10Z",
-              "u": "renovate[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-12-01T01:05:52Z",
-              "u": "github-actions[bot]",
-              "tp": "IssueCommentEvent"
             }
           ]
         }
@@ -100562,11 +99651,11 @@
       "activityTypes": [
         {
           "name": "PullRequestEvent",
-          "count": 37
+          "count": 29
         },
         {
           "name": "PushEvent",
-          "count": 31
+          "count": 29
         },
         {
           "name": "PullRequestReviewEvent",
@@ -100586,7 +99675,7 @@
         },
         {
           "name": "IssueCommentEvent",
-          "count": 11
+          "count": 10
         }
       ]
     },
@@ -101617,6 +100706,632 @@
       ]
     },
     {
+      "name": "Nightstream",
+      "count": 104,
+      "repos": [
+        {
+          "name": "LFDT-Nightstream/Starstream",
+          "count": 104,
+          "users": [
+            {
+              "name": "SpaceManiac",
+              "count": 64
+            },
+            {
+              "name": "rvcas",
+              "count": 31
+            },
+            {
+              "name": "ecioppettini",
+              "count": 5
+            },
+            {
+              "name": "L-as",
+              "count": 2
+            },
+            {
+              "name": "this-vishalsingh",
+              "count": 1
+            },
+            {
+              "name": "thiagogcm",
+              "count": 1
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "PushEvent",
+              "count": 49
+            },
+            {
+              "name": "DeleteEvent",
+              "count": 20
+            },
+            {
+              "name": "CreateEvent",
+              "count": 16
+            },
+            {
+              "name": "PullRequestEvent",
+              "count": 8
+            },
+            {
+              "name": "PullRequestReviewCommentEvent",
+              "count": 5
+            },
+            {
+              "name": "PullRequestReviewEvent",
+              "count": 2
+            },
+            {
+              "name": "IssueCommentEvent",
+              "count": 2
+            },
+            {
+              "name": "WatchEvent",
+              "count": 2
+            }
+          ],
+          "events": [
+            {
+              "t": "2025-11-01T02:37:22Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-01T02:37:23Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-01T03:35:50Z",
+              "u": "ecioppettini",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-03T16:45:02Z",
+              "u": "ecioppettini",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-03T20:45:32Z",
+              "u": "SpaceManiac",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-04T16:29:03Z",
+              "u": "rvcas",
+              "tp": "PullRequestReviewEvent"
+            },
+            {
+              "t": "2025-11-04T16:29:33Z",
+              "u": "rvcas",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-04T16:31:35Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-04T17:21:50Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-04T17:52:35Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-04T18:12:03Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-04T22:33:44Z",
+              "u": "SpaceManiac",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-04T22:49:40Z",
+              "u": "SpaceManiac",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-04T22:50:11Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-04T06:53:53Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-05T00:20:05Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-05T00:21:50Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-05T19:27:40Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-05T19:27:42Z",
+              "u": "rvcas",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-05T19:38:10Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-05T19:45:54Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-05T19:58:53Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-05T20:02:41Z",
+              "u": "SpaceManiac",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-05T20:07:53Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-05T20:08:17Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-06T00:16:45Z",
+              "u": "SpaceManiac",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-06T00:21:55Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-06T19:13:40Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-06T19:17:40Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-06T19:29:58Z",
+              "u": "SpaceManiac",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-06T19:54:12Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-06T19:54:14Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-06T20:39:41Z",
+              "u": "ecioppettini",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-06T20:59:27Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-06T20:59:28Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-06T21:10:34Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-07T02:28:35Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-07T02:28:36Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-10T15:51:56Z",
+              "u": "rvcas",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-10T17:58:47Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-10T18:01:11Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-11T18:10:33Z",
+              "u": "L-as",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-11T23:02:16Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-11T23:12:33Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-11T23:12:37Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-11T23:12:40Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-11T02:48:57Z",
+              "u": "rvcas",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-11T04:20:28Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-11T04:40:16Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-12T14:16:30Z",
+              "u": "this-vishalsingh",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2025-11-12T19:35:17Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-12T05:27:08Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-12T05:27:10Z",
+              "u": "rvcas",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-12T06:31:41Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-13T18:46:55Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-13T18:47:20Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-13T18:48:31Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestReviewEvent"
+            },
+            {
+              "t": "2025-11-13T18:54:39Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-13T19:14:56Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-13T19:47:52Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-13T19:47:52Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-13T20:24:06Z",
+              "u": "SpaceManiac",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-13T20:25:18Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-13T20:27:03Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-13T02:56:43Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-13T04:46:48Z",
+              "u": "rvcas",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-14T19:22:23Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-14T19:22:53Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-14T19:28:03Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-14T19:28:05Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-15T00:10:55Z",
+              "u": "ecioppettini",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-17T23:34:44Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-18T18:39:14Z",
+              "u": "L-as",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-18T23:01:31Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-19T18:42:44Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-19T19:51:49Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-19T20:03:36Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-19T21:39:12Z",
+              "u": "SpaceManiac",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-19T22:35:27Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-19T22:35:29Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-19T22:41:45Z",
+              "u": "rvcas",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-19T07:33:52Z",
+              "u": "rvcas",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-19T07:46:58Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-20T16:30:39Z",
+              "u": "ecioppettini",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-20T18:21:41Z",
+              "u": "SpaceManiac",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-20T04:44:28Z",
+              "u": "rvcas",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-20T04:47:03Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-21T22:38:35Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-21T23:07:38Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-21T05:01:54Z",
+              "u": "rvcas",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-21T05:56:45Z",
+              "u": "rvcas",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-23T21:19:11Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-25T15:12:27Z",
+              "u": "rvcas",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-25T19:19:15Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-25T19:19:16Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-25T19:27:14Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-25T19:50:23Z",
+              "u": "rvcas",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-25T22:53:23Z",
+              "u": "rvcas",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-26T18:54:27Z",
+              "u": "SpaceManiac",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2025-11-26T02:13:45Z",
+              "u": "rvcas",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2025-11-26T02:20:21Z",
+              "u": "rvcas",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-27T02:47:39Z",
+              "u": "SpaceManiac",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-27T02:47:40Z",
+              "u": "SpaceManiac",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2025-11-29T04:01:26Z",
+              "u": "thiagogcm",
+              "tp": "WatchEvent"
+            }
+          ]
+        }
+      ],
+      "activityTypes": [
+        {
+          "name": "PushEvent",
+          "count": 49
+        },
+        {
+          "name": "DeleteEvent",
+          "count": 20
+        },
+        {
+          "name": "CreateEvent",
+          "count": 16
+        },
+        {
+          "name": "PullRequestEvent",
+          "count": 8
+        },
+        {
+          "name": "PullRequestReviewCommentEvent",
+          "count": 5
+        },
+        {
+          "name": "PullRequestReviewEvent",
+          "count": 2
+        },
+        {
+          "name": "IssueCommentEvent",
+          "count": 2
+        },
+        {
+          "name": "WatchEvent",
+          "count": 2
+        }
+      ]
+    },
+    {
       "name": "Cacti",
       "count": 103,
       "repos": [
@@ -102316,617 +102031,6 @@
       ]
     },
     {
-      "name": "Nightstream",
-      "count": 101,
-      "repos": [
-        {
-          "name": "LFDT-Nightstream/Starstream",
-          "count": 101,
-          "users": [
-            {
-              "name": "SpaceManiac",
-              "count": 62
-            },
-            {
-              "name": "rvcas",
-              "count": 31
-            },
-            {
-              "name": "ecioppettini",
-              "count": 4
-            },
-            {
-              "name": "L-as",
-              "count": 2
-            },
-            {
-              "name": "this-vishalsingh",
-              "count": 1
-            },
-            {
-              "name": "thiagogcm",
-              "count": 1
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "PushEvent",
-              "count": 47
-            },
-            {
-              "name": "DeleteEvent",
-              "count": 19
-            },
-            {
-              "name": "CreateEvent",
-              "count": 16
-            },
-            {
-              "name": "PullRequestEvent",
-              "count": 8
-            },
-            {
-              "name": "PullRequestReviewCommentEvent",
-              "count": 5
-            },
-            {
-              "name": "PullRequestReviewEvent",
-              "count": 2
-            },
-            {
-              "name": "IssueCommentEvent",
-              "count": 2
-            },
-            {
-              "name": "WatchEvent",
-              "count": 2
-            }
-          ],
-          "events": [
-            {
-              "t": "2025-11-03T16:45:02Z",
-              "u": "ecioppettini",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-03T20:45:32Z",
-              "u": "SpaceManiac",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-04T16:29:03Z",
-              "u": "rvcas",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-11-04T16:29:33Z",
-              "u": "rvcas",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-04T16:31:35Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-04T17:21:50Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-04T17:52:35Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-04T18:12:03Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-04T22:33:44Z",
-              "u": "SpaceManiac",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-11-04T22:49:40Z",
-              "u": "SpaceManiac",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-04T22:50:11Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-04T06:53:53Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-05T00:20:05Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-05T00:21:50Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-05T19:27:40Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-05T19:27:42Z",
-              "u": "rvcas",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-05T19:38:10Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-05T19:45:54Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-05T19:58:53Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-05T20:02:41Z",
-              "u": "SpaceManiac",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-05T20:07:53Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-05T20:08:17Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-06T00:16:45Z",
-              "u": "SpaceManiac",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-06T00:21:55Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-06T19:13:40Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-06T19:17:40Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-06T19:29:58Z",
-              "u": "SpaceManiac",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-11-06T19:54:12Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-06T19:54:14Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-06T20:39:41Z",
-              "u": "ecioppettini",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-06T20:59:27Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-06T20:59:28Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-06T21:10:34Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-07T02:28:35Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-07T02:28:36Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-10T15:51:56Z",
-              "u": "rvcas",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-10T17:58:47Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-10T18:01:11Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-11T18:10:33Z",
-              "u": "L-as",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-11T23:02:16Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2025-11-11T23:12:33Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2025-11-11T23:12:37Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2025-11-11T23:12:40Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2025-11-11T02:48:57Z",
-              "u": "rvcas",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-11T04:20:28Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-11T04:40:16Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-12T14:16:30Z",
-              "u": "this-vishalsingh",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2025-11-12T19:35:17Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-12T05:27:08Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-12T05:27:10Z",
-              "u": "rvcas",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-12T06:31:41Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-13T18:46:55Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-13T18:47:20Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-13T18:48:31Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2025-11-13T18:54:39Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-13T19:14:56Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-13T19:47:52Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-13T19:47:52Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-13T20:24:06Z",
-              "u": "SpaceManiac",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-13T20:25:18Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-13T20:27:03Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-13T02:56:43Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-13T04:46:48Z",
-              "u": "rvcas",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-14T19:22:23Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-14T19:22:53Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-14T19:28:03Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-14T19:28:05Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-15T00:10:55Z",
-              "u": "ecioppettini",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-17T23:34:44Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-18T18:39:14Z",
-              "u": "L-as",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-18T23:01:31Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-19T18:42:44Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-19T19:51:49Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-19T20:03:36Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-19T21:39:12Z",
-              "u": "SpaceManiac",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-19T22:35:27Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-19T22:35:29Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-19T22:41:45Z",
-              "u": "rvcas",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-19T07:33:52Z",
-              "u": "rvcas",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-19T07:46:58Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-20T16:30:39Z",
-              "u": "ecioppettini",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-20T18:21:41Z",
-              "u": "SpaceManiac",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-20T04:44:28Z",
-              "u": "rvcas",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-20T04:47:03Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-21T22:38:35Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-21T23:07:38Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-21T05:01:54Z",
-              "u": "rvcas",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-21T05:56:45Z",
-              "u": "rvcas",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-23T21:19:11Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-25T15:12:27Z",
-              "u": "rvcas",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-25T19:19:15Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-25T19:19:16Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-25T19:27:14Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-25T19:50:23Z",
-              "u": "rvcas",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-25T22:53:23Z",
-              "u": "rvcas",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-26T18:54:27Z",
-              "u": "SpaceManiac",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2025-11-26T02:13:45Z",
-              "u": "rvcas",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2025-11-26T02:20:21Z",
-              "u": "rvcas",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-27T02:47:39Z",
-              "u": "SpaceManiac",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-27T02:47:40Z",
-              "u": "SpaceManiac",
-              "tp": "DeleteEvent"
-            },
-            {
-              "t": "2025-11-29T04:01:26Z",
-              "u": "thiagogcm",
-              "tp": "WatchEvent"
-            }
-          ]
-        }
-      ],
-      "activityTypes": [
-        {
-          "name": "PushEvent",
-          "count": 47
-        },
-        {
-          "name": "DeleteEvent",
-          "count": 19
-        },
-        {
-          "name": "CreateEvent",
-          "count": 16
-        },
-        {
-          "name": "PullRequestEvent",
-          "count": 8
-        },
-        {
-          "name": "PullRequestReviewCommentEvent",
-          "count": 5
-        },
-        {
-          "name": "PullRequestReviewEvent",
-          "count": 2
-        },
-        {
-          "name": "IssueCommentEvent",
-          "count": 2
-        },
-        {
-          "name": "WatchEvent",
-          "count": 2
-        }
-      ]
-    },
-    {
       "name": "Firefly",
       "count": 61,
       "repos": [
@@ -103611,7 +102715,7 @@
     },
     {
       "name": "Hyperledger",
-      "count": 58,
+      "count": 59,
       "repos": [
         {
           "name": "hyperledger-dlt-landscape/hyperledger-dlt-landscape",
@@ -103887,8 +102991,12 @@
         },
         {
           "name": "hyperledger/hyperledger",
-          "count": 12,
+          "count": 13,
           "users": [
+            {
+              "name": "LKCCYh0woz",
+              "count": 1
+            },
             {
               "name": "lockGrace",
               "count": 1
@@ -103941,10 +103049,15 @@
           "activityTypes": [
             {
               "name": "WatchEvent",
-              "count": 12
+              "count": 13
             }
           ],
           "events": [
+            {
+              "t": "2025-11-01T01:35:28Z",
+              "u": "LKCCYh0woz",
+              "tp": "WatchEvent"
+            },
             {
               "t": "2025-11-06T00:58:54Z",
               "u": "lockGrace",
@@ -104015,7 +103128,7 @@
         },
         {
           "name": "WatchEvent",
-          "count": 12
+          "count": 13
         },
         {
           "name": "CreateEvent",
@@ -104037,7 +103150,7 @@
     },
     {
       "name": "Lockness",
-      "count": 53,
+      "count": 52,
       "repos": [
         {
           "name": "LFDT-Lockness/fast-paillier",
@@ -104252,7 +103365,7 @@
         },
         {
           "name": "LFDT-Lockness/cggmp21",
-          "count": 17,
+          "count": 16,
           "users": [
             {
               "name": "survived",
@@ -104277,10 +103390,6 @@
             {
               "name": "alrevuelta",
               "count": 1
-            },
-            {
-              "name": "h4vismat",
-              "count": 1
             }
           ],
           "activityTypes": [
@@ -104293,12 +103402,12 @@
               "count": 3
             },
             {
-              "name": "WatchEvent",
+              "name": "IssueCommentEvent",
               "count": 3
             },
             {
-              "name": "IssueCommentEvent",
-              "count": 3
+              "name": "WatchEvent",
+              "count": 2
             },
             {
               "name": "CreateEvent",
@@ -104388,11 +103497,6 @@
             {
               "t": "2025-11-28T22:55:53Z",
               "u": "alrevuelta",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2025-12-01T04:06:17Z",
-              "u": "h4vismat",
               "tp": "WatchEvent"
             }
           ]
@@ -104494,7 +103598,7 @@
         },
         {
           "name": "WatchEvent",
-          "count": 4
+          "count": 3
         },
         {
           "name": "PullRequestEvent",
@@ -105237,6 +104341,161 @@
       ]
     },
     {
+      "name": "Bevel",
+      "count": 11,
+      "repos": [
+        {
+          "name": "hyperledger-bevel/bevel-operator-fabric",
+          "count": 9,
+          "users": [
+            {
+              "name": "adityajoshi12",
+              "count": 3
+            },
+            {
+              "name": "github-actions[bot]",
+              "count": 2
+            },
+            {
+              "name": "dependabot[bot]",
+              "count": 2
+            },
+            {
+              "name": "dviejokfs",
+              "count": 1
+            },
+            {
+              "name": "hamidrgholipour",
+              "count": 1
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "PullRequestEvent",
+              "count": 4
+            },
+            {
+              "name": "PushEvent",
+              "count": 3
+            },
+            {
+              "name": "IssueCommentEvent",
+              "count": 1
+            },
+            {
+              "name": "IssuesEvent",
+              "count": 1
+            }
+          ],
+          "events": [
+            {
+              "t": "2025-11-01T05:05:45Z",
+              "u": "adityajoshi12",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-01T06:57:23Z",
+              "u": "dviejokfs",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-08T11:54:20Z",
+              "u": "hamidrgholipour",
+              "tp": "IssuesEvent"
+            },
+            {
+              "t": "2025-11-19T16:19:20Z",
+              "u": "adityajoshi12",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-19T16:20:45Z",
+              "u": "github-actions[bot]",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-20T15:54:37Z",
+              "u": "github-actions[bot]",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2025-11-21T03:33:12Z",
+              "u": "adityajoshi12",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-26T22:34:41Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2025-11-26T22:34:41Z",
+              "u": "dependabot[bot]",
+              "tp": "PullRequestEvent"
+            }
+          ]
+        },
+        {
+          "name": "hyperledger-bevel/bevel",
+          "count": 2,
+          "users": [
+            {
+              "name": "SainyGb",
+              "count": 1
+            },
+            {
+              "name": "Earbeez",
+              "count": 1
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "IssueCommentEvent",
+              "count": 1
+            },
+            {
+              "name": "WatchEvent",
+              "count": 1
+            }
+          ],
+          "events": [
+            {
+              "t": "2025-11-10T02:28:50Z",
+              "u": "SainyGb",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2025-11-28T17:07:24Z",
+              "u": "Earbeez",
+              "tp": "WatchEvent"
+            }
+          ]
+        }
+      ],
+      "activityTypes": [
+        {
+          "name": "PullRequestEvent",
+          "count": 4
+        },
+        {
+          "name": "PushEvent",
+          "count": 3
+        },
+        {
+          "name": "IssueCommentEvent",
+          "count": 2
+        },
+        {
+          "name": "IssuesEvent",
+          "count": 1
+        },
+        {
+          "name": "WatchEvent",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Solang",
       "count": 9,
       "repos": [
@@ -105351,143 +104610,6 @@
         },
         {
           "name": "IssueCommentEvent",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Bevel",
-      "count": 9,
-      "repos": [
-        {
-          "name": "hyperledger-bevel/bevel-operator-fabric",
-          "count": 7,
-          "users": [
-            {
-              "name": "adityajoshi12",
-              "count": 2
-            },
-            {
-              "name": "github-actions[bot]",
-              "count": 2
-            },
-            {
-              "name": "dependabot[bot]",
-              "count": 2
-            },
-            {
-              "name": "hamidrgholipour",
-              "count": 1
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "PushEvent",
-              "count": 3
-            },
-            {
-              "name": "PullRequestEvent",
-              "count": 3
-            },
-            {
-              "name": "IssuesEvent",
-              "count": 1
-            }
-          ],
-          "events": [
-            {
-              "t": "2025-11-08T11:54:20Z",
-              "u": "hamidrgholipour",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2025-11-19T16:19:20Z",
-              "u": "adityajoshi12",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-19T16:20:45Z",
-              "u": "github-actions[bot]",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-20T15:54:37Z",
-              "u": "github-actions[bot]",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2025-11-21T03:33:12Z",
-              "u": "adityajoshi12",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-26T22:34:41Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2025-11-26T22:34:41Z",
-              "u": "dependabot[bot]",
-              "tp": "PullRequestEvent"
-            }
-          ]
-        },
-        {
-          "name": "hyperledger-bevel/bevel",
-          "count": 2,
-          "users": [
-            {
-              "name": "SainyGb",
-              "count": 1
-            },
-            {
-              "name": "Earbeez",
-              "count": 1
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "IssueCommentEvent",
-              "count": 1
-            },
-            {
-              "name": "WatchEvent",
-              "count": 1
-            }
-          ],
-          "events": [
-            {
-              "t": "2025-11-10T02:28:50Z",
-              "u": "SainyGb",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2025-11-28T17:07:24Z",
-              "u": "Earbeez",
-              "tp": "WatchEvent"
-            }
-          ]
-        }
-      ],
-      "activityTypes": [
-        {
-          "name": "PushEvent",
-          "count": 3
-        },
-        {
-          "name": "PullRequestEvent",
-          "count": 3
-        },
-        {
-          "name": "IssuesEvent",
-          "count": 1
-        },
-        {
-          "name": "IssueCommentEvent",
-          "count": 1
-        },
-        {
-          "name": "WatchEvent",
           "count": 1
         }
       ]

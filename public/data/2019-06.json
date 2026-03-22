@@ -2,15 +2,15 @@
   "projects": [
     {
       "name": "Fabric",
-      "count": 937,
+      "count": 926,
       "repos": [
         {
           "name": "hyperledger/fabric",
-          "count": 539,
+          "count": 533,
           "users": [
             {
               "name": "hyperledger-github",
-              "count": 209
+              "count": 207
             },
             {
               "name": "MD-AZMAL",
@@ -26,10 +26,6 @@
             },
             {
               "name": "tjkim07060",
-              "count": 3
-            },
-            {
-              "name": "jyw0154",
               "count": 3
             },
             {
@@ -150,6 +146,10 @@
             },
             {
               "name": "harsh-98",
+              "count": 1
+            },
+            {
+              "name": "JerryYu2014",
               "count": 1
             },
             {
@@ -1163,28 +1163,20 @@
             {
               "name": "KevBurnsJr",
               "count": 1
-            },
-            {
-              "name": "tjkim0706",
-              "count": 1
-            },
-            {
-              "name": "sunyoubo",
-              "count": 1
             }
           ],
           "activityTypes": [
             {
               "name": "PushEvent",
-              "count": 209
+              "count": 207
             },
             {
               "name": "WatchEvent",
-              "count": 192
+              "count": 190
             },
             {
               "name": "ForkEvent",
-              "count": 130
+              "count": 128
             },
             {
               "name": "PullRequestEvent",
@@ -1205,6 +1197,11 @@
               "t": "2019-06-01T11:14:50Z",
               "u": "harsh-98",
               "tp": "ForkEvent"
+            },
+            {
+              "t": "2019-06-01T03:03:40Z",
+              "u": "JerryYu2014",
+              "tp": "WatchEvent"
             },
             {
               "t": "2019-06-02T09:48:09Z",
@@ -3855,41 +3852,6 @@
               "t": "2019-06-30T17:34:46Z",
               "u": "KevBurnsJr",
               "tp": "WatchEvent"
-            },
-            {
-              "t": "2019-07-01T04:01:24Z",
-              "u": "hyperledger-github",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2019-07-01T04:16:00Z",
-              "u": "hyperledger-github",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2019-07-01T03:39:29Z",
-              "u": "jyw0154",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2019-07-01T03:39:43Z",
-              "u": "jyw0154",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2019-07-01T03:47:11Z",
-              "u": "jyw0154",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2019-07-01T01:41:55Z",
-              "u": "tjkim0706",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2019-07-01T06:17:02Z",
-              "u": "sunyoubo",
-              "tp": "WatchEvent"
             }
           ]
         },
@@ -4839,7 +4801,7 @@
         },
         {
           "name": "hyperledger/fabric-sdk-java",
-          "count": 49,
+          "count": 46,
           "users": [
             {
               "name": "hyperledger-github",
@@ -4980,18 +4942,6 @@
             {
               "name": "ananyaarun",
               "count": 1
-            },
-            {
-              "name": "liusure",
-              "count": 1
-            },
-            {
-              "name": "stavid",
-              "count": 1
-            },
-            {
-              "name": "rgmingabc",
-              "count": 1
             }
           ],
           "activityTypes": [
@@ -5000,12 +4950,12 @@
               "count": 23
             },
             {
-              "name": "ForkEvent",
-              "count": 14
-            },
-            {
               "name": "PushEvent",
               "count": 12
+            },
+            {
+              "name": "ForkEvent",
+              "count": 11
             }
           ],
           "events": [
@@ -5238,21 +5188,6 @@
               "t": "2019-06-30T16:26:15Z",
               "u": "ananyaarun",
               "tp": "WatchEvent"
-            },
-            {
-              "t": "2019-07-01T06:37:15Z",
-              "u": "liusure",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2019-07-01T01:28:48Z",
-              "u": "stavid",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2019-07-01T03:45:31Z",
-              "u": "rgmingabc",
-              "tp": "ForkEvent"
             }
           ]
         },
@@ -6093,7 +6028,7 @@
         },
         {
           "name": "hyperledger/fabric-ca",
-          "count": 24,
+          "count": 22,
           "users": [
             {
               "name": "hyperledger-github",
@@ -6154,20 +6089,12 @@
             {
               "name": "beomseokBrian90",
               "count": 1
-            },
-            {
-              "name": "Hitofu",
-              "count": 1
-            },
-            {
-              "name": "tjkim0706",
-              "count": 1
             }
           ],
           "activityTypes": [
             {
               "name": "ForkEvent",
-              "count": 10
+              "count": 9
             },
             {
               "name": "PushEvent",
@@ -6175,7 +6102,7 @@
             },
             {
               "name": "WatchEvent",
-              "count": 6
+              "count": 5
             }
           ],
           "events": [
@@ -6287,16 +6214,6 @@
             {
               "t": "2019-06-27T11:03:24Z",
               "u": "beomseokBrian90",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2019-07-01T05:48:00Z",
-              "u": "Hitofu",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2019-07-01T01:43:50Z",
-              "u": "tjkim0706",
               "tp": "ForkEvent"
             }
           ]
@@ -7177,15 +7094,15 @@
       "activityTypes": [
         {
           "name": "PushEvent",
-          "count": 314
+          "count": 312
         },
         {
           "name": "WatchEvent",
-          "count": 309
+          "count": 306
         },
         {
           "name": "ForkEvent",
-          "count": 240
+          "count": 234
         },
         {
           "name": "PullRequestEvent",
@@ -10930,7 +10847,7 @@
             },
             {
               "name": "christianpaquin",
-              "count": 16
+              "count": 15
             },
             {
               "name": "csosto-pk",
@@ -10946,7 +10863,7 @@
             },
             {
               "name": "geovandro",
-              "count": 2
+              "count": 3
             },
             {
               "name": "kevinmkane",
@@ -10992,14 +10909,14 @@
           "activityTypes": [
             {
               "name": "IssueCommentEvent",
-              "count": 27
-            },
-            {
-              "name": "PullRequestEvent",
-              "count": 11
+              "count": 28
             },
             {
               "name": "IssuesEvent",
+              "count": 10
+            },
+            {
+              "name": "PullRequestEvent",
               "count": 10
             },
             {
@@ -11020,6 +10937,16 @@
             }
           ],
           "events": [
+            {
+              "t": "2019-06-01T01:10:26Z",
+              "u": "christianpaquin",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2019-06-01T06:53:59Z",
+              "u": "geovandro",
+              "tp": "IssueCommentEvent"
+            },
             {
               "t": "2019-06-03T17:13:35Z",
               "u": "christianpaquin",
@@ -11329,16 +11256,6 @@
               "t": "2019-06-29T05:00:50Z",
               "u": "csosto-pk",
               "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2019-07-01T01:39:03Z",
-              "u": "christianpaquin",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2019-07-01T02:44:22Z",
-              "u": "christianpaquin",
-              "tp": "IssueCommentEvent"
             }
           ]
         },
@@ -11387,11 +11304,11 @@
       "activityTypes": [
         {
           "name": "IssueCommentEvent",
-          "count": 52
+          "count": 53
         },
         {
           "name": "PullRequestEvent",
-          "count": 33
+          "count": 32
         },
         {
           "name": "IssuesEvent",

@@ -2,15 +2,15 @@
   "projects": [
     {
       "name": "Fabric",
-      "count": 947,
+      "count": 946,
       "repos": [
         {
           "name": "hyperledger/fabric",
-          "count": 458,
+          "count": 460,
           "users": [
             {
               "name": "hyperledger-github",
-              "count": 186
+              "count": 187
             },
             {
               "name": "ryjones",
@@ -81,10 +81,6 @@
               "count": 2
             },
             {
-              "name": "redlix",
-              "count": 2
-            },
-            {
               "name": "767472021",
               "count": 1
             },
@@ -97,11 +93,23 @@
               "count": 1
             },
             {
+              "name": "houxinjie",
+              "count": 1
+            },
+            {
               "name": "buppt",
               "count": 1
             },
             {
               "name": "jerryma0912",
+              "count": 1
+            },
+            {
+              "name": "liangsheng715",
+              "count": 1
+            },
+            {
+              "name": "omegamaster",
               "count": 1
             },
             {
@@ -920,15 +928,15 @@
           "activityTypes": [
             {
               "name": "PushEvent",
-              "count": 185
+              "count": 186
             },
             {
               "name": "WatchEvent",
-              "count": 149
+              "count": 151
             },
             {
               "name": "ForkEvent",
-              "count": 96
+              "count": 95
             },
             {
               "name": "PullRequestEvent",
@@ -948,6 +956,16 @@
               "t": "2019-08-01T09:03:26Z",
               "u": "kcorlidy",
               "tp": "WatchEvent"
+            },
+            {
+              "t": "2019-08-01T02:35:56Z",
+              "u": "houxinjie",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2019-08-01T05:59:11Z",
+              "u": "hyperledger-github",
+              "tp": "PushEvent"
             },
             {
               "t": "2019-08-01T15:45:50Z",
@@ -990,8 +1008,18 @@
               "tp": "WatchEvent"
             },
             {
+              "t": "2019-08-01T06:49:28Z",
+              "u": "liangsheng715",
+              "tp": "WatchEvent"
+            },
+            {
               "t": "2019-08-01T14:32:52Z",
               "u": "caod123",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2019-08-01T06:09:47Z",
+              "u": "omegamaster",
               "tp": "WatchEvent"
             },
             {
@@ -3223,16 +3251,6 @@
               "t": "2019-08-31T15:40:21Z",
               "u": "yangziran",
               "tp": "WatchEvent"
-            },
-            {
-              "t": "2019-09-01T01:17:14Z",
-              "u": "redlix",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2019-09-01T01:17:15Z",
-              "u": "redlix",
-              "tp": "ForkEvent"
             }
           ]
         },
@@ -4240,7 +4258,7 @@
         },
         {
           "name": "hyperledger/fabric-sdk-node",
-          "count": 58,
+          "count": 56,
           "users": [
             {
               "name": "hyperledger-github",
@@ -4313,14 +4331,6 @@
             {
               "name": "ze1",
               "count": 1
-            },
-            {
-              "name": "leomettricx",
-              "count": 1
-            },
-            {
-              "name": "mettricx",
-              "count": 1
             }
           ],
           "activityTypes": [
@@ -4330,7 +4340,7 @@
             },
             {
               "name": "ForkEvent",
-              "count": 12
+              "count": 10
             },
             {
               "name": "WatchEvent",
@@ -4624,16 +4634,6 @@
             {
               "t": "2019-08-30T15:21:15Z",
               "u": "ze1",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2019-09-01T01:01:52Z",
-              "u": "leomettricx",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2019-09-01T01:03:42Z",
-              "u": "mettricx",
               "tp": "ForkEvent"
             }
           ]
@@ -5318,6 +5318,10 @@
               "count": 1
             },
             {
+              "name": "Ilikecodes",
+              "count": 1
+            },
+            {
               "name": "SmartBFT-Go",
               "count": 1
             },
@@ -5424,10 +5428,6 @@
             {
               "name": "pkuhudk",
               "count": 1
-            },
-            {
-              "name": "mettricx",
-              "count": 1
             }
           ],
           "activityTypes": [
@@ -5459,6 +5459,11 @@
               "t": "2019-08-01T22:57:03Z",
               "u": "hyperledger-github",
               "tp": "PushEvent"
+            },
+            {
+              "t": "2019-08-01T05:25:23Z",
+              "u": "Ilikecodes",
+              "tp": "ForkEvent"
             },
             {
               "t": "2019-08-01T15:04:16Z",
@@ -5654,11 +5659,6 @@
               "t": "2019-08-31T07:31:09Z",
               "u": "pkuhudk",
               "tp": "WatchEvent"
-            },
-            {
-              "t": "2019-09-01T01:04:39Z",
-              "u": "mettricx",
-              "tp": "ForkEvent"
             }
           ]
         },
@@ -6087,7 +6087,7 @@
         },
         {
           "name": "hyperledger/fabric-sdk-java",
-          "count": 25,
+          "count": 24,
           "users": [
             {
               "name": "hyperledger-github",
@@ -6148,10 +6148,6 @@
             {
               "name": "TopLiu",
               "count": 1
-            },
-            {
-              "name": "hokyunJung",
-              "count": 1
             }
           ],
           "activityTypes": [
@@ -6165,7 +6161,7 @@
             },
             {
               "name": "WatchEvent",
-              "count": 6
+              "count": 5
             },
             {
               "name": "CreateEvent",
@@ -6291,11 +6287,6 @@
             {
               "t": "2019-08-30T08:51:37Z",
               "u": "TopLiu",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2019-09-01T00:06:16Z",
-              "u": "hokyunJung",
               "tp": "WatchEvent"
             }
           ]
@@ -7147,15 +7138,15 @@
       "activityTypes": [
         {
           "name": "PushEvent",
-          "count": 369
-        },
-        {
-          "name": "ForkEvent",
-          "count": 243
+          "count": 370
         },
         {
           "name": "WatchEvent",
-          "count": 241
+          "count": 242
+        },
+        {
+          "name": "ForkEvent",
+          "count": 240
         },
         {
           "name": "PullRequestEvent",
@@ -7185,19 +7176,19 @@
     },
     {
       "name": "Hyperledger Labs",
-      "count": 302,
+      "count": 308,
       "repos": [
         {
           "name": "hyperledger-labs/nephos",
-          "count": 140,
+          "count": 145,
           "users": [
             {
               "name": "alexvicegrab",
-              "count": 62
+              "count": 64
             },
             {
               "name": "dependabot-preview[bot]",
-              "count": 40
+              "count": 43
             },
             {
               "name": "codecov[bot]",
@@ -7239,23 +7230,23 @@
             },
             {
               "name": "PullRequestEvent",
-              "count": 33
+              "count": 35
+            },
+            {
+              "name": "PushEvent",
+              "count": 19
             },
             {
               "name": "PullRequestReviewCommentEvent",
               "count": 19
             },
             {
-              "name": "PushEvent",
-              "count": 18
-            },
-            {
               "name": "DeleteEvent",
-              "count": 14
+              "count": 15
             },
             {
               "name": "CreateEvent",
-              "count": 13
+              "count": 14
             },
             {
               "name": "ForkEvent",
@@ -7267,6 +7258,16 @@
             }
           ],
           "events": [
+            {
+              "t": "2019-08-01T05:59:11Z",
+              "u": "alexvicegrab",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2019-08-01T05:59:12Z",
+              "u": "alexvicegrab",
+              "tp": "PushEvent"
+            },
             {
               "t": "2019-08-01T08:36:03Z",
               "u": "alexvicegrab",
@@ -7296,6 +7297,21 @@
               "t": "2019-08-01T08:26:07Z",
               "u": "codecov[bot]",
               "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2019-08-01T05:59:22Z",
+              "u": "dependabot-preview[bot]",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2019-08-01T06:25:50Z",
+              "u": "dependabot-preview[bot]",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2019-08-01T06:25:50Z",
+              "u": "dependabot-preview[bot]",
+              "tp": "PullRequestEvent"
             },
             {
               "t": "2019-08-01T08:36:12Z",
@@ -7971,18 +7987,18 @@
         },
         {
           "name": "hyperledger-labs/minbft",
-          "count": 63,
+          "count": 64,
           "users": [
             {
               "name": "ynamiki",
               "count": 23
             },
             {
-              "name": "sergefdrv",
-              "count": 19
+              "name": "Naoya-Horiguchi",
+              "count": 20
             },
             {
-              "name": "Naoya-Horiguchi",
+              "name": "sergefdrv",
               "count": 19
             },
             {
@@ -7997,7 +8013,7 @@
           "activityTypes": [
             {
               "name": "IssueCommentEvent",
-              "count": 25
+              "count": 26
             },
             {
               "name": "PullRequestEvent",
@@ -8021,6 +8037,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2019-08-01T06:30:24Z",
+              "u": "Naoya-Horiguchi",
+              "tp": "IssueCommentEvent"
+            },
             {
               "t": "2019-08-02T09:51:49Z",
               "u": "sergefdrv",
@@ -9187,15 +9208,15 @@
       "activityTypes": [
         {
           "name": "PullRequestEvent",
-          "count": 92
+          "count": 94
         },
         {
           "name": "IssueCommentEvent",
-          "count": 65
+          "count": 66
         },
         {
           "name": "PushEvent",
-          "count": 43
+          "count": 44
         },
         {
           "name": "PullRequestReviewCommentEvent",
@@ -9203,11 +9224,11 @@
         },
         {
           "name": "CreateEvent",
-          "count": 24
+          "count": 25
         },
         {
           "name": "DeleteEvent",
-          "count": 14
+          "count": 15
         },
         {
           "name": "WatchEvent",
@@ -9225,15 +9246,15 @@
     },
     {
       "name": "Open Quantum Safe",
-      "count": 239,
+      "count": 247,
       "repos": [
         {
           "name": "open-quantum-safe/liboqs",
-          "count": 167,
+          "count": 173,
           "users": [
             {
               "name": "dstebila",
-              "count": 100
+              "count": 106
             },
             {
               "name": "xvzcf",
@@ -9343,11 +9364,11 @@
           "activityTypes": [
             {
               "name": "PushEvent",
-              "count": 53
+              "count": 55
             },
             {
               "name": "PullRequestEvent",
-              "count": 28
+              "count": 30
             },
             {
               "name": "WatchEvent",
@@ -9355,7 +9376,7 @@
             },
             {
               "name": "IssueCommentEvent",
-              "count": 16
+              "count": 17
             },
             {
               "name": "CreateEvent",
@@ -9363,7 +9384,7 @@
             },
             {
               "name": "DeleteEvent",
-              "count": 11
+              "count": 12
             },
             {
               "name": "PullRequestReviewCommentEvent",
@@ -9401,6 +9422,36 @@
               "t": "2019-08-01T16:44:45Z",
               "u": "dimisik",
               "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2019-08-01T00:00:11Z",
+              "u": "dstebila",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2019-08-01T00:00:33Z",
+              "u": "dstebila",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2019-08-01T00:00:33Z",
+              "u": "dstebila",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2019-08-01T00:01:26Z",
+              "u": "dstebila",
+              "tp": "DeleteEvent"
+            },
+            {
+              "t": "2019-08-01T00:03:25Z",
+              "u": "dstebila",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2019-08-01T01:16:11Z",
+              "u": "dstebila",
+              "tp": "PushEvent"
             },
             {
               "t": "2019-08-01T12:23:13Z",
@@ -10226,7 +10277,7 @@
         },
         {
           "name": "open-quantum-safe/openssl",
-          "count": 61,
+          "count": 63,
           "users": [
             {
               "name": "xvzcf",
@@ -10234,7 +10285,7 @@
             },
             {
               "name": "dstebila",
-              "count": 18
+              "count": 20
             },
             {
               "name": "christianpaquin",
@@ -10256,7 +10307,7 @@
           "activityTypes": [
             {
               "name": "PushEvent",
-              "count": 16
+              "count": 18
             },
             {
               "name": "PullRequestEvent",
@@ -10292,6 +10343,16 @@
             }
           ],
           "events": [
+            {
+              "t": "2019-08-01T01:45:12Z",
+              "u": "dstebila",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2019-08-01T02:33:41Z",
+              "u": "dstebila",
+              "tp": "PushEvent"
+            },
             {
               "t": "2019-08-01T12:23:49Z",
               "u": "dstebila",
@@ -10744,15 +10805,15 @@
       "activityTypes": [
         {
           "name": "PushEvent",
-          "count": 73
+          "count": 77
         },
         {
           "name": "PullRequestEvent",
-          "count": 38
+          "count": 40
         },
         {
           "name": "IssueCommentEvent",
-          "count": 28
+          "count": 29
         },
         {
           "name": "WatchEvent",
@@ -10764,7 +10825,7 @@
         },
         {
           "name": "DeleteEvent",
-          "count": 16
+          "count": 17
         },
         {
           "name": "GollumEvent",

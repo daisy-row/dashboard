@@ -2,31 +2,31 @@
   "projects": [
     {
       "name": "Fabric",
-      "count": 3149,
+      "count": 3150,
       "repos": [
         {
           "name": "hyperledger/fabric",
-          "count": 1528,
+          "count": 1529,
           "users": [
             {
               "name": "denyeart",
-              "count": 175
+              "count": 171
             },
             {
               "name": "wlahti",
               "count": 128
             },
             {
-              "name": "btl5037",
-              "count": 104
+              "name": "cendhu",
+              "count": 107
             },
             {
               "name": "manish-sethi",
-              "count": 101
+              "count": 102
             },
             {
-              "name": "cendhu",
-              "count": 100
+              "name": "btl5037",
+              "count": 102
             },
             {
               "name": "mergify[bot]",
@@ -45,20 +45,20 @@
               "count": 53
             },
             {
+              "name": "jyellick",
+              "count": 52
+            },
+            {
               "name": "denali49",
               "count": 51
             },
             {
-              "name": "jyellick",
-              "count": 50
+              "name": "C0rWin",
+              "count": 45
             },
             {
               "name": "wenjianqiao",
-              "count": 46
-            },
-            {
-              "name": "C0rWin",
-              "count": 45
+              "count": 44
             },
             {
               "name": "ale-linux",
@@ -1127,24 +1127,20 @@
             {
               "name": "tomonari-t",
               "count": 1
-            },
-            {
-              "name": "qqfoxmail",
-              "count": 1
             }
           ],
           "activityTypes": [
             {
               "name": "PullRequestReviewEvent",
-              "count": 374
+              "count": 371
             },
             {
               "name": "PullRequestReviewCommentEvent",
-              "count": 299
+              "count": 306
             },
             {
               "name": "PullRequestEvent",
-              "count": 271
+              "count": 270
             },
             {
               "name": "IssueCommentEvent",
@@ -1152,7 +1148,7 @@
             },
             {
               "name": "WatchEvent",
-              "count": 142
+              "count": 141
             },
             {
               "name": "ForkEvent",
@@ -1160,7 +1156,7 @@
             },
             {
               "name": "PushEvent",
-              "count": 111
+              "count": 110
             },
             {
               "name": "CreateEvent",
@@ -1195,6 +1191,11 @@
               "t": "2020-09-01T07:37:35Z",
               "u": "sunyu1984",
               "tp": "WatchEvent"
+            },
+            {
+              "t": "2020-09-01T05:16:50Z",
+              "u": "manish-sethi",
+              "tp": "PullRequestReviewCommentEvent"
             },
             {
               "t": "2020-09-01T13:28:53Z",
@@ -1477,6 +1478,16 @@
               "tp": "ForkEvent"
             },
             {
+              "t": "2020-09-01T01:32:12Z",
+              "u": "jyellick",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2020-09-01T01:32:15Z",
+              "u": "jyellick",
+              "tp": "PushEvent"
+            },
+            {
               "t": "2020-09-01T14:19:16Z",
               "u": "jyellick",
               "tp": "PullRequestEvent"
@@ -1500,6 +1511,41 @@
               "t": "2020-09-01T19:14:26Z",
               "u": "yacovm",
               "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2020-09-01T03:20:39Z",
+              "u": "cendhu",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2020-09-01T06:08:26Z",
+              "u": "cendhu",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2020-09-01T06:10:16Z",
+              "u": "cendhu",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2020-09-01T06:10:29Z",
+              "u": "cendhu",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2020-09-01T06:12:06Z",
+              "u": "cendhu",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2020-09-01T06:13:01Z",
+              "u": "cendhu",
+              "tp": "PullRequestReviewCommentEvent"
+            },
+            {
+              "t": "2020-09-01T06:15:23Z",
+              "u": "cendhu",
+              "tp": "PullRequestReviewCommentEvent"
             },
             {
               "t": "2020-09-01T07:10:02Z",
@@ -8770,51 +8816,6 @@
               "t": "2020-09-30T21:44:47Z",
               "u": "btl5037",
               "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2020-10-01T02:03:35Z",
-              "u": "wenjianqiao",
-              "tp": "PullRequestReviewCommentEvent"
-            },
-            {
-              "t": "2020-10-01T02:03:36Z",
-              "u": "wenjianqiao",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2020-10-01T04:55:13Z",
-              "u": "denyeart",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2020-10-01T04:55:17Z",
-              "u": "denyeart",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2020-10-01T04:55:27Z",
-              "u": "denyeart",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2020-10-01T04:55:28Z",
-              "u": "denyeart",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2020-10-01T03:19:57Z",
-              "u": "qqfoxmail",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2020-10-01T02:19:42Z",
-              "u": "btl5037",
-              "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2020-10-01T02:20:05Z",
-              "u": "btl5037",
-              "tp": "PullRequestReviewEvent"
             }
           ]
         },
@@ -11435,7 +11436,7 @@
         },
         {
           "name": "hyperledger/fabric-samples",
-          "count": 303,
+          "count": 304,
           "users": [
             {
               "name": "nikhil550",
@@ -11458,7 +11459,7 @@
               "count": 7
             },
             {
-              "name": "yukiknd",
+              "name": "sijocherian",
               "count": 5
             },
             {
@@ -11470,7 +11471,7 @@
               "count": 4
             },
             {
-              "name": "sijocherian",
+              "name": "yukiknd",
               "count": 4
             },
             {
@@ -11536,6 +11537,10 @@
             {
               "name": "arxxin",
               "count": 2
+            },
+            {
+              "name": "chenniannian90",
+              "count": 1
             },
             {
               "name": "shmilytsui",
@@ -11933,18 +11938,18 @@
           "activityTypes": [
             {
               "name": "ForkEvent",
-              "count": 79
+              "count": 80
             },
             {
               "name": "PullRequestReviewEvent",
               "count": 58
             },
             {
-              "name": "PullRequestEvent",
-              "count": 44
+              "name": "PullRequestReviewCommentEvent",
+              "count": 45
             },
             {
-              "name": "PullRequestReviewCommentEvent",
+              "name": "PullRequestEvent",
               "count": 44
             },
             {
@@ -11953,7 +11958,7 @@
             },
             {
               "name": "IssueCommentEvent",
-              "count": 24
+              "count": 23
             },
             {
               "name": "PushEvent",
@@ -11969,6 +11974,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2020-09-01T02:06:50Z",
+              "u": "chenniannian90",
+              "tp": "ForkEvent"
+            },
             {
               "t": "2020-09-01T21:02:17Z",
               "u": "nikhil550",
@@ -12018,6 +12028,11 @@
               "t": "2020-09-01T18:25:50Z",
               "u": "shmilytsui",
               "tp": "WatchEvent"
+            },
+            {
+              "t": "2020-09-01T01:49:27Z",
+              "u": "sijocherian",
+              "tp": "PullRequestReviewCommentEvent"
             },
             {
               "t": "2020-09-01T10:46:37Z",
@@ -13478,17 +13493,12 @@
               "t": "2020-09-30T06:56:16Z",
               "u": "nkmr-jp",
               "tp": "ForkEvent"
-            },
-            {
-              "t": "2020-10-01T01:06:02Z",
-              "u": "yukiknd",
-              "tp": "IssueCommentEvent"
             }
           ]
         },
         {
           "name": "hyperledger/fabric-sdk-node",
-          "count": 180,
+          "count": 179,
           "users": [
             {
               "name": "andrew-coleman",
@@ -13553,10 +13563,6 @@
             {
               "name": "InessaRajah",
               "count": 1
-            },
-            {
-              "name": "GuoSirius",
-              "count": 1
             }
           ],
           "activityTypes": [
@@ -13574,7 +13580,7 @@
             },
             {
               "name": "WatchEvent",
-              "count": 6
+              "count": 5
             },
             {
               "name": "IssueCommentEvent",
@@ -14492,11 +14498,6 @@
               "t": "2020-09-30T10:54:37Z",
               "u": "andrew-coleman",
               "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2020-10-01T01:54:35Z",
-              "u": "GuoSirius",
-              "tp": "WatchEvent"
             }
           ]
         },
@@ -18104,7 +18105,7 @@
         },
         {
           "name": "hyperledger/fabric-chaincode-java",
-          "count": 30,
+          "count": 31,
           "users": [
             {
               "name": "mbwhite",
@@ -18125,6 +18126,10 @@
             {
               "name": "zhoukuansky",
               "count": 2
+            },
+            {
+              "name": "Wws-zonda",
+              "count": 1
             },
             {
               "name": "bigdaronlee163",
@@ -18165,12 +18170,12 @@
               "count": 4
             },
             {
-              "name": "PullRequestReviewCommentEvent",
+              "name": "ForkEvent",
               "count": 3
             },
             {
-              "name": "ForkEvent",
-              "count": 2
+              "name": "PullRequestReviewCommentEvent",
+              "count": 3
             },
             {
               "name": "DeleteEvent",
@@ -18182,6 +18187,11 @@
             }
           ],
           "events": [
+            {
+              "t": "2020-09-01T06:49:45Z",
+              "u": "Wws-zonda",
+              "tp": "ForkEvent"
+            },
             {
               "t": "2020-09-01T21:05:03Z",
               "u": "btl5037",
@@ -18855,7 +18865,7 @@
         },
         {
           "name": "hyperledger/fabric-chaincode-go",
-          "count": 10,
+          "count": 9,
           "users": [
             {
               "name": "sasarava",
@@ -18888,20 +18898,16 @@
             {
               "name": "menglong567",
               "count": 1
-            },
-            {
-              "name": "silentpotatos",
-              "count": 1
             }
           ],
           "activityTypes": [
             {
-              "name": "ForkEvent",
+              "name": "WatchEvent",
               "count": 5
             },
             {
-              "name": "WatchEvent",
-              "count": 5
+              "name": "ForkEvent",
+              "count": 4
             }
           ],
           "events": [
@@ -18949,11 +18955,6 @@
               "t": "2020-09-29T09:01:25Z",
               "u": "menglong567",
               "tp": "WatchEvent"
-            },
-            {
-              "t": "2020-10-01T06:44:11Z",
-              "u": "silentpotatos",
-              "tp": "ForkEvent"
             }
           ]
         },
@@ -19143,31 +19144,31 @@
       "activityTypes": [
         {
           "name": "PullRequestReviewEvent",
-          "count": 678
-        },
-        {
-          "name": "PullRequestEvent",
-          "count": 587
+          "count": 675
         },
         {
           "name": "PullRequestReviewCommentEvent",
-          "count": 583
+          "count": 591
+        },
+        {
+          "name": "PullRequestEvent",
+          "count": 586
         },
         {
           "name": "IssueCommentEvent",
-          "count": 296
-        },
-        {
-          "name": "PushEvent",
           "count": 295
         },
         {
+          "name": "PushEvent",
+          "count": 294
+        },
+        {
           "name": "ForkEvent",
-          "count": 278
+          "count": 279
         },
         {
           "name": "WatchEvent",
-          "count": 276
+          "count": 274
         },
         {
           "name": "IssuesEvent",
@@ -24036,15 +24037,15 @@
     },
     {
       "name": "Open Quantum Safe",
-      "count": 322,
+      "count": 315,
       "repos": [
         {
           "name": "open-quantum-safe/liboqs",
-          "count": 201,
+          "count": 196,
           "users": [
             {
               "name": "dstebila",
-              "count": 75
+              "count": 70
             },
             {
               "name": "xvzcf",
@@ -24214,7 +24215,7 @@
             },
             {
               "name": "IssueCommentEvent",
-              "count": 45
+              "count": 42
             },
             {
               "name": "WatchEvent",
@@ -24222,18 +24223,18 @@
             },
             {
               "name": "PullRequestEvent",
-              "count": 25
+              "count": 24
             },
             {
               "name": "PullRequestReviewEvent",
               "count": 15
             },
             {
-              "name": "CreateEvent",
-              "count": 11
+              "name": "IssuesEvent",
+              "count": 10
             },
             {
-              "name": "IssuesEvent",
+              "name": "CreateEvent",
               "count": 10
             },
             {
@@ -25233,41 +25234,16 @@
               "t": "2020-09-30T15:18:35Z",
               "u": "dstebila",
               "tp": "PullRequestReviewEvent"
-            },
-            {
-              "t": "2020-10-01T01:27:08Z",
-              "u": "dstebila",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2020-10-01T01:34:26Z",
-              "u": "dstebila",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2020-10-01T01:41:15Z",
-              "u": "dstebila",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2020-10-01T01:43:20Z",
-              "u": "dstebila",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2020-10-01T01:44:00Z",
-              "u": "dstebila",
-              "tp": "IssueCommentEvent"
             }
           ]
         },
         {
           "name": "open-quantum-safe/oqs-demos",
-          "count": 51,
+          "count": 49,
           "users": [
             {
               "name": "baentsch",
-              "count": 22
+              "count": 21
             },
             {
               "name": "dstebila",
@@ -25292,10 +25268,6 @@
             {
               "name": "theapplegates",
               "count": 1
-            },
-            {
-              "name": "Librechain",
-              "count": 1
             }
           ],
           "activityTypes": [
@@ -25305,7 +25277,7 @@
             },
             {
               "name": "IssuesEvent",
-              "count": 7
+              "count": 6
             },
             {
               "name": "PushEvent",
@@ -25324,15 +25296,15 @@
               "count": 4
             },
             {
-              "name": "ForkEvent",
-              "count": 3
-            },
-            {
               "name": "PullRequestReviewCommentEvent",
               "count": 2
             },
             {
               "name": "CreateEvent",
+              "count": 2
+            },
+            {
+              "name": "ForkEvent",
               "count": 2
             },
             {
@@ -25589,16 +25561,6 @@
               "t": "2020-09-30T01:57:07Z",
               "u": "dstebila",
               "tp": "IssuesEvent"
-            },
-            {
-              "t": "2020-10-01T05:25:22Z",
-              "u": "baentsch",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2020-10-01T06:07:18Z",
-              "u": "Librechain",
-              "tp": "ForkEvent"
             }
           ]
         },
@@ -26228,7 +26190,7 @@
       "activityTypes": [
         {
           "name": "IssueCommentEvent",
-          "count": 73
+          "count": 70
         },
         {
           "name": "PushEvent",
@@ -26240,7 +26202,7 @@
         },
         {
           "name": "PullRequestEvent",
-          "count": 39
+          "count": 38
         },
         {
           "name": "PullRequestReviewEvent",
@@ -26248,15 +26210,15 @@
         },
         {
           "name": "IssuesEvent",
-          "count": 20
+          "count": 19
         },
         {
           "name": "CreateEvent",
-          "count": 16
+          "count": 15
         },
         {
           "name": "ForkEvent",
-          "count": 15
+          "count": 14
         },
         {
           "name": "DeleteEvent",
@@ -26282,7 +26244,7 @@
     },
     {
       "name": "TWGC",
-      "count": 245,
+      "count": 256,
       "repos": [
         {
           "name": "Hyperledger-TWGC/fabric-gm-wiki",
@@ -26617,11 +26579,11 @@
         },
         {
           "name": "Hyperledger-TWGC/java-gm",
-          "count": 42,
+          "count": 44,
           "users": [
             {
               "name": "davidkhala",
-              "count": 21
+              "count": 23
             },
             {
               "name": "SamYuan1990",
@@ -26664,9 +26626,23 @@
             {
               "name": "ForkEvent",
               "count": 3
+            },
+            {
+              "name": "CreateEvent",
+              "count": 2
             }
           ],
           "events": [
+            {
+              "t": "2020-09-01T02:45:43Z",
+              "u": "davidkhala",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2020-09-01T02:45:45Z",
+              "u": "davidkhala",
+              "tp": "CreateEvent"
+            },
             {
               "t": "2020-09-02T14:01:09Z",
               "u": "ryjones",
@@ -27461,6 +27437,235 @@
           ]
         },
         {
+          "name": "Hyperledger-TWGC/tjfoc-gm",
+          "count": 31,
+          "users": [
+            {
+              "name": "czdsdo",
+              "count": 10
+            },
+            {
+              "name": "davidkhala",
+              "count": 9
+            },
+            {
+              "name": "yzwyzwyzw1",
+              "count": 5
+            },
+            {
+              "name": "SamYuan1990",
+              "count": 3
+            },
+            {
+              "name": "bingoer",
+              "count": 1
+            },
+            {
+              "name": "liuhangyu",
+              "count": 1
+            },
+            {
+              "name": "jckling",
+              "count": 1
+            },
+            {
+              "name": "axengine",
+              "count": 1
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "PushEvent",
+              "count": 8
+            },
+            {
+              "name": "IssueCommentEvent",
+              "count": 6
+            },
+            {
+              "name": "PullRequestEvent",
+              "count": 5
+            },
+            {
+              "name": "ForkEvent",
+              "count": 4
+            },
+            {
+              "name": "IssuesEvent",
+              "count": 3
+            },
+            {
+              "name": "CommitCommentEvent",
+              "count": 2
+            },
+            {
+              "name": "WatchEvent",
+              "count": 2
+            },
+            {
+              "name": "CreateEvent",
+              "count": 1
+            }
+          ],
+          "events": [
+            {
+              "t": "2020-09-01T04:25:38Z",
+              "u": "yzwyzwyzw1",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2020-09-01T02:44:28Z",
+              "u": "davidkhala",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2020-09-01T04:44:21Z",
+              "u": "davidkhala",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2020-09-01T06:11:02Z",
+              "u": "davidkhala",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2020-09-01T06:13:08Z",
+              "u": "davidkhala",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2020-09-01T07:53:33Z",
+              "u": "davidkhala",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2020-09-01T08:31:06Z",
+              "u": "davidkhala",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2020-09-01T08:31:06Z",
+              "u": "davidkhala",
+              "tp": "IssuesEvent"
+            },
+            {
+              "t": "2020-09-01T01:19:00Z",
+              "u": "SamYuan1990",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2020-09-01T03:02:36Z",
+              "u": "SamYuan1990",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2020-09-01T03:02:37Z",
+              "u": "SamYuan1990",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2020-09-03T16:18:08Z",
+              "u": "yzwyzwyzw1",
+              "tp": "ForkEvent"
+            },
+            {
+              "t": "2020-09-03T16:39:12Z",
+              "u": "yzwyzwyzw1",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2020-09-09T02:48:03Z",
+              "u": "bingoer",
+              "tp": "ForkEvent"
+            },
+            {
+              "t": "2020-09-09T05:37:27Z",
+              "u": "liuhangyu",
+              "tp": "ForkEvent"
+            },
+            {
+              "t": "2020-09-11T13:06:35Z",
+              "u": "czdsdo",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2020-09-11T13:06:37Z",
+              "u": "czdsdo",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2020-09-11T13:11:07Z",
+              "u": "czdsdo",
+              "tp": "IssuesEvent"
+            },
+            {
+              "t": "2020-09-11T13:11:07Z",
+              "u": "czdsdo",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2020-09-11T13:11:47Z",
+              "u": "czdsdo",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2020-09-12T11:27:16Z",
+              "u": "davidkhala",
+              "tp": "CommitCommentEvent"
+            },
+            {
+              "t": "2020-09-12T11:27:24Z",
+              "u": "davidkhala",
+              "tp": "CommitCommentEvent"
+            },
+            {
+              "t": "2020-09-14T15:55:04Z",
+              "u": "czdsdo",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2020-09-14T15:56:05Z",
+              "u": "czdsdo",
+              "tp": "IssuesEvent"
+            },
+            {
+              "t": "2020-09-15T09:58:05Z",
+              "u": "czdsdo",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2020-09-15T09:17:25Z",
+              "u": "jckling",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2020-09-17T06:17:18Z",
+              "u": "axengine",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2020-09-19T15:11:24Z",
+              "u": "yzwyzwyzw1",
+              "tp": "ForkEvent"
+            },
+            {
+              "t": "2020-09-22T15:46:29Z",
+              "u": "yzwyzwyzw1",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2020-09-28T01:11:42Z",
+              "u": "czdsdo",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2020-09-28T01:11:43Z",
+              "u": "czdsdo",
+              "tp": "PushEvent"
+            }
+          ]
+        },
+        {
           "name": "Hyperledger-TWGC/fabric-performance-wiki",
           "count": 28,
           "users": [
@@ -27663,187 +27868,6 @@
           ]
         },
         {
-          "name": "Hyperledger-TWGC/tjfoc-gm",
-          "count": 23,
-          "users": [
-            {
-              "name": "czdsdo",
-              "count": 10
-            },
-            {
-              "name": "davidkhala",
-              "count": 5
-            },
-            {
-              "name": "yzwyzwyzw1",
-              "count": 4
-            },
-            {
-              "name": "bingoer",
-              "count": 1
-            },
-            {
-              "name": "liuhangyu",
-              "count": 1
-            },
-            {
-              "name": "jckling",
-              "count": 1
-            },
-            {
-              "name": "axengine",
-              "count": 1
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "PushEvent",
-              "count": 6
-            },
-            {
-              "name": "ForkEvent",
-              "count": 4
-            },
-            {
-              "name": "PullRequestEvent",
-              "count": 4
-            },
-            {
-              "name": "IssuesEvent",
-              "count": 3
-            },
-            {
-              "name": "IssueCommentEvent",
-              "count": 2
-            },
-            {
-              "name": "CommitCommentEvent",
-              "count": 2
-            },
-            {
-              "name": "WatchEvent",
-              "count": 2
-            }
-          ],
-          "events": [
-            {
-              "t": "2020-09-01T07:53:33Z",
-              "u": "davidkhala",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2020-09-01T08:31:06Z",
-              "u": "davidkhala",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2020-09-01T08:31:06Z",
-              "u": "davidkhala",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2020-09-03T16:18:08Z",
-              "u": "yzwyzwyzw1",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2020-09-03T16:39:12Z",
-              "u": "yzwyzwyzw1",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2020-09-09T02:48:03Z",
-              "u": "bingoer",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2020-09-09T05:37:27Z",
-              "u": "liuhangyu",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2020-09-11T13:06:35Z",
-              "u": "czdsdo",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2020-09-11T13:06:37Z",
-              "u": "czdsdo",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2020-09-11T13:11:07Z",
-              "u": "czdsdo",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2020-09-11T13:11:07Z",
-              "u": "czdsdo",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2020-09-11T13:11:47Z",
-              "u": "czdsdo",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2020-09-12T11:27:16Z",
-              "u": "davidkhala",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2020-09-12T11:27:24Z",
-              "u": "davidkhala",
-              "tp": "CommitCommentEvent"
-            },
-            {
-              "t": "2020-09-14T15:55:04Z",
-              "u": "czdsdo",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2020-09-14T15:56:05Z",
-              "u": "czdsdo",
-              "tp": "IssuesEvent"
-            },
-            {
-              "t": "2020-09-15T09:58:05Z",
-              "u": "czdsdo",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2020-09-15T09:17:25Z",
-              "u": "jckling",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2020-09-17T06:17:18Z",
-              "u": "axengine",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2020-09-19T15:11:24Z",
-              "u": "yzwyzwyzw1",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2020-09-22T15:46:29Z",
-              "u": "yzwyzwyzw1",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2020-09-28T01:11:42Z",
-              "u": "czdsdo",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2020-09-28T01:11:43Z",
-              "u": "czdsdo",
-              "tp": "PushEvent"
-            }
-          ]
-        },
-        {
           "name": "Hyperledger-TWGC/net-go-gm",
           "count": 14,
           "users": [
@@ -28006,6 +28030,38 @@
           ]
         },
         {
+          "name": "Hyperledger-TWGC/pku-gm",
+          "count": 2,
+          "users": [
+            {
+              "name": "davidkhala",
+              "count": 2
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "IssueCommentEvent",
+              "count": 1
+            },
+            {
+              "name": "PushEvent",
+              "count": 1
+            }
+          ],
+          "events": [
+            {
+              "t": "2020-09-01T02:58:23Z",
+              "u": "davidkhala",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2020-09-01T08:40:47Z",
+              "u": "davidkhala",
+              "tp": "PushEvent"
+            }
+          ]
+        },
+        {
           "name": "Hyperledger-TWGC/fabric-rfcs",
           "count": 2,
           "users": [
@@ -28028,29 +28084,6 @@
             },
             {
               "t": "2020-09-19T04:59:25Z",
-              "u": "davidkhala",
-              "tp": "PushEvent"
-            }
-          ]
-        },
-        {
-          "name": "Hyperledger-TWGC/pku-gm",
-          "count": 1,
-          "users": [
-            {
-              "name": "davidkhala",
-              "count": 1
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "PushEvent",
-              "count": 1
-            }
-          ],
-          "events": [
-            {
-              "t": "2020-09-01T08:40:47Z",
               "u": "davidkhala",
               "tp": "PushEvent"
             }
@@ -28087,19 +28120,19 @@
         },
         {
           "name": "PullRequestEvent",
-          "count": 36
+          "count": 37
         },
         {
           "name": "PushEvent",
-          "count": 31
+          "count": 33
+        },
+        {
+          "name": "IssueCommentEvent",
+          "count": 29
         },
         {
           "name": "WatchEvent",
           "count": 27
-        },
-        {
-          "name": "IssueCommentEvent",
-          "count": 24
         },
         {
           "name": "ForkEvent",
@@ -28110,16 +28143,16 @@
           "count": 12
         },
         {
+          "name": "CreateEvent",
+          "count": 11
+        },
+        {
           "name": "PullRequestReviewEvent",
           "count": 11
         },
         {
           "name": "PullRequestReviewCommentEvent",
           "count": 11
-        },
-        {
-          "name": "CreateEvent",
-          "count": 8
         },
         {
           "name": "CommitCommentEvent",
@@ -28141,11 +28174,11 @@
     },
     {
       "name": "Hyperledger Archives",
-      "count": 41,
+      "count": 40,
       "repos": [
         {
           "name": "hyperledger-archives/composer-sample-applications",
-          "count": 22,
+          "count": 21,
           "users": [
             {
               "name": "HishaP",
@@ -28230,16 +28263,12 @@
             {
               "name": "Erico00",
               "count": 1
-            },
-            {
-              "name": "pradiptapaul97",
-              "count": 1
             }
           ],
           "activityTypes": [
             {
               "name": "ForkEvent",
-              "count": 22
+              "count": 21
             }
           ],
           "events": [
@@ -28346,11 +28375,6 @@
             {
               "t": "2020-09-29T05:31:44Z",
               "u": "Erico00",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2020-10-01T05:31:10Z",
-              "u": "pradiptapaul97",
               "tp": "ForkEvent"
             }
           ]
@@ -28532,6 +28556,29 @@
           ]
         },
         {
+          "name": "hyperledger-archives/sawtooth-next-directory",
+          "count": 1,
+          "users": [
+            {
+              "name": "BlockFox",
+              "count": 1
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "WatchEvent",
+              "count": 1
+            }
+          ],
+          "events": [
+            {
+              "t": "2020-09-01T04:09:22Z",
+              "u": "BlockFox",
+              "tp": "WatchEvent"
+            }
+          ]
+        },
+        {
           "name": "hyperledger-archives/composer",
           "count": 1,
           "users": [
@@ -28622,35 +28669,12 @@
               "tp": "ForkEvent"
             }
           ]
-        },
-        {
-          "name": "hyperledger-archives/caliper",
-          "count": 1,
-          "users": [
-            {
-              "name": "HaydnHou",
-              "count": 1
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "WatchEvent",
-              "count": 1
-            }
-          ],
-          "events": [
-            {
-              "t": "2020-10-01T01:34:09Z",
-              "u": "HaydnHou",
-              "tp": "WatchEvent"
-            }
-          ]
         }
       ],
       "activityTypes": [
         {
           "name": "ForkEvent",
-          "count": 31
+          "count": 30
         },
         {
           "name": "WatchEvent",
