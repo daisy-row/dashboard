@@ -2,15 +2,15 @@
   "projects": [
     {
       "name": "Fabric",
-      "count": 620,
+      "count": 626,
       "repos": [
         {
           "name": "hyperledger/fabric",
-          "count": 477,
+          "count": 482,
           "users": [
             {
               "name": "rjones-lf",
-              "count": 258
+              "count": 261
             },
             {
               "name": "rameshthoomu",
@@ -823,20 +823,28 @@
             {
               "name": "komminist",
               "count": 1
+            },
+            {
+              "name": "pisupat",
+              "count": 1
+            },
+            {
+              "name": "s7r3ws",
+              "count": 1
             }
           ],
           "activityTypes": [
             {
               "name": "PushEvent",
-              "count": 252
+              "count": 255
             },
             {
               "name": "ForkEvent",
-              "count": 111
+              "count": 112
             },
             {
               "name": "WatchEvent",
-              "count": 102
+              "count": 103
             },
             {
               "name": "PullRequestEvent",
@@ -3236,16 +3244,41 @@
               "t": "2017-01-31T14:55:25Z",
               "u": "komminist",
               "tp": "ForkEvent"
+            },
+            {
+              "t": "2017-02-01T01:29:27Z",
+              "u": "rjones-lf",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2017-02-01T02:23:35Z",
+              "u": "rjones-lf",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2017-02-01T03:14:29Z",
+              "u": "rjones-lf",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2017-02-01T04:30:08Z",
+              "u": "pisupat",
+              "tp": "ForkEvent"
+            },
+            {
+              "t": "2017-02-01T06:17:34Z",
+              "u": "s7r3ws",
+              "tp": "WatchEvent"
             }
           ]
         },
         {
           "name": "hyperledger/fabric-sdk-node",
-          "count": 67,
+          "count": 68,
           "users": [
             {
               "name": "rjones-lf",
-              "count": 50
+              "count": 51
             },
             {
               "name": "rameshthoomu",
@@ -3307,7 +3340,7 @@
           "activityTypes": [
             {
               "name": "PushEvent",
-              "count": 49
+              "count": 50
             },
             {
               "name": "WatchEvent",
@@ -3655,6 +3688,11 @@
             },
             {
               "t": "2017-01-31T19:16:06Z",
+              "u": "rjones-lf",
+              "tp": "PushEvent"
+            },
+            {
+              "t": "2017-02-01T03:05:11Z",
               "u": "rjones-lf",
               "tp": "PushEvent"
             }
@@ -4198,15 +4236,15 @@
       "activityTypes": [
         {
           "name": "PushEvent",
-          "count": 355
+          "count": 359
         },
         {
           "name": "ForkEvent",
-          "count": 129
+          "count": 130
         },
         {
           "name": "WatchEvent",
-          "count": 115
+          "count": 116
         },
         {
           "name": "PullRequestEvent",
@@ -5144,11 +5182,11 @@
     },
     {
       "name": "Hyperledger",
-      "count": 65,
+      "count": 66,
       "repos": [
         {
           "name": "hyperledger/hyperledger",
-          "count": 65,
+          "count": 66,
           "users": [
             {
               "name": "LSFalan",
@@ -5401,12 +5439,16 @@
             {
               "name": "ursamajor666",
               "count": 1
+            },
+            {
+              "name": "s7r3ws",
+              "count": 1
             }
           ],
           "activityTypes": [
             {
               "name": "WatchEvent",
-              "count": 55
+              "count": 56
             },
             {
               "name": "ForkEvent",
@@ -5742,6 +5784,11 @@
               "t": "2017-01-31T02:50:14Z",
               "u": "ursamajor666",
               "tp": "WatchEvent"
+            },
+            {
+              "t": "2017-02-01T06:05:19Z",
+              "u": "s7r3ws",
+              "tp": "WatchEvent"
             }
           ]
         }
@@ -5749,7 +5796,7 @@
       "activityTypes": [
         {
           "name": "WatchEvent",
-          "count": 55
+          "count": 56
         },
         {
           "name": "ForkEvent",

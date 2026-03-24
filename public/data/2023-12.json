@@ -6811,11 +6811,11 @@
     },
     {
       "name": "Fabric",
-      "count": 826,
+      "count": 825,
       "repos": [
         {
           "name": "hyperledger/fabric",
-          "count": 292,
+          "count": 291,
           "users": [
             {
               "name": "pfi79",
@@ -6883,10 +6883,6 @@
             },
             {
               "name": "1095912391",
-              "count": 1
-            },
-            {
-              "name": "ian-rigolabs",
               "count": 1
             },
             {
@@ -7217,7 +7213,7 @@
             },
             {
               "name": "WatchEvent",
-              "count": 57
+              "count": 56
             },
             {
               "name": "PullRequestReviewCommentEvent",
@@ -7253,11 +7249,6 @@
             }
           ],
           "events": [
-            {
-              "t": "2023-12-01T06:08:09Z",
-              "u": "ian-rigolabs",
-              "tp": "WatchEvent"
-            },
             {
               "t": "2023-12-01T10:59:36Z",
               "u": "yacovm",
@@ -12931,7 +12922,7 @@
         },
         {
           "name": "WatchEvent",
-          "count": 125
+          "count": 124
         },
         {
           "name": "PullRequestReviewEvent",
@@ -12973,19 +12964,19 @@
     },
     {
       "name": "Open Quantum Safe",
-      "count": 594,
+      "count": 590,
       "repos": [
         {
           "name": "open-quantum-safe/liboqs",
-          "count": 399,
+          "count": 397,
           "users": [
             {
               "name": "baentsch",
-              "count": 101
+              "count": 100
             },
             {
               "name": "ashman-p",
-              "count": 56
+              "count": 55
             },
             {
               "name": "SWilson4",
@@ -13187,7 +13178,7 @@
             },
             {
               "name": "PushEvent",
-              "count": 87
+              "count": 86
             },
             {
               "name": "PullRequestReviewCommentEvent",
@@ -13195,7 +13186,7 @@
             },
             {
               "name": "IssueCommentEvent",
-              "count": 57
+              "count": 56
             },
             {
               "name": "WatchEvent",
@@ -13236,11 +13227,6 @@
           ],
           "events": [
             {
-              "t": "2023-12-01T06:35:38Z",
-              "u": "ashman-p",
-              "tp": "PushEvent"
-            },
-            {
               "t": "2023-12-01T14:42:04Z",
               "u": "ashman-p",
               "tp": "PushEvent"
@@ -13258,11 +13244,6 @@
             {
               "t": "2023-12-01T21:38:30Z",
               "u": "SWilson4",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2023-12-01T07:33:44Z",
-              "u": "baentsch",
               "tp": "IssueCommentEvent"
             },
             {
@@ -16305,92 +16286,6 @@
           ]
         },
         {
-          "name": "open-quantum-safe/liboqs-python",
-          "count": 8,
-          "users": [
-            {
-              "name": "raybeecham",
-              "count": 4
-            },
-            {
-              "name": "dstebila",
-              "count": 2
-            },
-            {
-              "name": "vsoftco",
-              "count": 1
-            },
-            {
-              "name": "therealOri",
-              "count": 1
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "WatchEvent",
-              "count": 2
-            },
-            {
-              "name": "PullRequestEvent",
-              "count": 2
-            },
-            {
-              "name": "IssueCommentEvent",
-              "count": 2
-            },
-            {
-              "name": "CreateEvent",
-              "count": 1
-            },
-            {
-              "name": "ForkEvent",
-              "count": 1
-            }
-          ],
-          "events": [
-            {
-              "t": "2023-12-01T01:05:39Z",
-              "u": "vsoftco",
-              "tp": "CreateEvent"
-            },
-            {
-              "t": "2023-12-15T06:09:47Z",
-              "u": "raybeecham",
-              "tp": "WatchEvent"
-            },
-            {
-              "t": "2023-12-15T16:17:42Z",
-              "u": "raybeecham",
-              "tp": "ForkEvent"
-            },
-            {
-              "t": "2023-12-15T16:19:14Z",
-              "u": "raybeecham",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2023-12-15T19:37:26Z",
-              "u": "raybeecham",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2023-12-15T18:22:46Z",
-              "u": "dstebila",
-              "tp": "PullRequestEvent"
-            },
-            {
-              "t": "2023-12-15T18:22:46Z",
-              "u": "dstebila",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2023-12-23T03:22:24Z",
-              "u": "therealOri",
-              "tp": "WatchEvent"
-            }
-          ]
-        },
-        {
           "name": "open-quantum-safe/boringssl",
           "count": 7,
           "users": [
@@ -16464,19 +16359,19 @@
           ]
         },
         {
-          "name": "open-quantum-safe/liboqs-cpp",
-          "count": 3,
+          "name": "open-quantum-safe/liboqs-python",
+          "count": 7,
           "users": [
             {
-              "name": "vsoftco",
-              "count": 1
+              "name": "raybeecham",
+              "count": 4
             },
             {
-              "name": "dr7ana",
-              "count": 1
+              "name": "dstebila",
+              "count": 2
             },
             {
-              "name": "Jasper1467",
+              "name": "therealOri",
               "count": 1
             }
           ],
@@ -16486,24 +16381,52 @@
               "count": 2
             },
             {
-              "name": "PushEvent",
+              "name": "PullRequestEvent",
+              "count": 2
+            },
+            {
+              "name": "IssueCommentEvent",
+              "count": 2
+            },
+            {
+              "name": "ForkEvent",
               "count": 1
             }
           ],
           "events": [
             {
-              "t": "2023-12-01T01:17:01Z",
-              "u": "vsoftco",
-              "tp": "PushEvent"
-            },
-            {
-              "t": "2023-12-05T14:46:19Z",
-              "u": "dr7ana",
+              "t": "2023-12-15T06:09:47Z",
+              "u": "raybeecham",
               "tp": "WatchEvent"
             },
             {
-              "t": "2023-12-06T10:42:38Z",
-              "u": "Jasper1467",
+              "t": "2023-12-15T16:17:42Z",
+              "u": "raybeecham",
+              "tp": "ForkEvent"
+            },
+            {
+              "t": "2023-12-15T16:19:14Z",
+              "u": "raybeecham",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2023-12-15T19:37:26Z",
+              "u": "raybeecham",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2023-12-15T18:22:46Z",
+              "u": "dstebila",
+              "tp": "PullRequestEvent"
+            },
+            {
+              "t": "2023-12-15T18:22:46Z",
+              "u": "dstebila",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2023-12-23T03:22:24Z",
+              "u": "therealOri",
               "tp": "WatchEvent"
             }
           ]
@@ -16591,6 +16514,38 @@
           ]
         },
         {
+          "name": "open-quantum-safe/liboqs-cpp",
+          "count": 2,
+          "users": [
+            {
+              "name": "dr7ana",
+              "count": 1
+            },
+            {
+              "name": "Jasper1467",
+              "count": 1
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "WatchEvent",
+              "count": 2
+            }
+          ],
+          "events": [
+            {
+              "t": "2023-12-05T14:46:19Z",
+              "u": "dr7ana",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2023-12-06T10:42:38Z",
+              "u": "Jasper1467",
+              "tp": "WatchEvent"
+            }
+          ]
+        },
+        {
           "name": "open-quantum-safe/libssh",
           "count": 1,
           "users": [
@@ -16667,11 +16622,11 @@
         },
         {
           "name": "PushEvent",
-          "count": 112
+          "count": 110
         },
         {
           "name": "IssueCommentEvent",
-          "count": 96
+          "count": 95
         },
         {
           "name": "PullRequestReviewCommentEvent",
@@ -16691,7 +16646,7 @@
         },
         {
           "name": "CreateEvent",
-          "count": 23
+          "count": 22
         },
         {
           "name": "DeleteEvent",
@@ -19803,11 +19758,11 @@
     },
     {
       "name": "Open Wallet Foundation",
-      "count": 235,
+      "count": 236,
       "repos": [
         {
           "name": "openwallet-foundation-labs/sd-jwt-rust",
-          "count": 97,
+          "count": 98,
           "users": [
             {
               "name": "jovfer",
@@ -19827,6 +19782,10 @@
             },
             {
               "name": "ashcherbakov",
+              "count": 1
+            },
+            {
+              "name": "whalelephant",
               "count": 1
             }
           ],
@@ -19860,12 +19819,12 @@
               "count": 4
             },
             {
-              "name": "DeleteEvent",
+              "name": "ForkEvent",
               "count": 3
             },
             {
-              "name": "ForkEvent",
-              "count": 2
+              "name": "DeleteEvent",
+              "count": 3
             },
             {
               "name": "IssueCommentEvent",
@@ -20357,6 +20316,11 @@
               "t": "2023-12-26T12:21:50Z",
               "u": "jovfer",
               "tp": "DeleteEvent"
+            },
+            {
+              "t": "2024-01-01T07:58:43Z",
+              "u": "whalelephant",
+              "tp": "ForkEvent"
             }
           ]
         },
@@ -21424,7 +21388,7 @@
         },
         {
           "name": "ForkEvent",
-          "count": 7
+          "count": 8
         },
         {
           "name": "PullRequestReviewCommentEvent",
@@ -21450,7 +21414,7 @@
     },
     {
       "name": "Firefly",
-      "count": 211,
+      "count": 214,
       "repos": [
         {
           "name": "hyperledger/firefly",
@@ -21945,11 +21909,11 @@
         },
         {
           "name": "hyperledger/firefly-common",
-          "count": 50,
+          "count": 53,
           "users": [
             {
               "name": "peterbroadhurst",
-              "count": 39
+              "count": 41
             },
             {
               "name": "awrichar",
@@ -21961,6 +21925,10 @@
             },
             {
               "name": "nguyer",
+              "count": 1
+            },
+            {
+              "name": "codecov-commenter",
               "count": 1
             }
           ],
@@ -21979,11 +21947,11 @@
             },
             {
               "name": "CreateEvent",
-              "count": 4
+              "count": 5
             },
             {
               "name": "PullRequestEvent",
-              "count": 4
+              "count": 5
             },
             {
               "name": "DeleteEvent",
@@ -21991,7 +21959,7 @@
             },
             {
               "name": "IssueCommentEvent",
-              "count": 1
+              "count": 2
             },
             {
               "name": "ReleaseEvent",
@@ -22248,6 +22216,21 @@
               "t": "2023-12-21T19:26:59Z",
               "u": "peterbroadhurst",
               "tp": "CreateEvent"
+            },
+            {
+              "t": "2024-01-01T00:14:45Z",
+              "u": "codecov-commenter",
+              "tp": "IssueCommentEvent"
+            },
+            {
+              "t": "2024-01-01T00:12:15Z",
+              "u": "peterbroadhurst",
+              "tp": "CreateEvent"
+            },
+            {
+              "t": "2024-01-01T00:12:27Z",
+              "u": "peterbroadhurst",
+              "tp": "PullRequestEvent"
             }
           ]
         },
@@ -23082,16 +23065,16 @@
           "count": 45
         },
         {
+          "name": "IssueCommentEvent",
+          "count": 34
+        },
+        {
           "name": "PullRequestReviewEvent",
           "count": 34
         },
         {
-          "name": "IssueCommentEvent",
-          "count": 33
-        },
-        {
           "name": "PullRequestEvent",
-          "count": 29
+          "count": 30
         },
         {
           "name": "PullRequestReviewCommentEvent",
@@ -23099,7 +23082,7 @@
         },
         {
           "name": "CreateEvent",
-          "count": 15
+          "count": 16
         },
         {
           "name": "WatchEvent",
@@ -23125,11 +23108,11 @@
     },
     {
       "name": "Trust over IP",
-      "count": 210,
+      "count": 207,
       "repos": [
         {
           "name": "trustoverip/tswg-did-method-webs-specification",
-          "count": 171,
+          "count": 170,
           "users": [
             {
               "name": "2byrds",
@@ -23168,10 +23151,6 @@
               "count": 6
             },
             {
-              "name": "nkongsuwan",
-              "count": 1
-            },
-            {
               "name": "RieksJ",
               "count": 1
             },
@@ -23191,7 +23170,7 @@
             },
             {
               "name": "IssueCommentEvent",
-              "count": 31
+              "count": 30
             },
             {
               "name": "PushEvent",
@@ -23215,11 +23194,6 @@
             }
           ],
           "events": [
-            {
-              "t": "2023-12-01T03:17:32Z",
-              "u": "nkongsuwan",
-              "tp": "IssueCommentEvent"
-            },
             {
               "t": "2023-12-09T00:03:11Z",
               "u": "edeykholt",
@@ -24397,38 +24371,6 @@
           ]
         },
         {
-          "name": "trustoverip/vLEI-EGF-v1.0-Interim-Update-Public-Review",
-          "count": 2,
-          "users": [
-            {
-              "name": "nkongsuwan",
-              "count": 2
-            }
-          ],
-          "activityTypes": [
-            {
-              "name": "IssueCommentEvent",
-              "count": 1
-            },
-            {
-              "name": "IssuesEvent",
-              "count": 1
-            }
-          ],
-          "events": [
-            {
-              "t": "2023-12-01T03:07:49Z",
-              "u": "nkongsuwan",
-              "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2023-12-01T03:08:52Z",
-              "u": "nkongsuwan",
-              "tp": "IssuesEvent"
-            }
-          ]
-        },
-        {
           "name": "trustoverip/TechArch",
           "count": 1,
           "users": [
@@ -24463,7 +24405,7 @@
         },
         {
           "name": "IssueCommentEvent",
-          "count": 37
+          "count": 35
         },
         {
           "name": "PullRequestReviewEvent",
@@ -24475,7 +24417,7 @@
         },
         {
           "name": "IssuesEvent",
-          "count": 17
+          "count": 16
         },
         {
           "name": "CreateEvent",
@@ -24501,11 +24443,11 @@
     },
     {
       "name": "TWGC",
-      "count": 170,
+      "count": 169,
       "repos": [
         {
           "name": "Hyperledger-TWGC/tape",
-          "count": 102,
+          "count": 101,
           "users": [
             {
               "name": "SamYuan1990",
@@ -24513,7 +24455,7 @@
             },
             {
               "name": "dependabot[bot]",
-              "count": 29
+              "count": 28
             },
             {
               "name": "davidkhala",
@@ -24547,7 +24489,7 @@
             },
             {
               "name": "CreateEvent",
-              "count": 14
+              "count": 13
             },
             {
               "name": "DeleteEvent",
@@ -24584,11 +24526,6 @@
               "t": "2023-12-01T16:34:53Z",
               "u": "ryjones",
               "tp": "IssueCommentEvent"
-            },
-            {
-              "t": "2023-12-01T07:04:26Z",
-              "u": "dependabot[bot]",
-              "tp": "CreateEvent"
             },
             {
               "t": "2023-12-01T12:08:04Z",
@@ -25583,7 +25520,7 @@
         },
         {
           "name": "CreateEvent",
-          "count": 20
+          "count": 19
         },
         {
           "name": "DeleteEvent",
