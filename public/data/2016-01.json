@@ -1,104 +1,102 @@
-[
-  {
-    "projects": [
-      {
-        "activityTypes": [
-          {
-            "count": 8,
-            "name": "WatchEvent"
-          }
-        ],
-        "count": 8,
-        "name": "Hyperledger",
-        "repos": [
-          {
-            "activityTypes": [
-              {
-                "count": 8,
-                "name": "WatchEvent"
-              }
-            ],
-            "count": 8,
-            "events": [
-              {
-                "t": "2016-01-05T14:53:54Z",
-                "tp": "WatchEvent",
-                "u": "sxs1"
-              },
-              {
-                "t": "2016-01-14T18:27:58Z",
-                "tp": "WatchEvent",
-                "u": "pchevry"
-              },
-              {
-                "t": "2016-01-18T08:18:54Z",
-                "tp": "WatchEvent",
-                "u": "mffrench"
-              },
-              {
-                "t": "2016-01-23T14:27:25Z",
-                "tp": "WatchEvent",
-                "u": "nitinpunjabi"
-              },
-              {
-                "t": "2016-01-28T19:28:21Z",
-                "tp": "WatchEvent",
-                "u": "rickseeger"
-              },
-              {
-                "t": "2016-01-29T08:34:33Z",
-                "tp": "WatchEvent",
-                "u": "betachen"
-              },
-              {
-                "t": "2016-01-29T04:03:26Z",
-                "tp": "WatchEvent",
-                "u": "gavinengel"
-              },
-              {
-                "t": "2016-01-31T21:36:09Z",
-                "tp": "WatchEvent",
-                "u": "keithlynch"
-              }
-            ],
-            "name": "hyperledger/hyperledger",
-            "users": [
-              {
-                "count": 1,
-                "name": "sxs1"
-              },
-              {
-                "count": 1,
-                "name": "pchevry"
-              },
-              {
-                "count": 1,
-                "name": "mffrench"
-              },
-              {
-                "count": 1,
-                "name": "nitinpunjabi"
-              },
-              {
-                "count": 1,
-                "name": "rickseeger"
-              },
-              {
-                "count": 1,
-                "name": "betachen"
-              },
-              {
-                "count": 1,
-                "name": "gavinengel"
-              },
-              {
-                "count": 1,
-                "name": "keithlynch"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "projects": [
+    {
+      "name": "Hyperledger",
+      "count": 8,
+      "repos": [
+        {
+          "name": "hyperledger/hyperledger",
+          "count": 8,
+          "users": [
+            {
+              "name": "sxs1",
+              "count": 1
+            },
+            {
+              "name": "pchevry",
+              "count": 1
+            },
+            {
+              "name": "mffrench",
+              "count": 1
+            },
+            {
+              "name": "nitinpunjabi",
+              "count": 1
+            },
+            {
+              "name": "rickseeger",
+              "count": 1
+            },
+            {
+              "name": "betachen",
+              "count": 1
+            },
+            {
+              "name": "gavinengel",
+              "count": 1
+            },
+            {
+              "name": "keithlynch",
+              "count": 1
+            }
+          ],
+          "activityTypes": [
+            {
+              "name": "WatchEvent",
+              "count": 8
+            }
+          ],
+          "events": [
+            {
+              "t": "2016-01-05T14:53:54Z",
+              "u": "sxs1",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2016-01-14T18:27:58Z",
+              "u": "pchevry",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2016-01-18T08:18:54Z",
+              "u": "mffrench",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2016-01-23T14:27:25Z",
+              "u": "nitinpunjabi",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2016-01-28T19:28:21Z",
+              "u": "rickseeger",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2016-01-29T08:34:33Z",
+              "u": "betachen",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2016-01-29T04:03:26Z",
+              "u": "gavinengel",
+              "tp": "WatchEvent"
+            },
+            {
+              "t": "2016-01-31T21:36:09Z",
+              "u": "keithlynch",
+              "tp": "WatchEvent"
+            }
+          ]
+        }
+      ],
+      "activityTypes": [
+        {
+          "name": "WatchEvent",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}
