@@ -1,68 +1,68 @@
 {
   "projects": [
     {
-      "name": "Hyperledger",
+      "activityTypes": [
+        {
+          "count": 2,
+          "name": "CreateEvent"
+        },
+        {
+          "count": 2,
+          "name": "WatchEvent"
+        }
+      ],
       "count": 4,
+      "name": "Hyperledger",
       "repos": [
         {
-          "name": "hyperledger/hyperledger",
-          "count": 4,
-          "users": [
-            {
-              "name": "danoprey",
-              "count": 2
-            },
-            {
-              "name": "ManfredNeustifter",
-              "count": 1
-            },
-            {
-              "name": "Miliion-Zhang",
-              "count": 1
-            }
-          ],
           "activityTypes": [
             {
-              "name": "CreateEvent",
-              "count": 2
+              "count": 2,
+              "name": "CreateEvent"
             },
             {
-              "name": "WatchEvent",
-              "count": 2
+              "count": 2,
+              "name": "WatchEvent"
             }
           ],
+          "count": 4,
           "events": [
             {
               "t": "2015-11-03T22:32:18Z",
-              "u": "danoprey",
-              "tp": "CreateEvent"
+              "tp": "CreateEvent",
+              "u": "danoprey"
             },
             {
               "t": "2015-11-03T22:32:19Z",
-              "u": "danoprey",
-              "tp": "CreateEvent"
+              "tp": "CreateEvent",
+              "u": "danoprey"
             },
             {
               "t": "2015-11-04T08:13:32Z",
-              "u": "ManfredNeustifter",
-              "tp": "WatchEvent"
+              "tp": "WatchEvent",
+              "u": "ManfredNeustifter"
             },
             {
               "t": "2015-11-16T09:54:56Z",
-              "u": "Miliion-Zhang",
-              "tp": "WatchEvent"
+              "tp": "WatchEvent",
+              "u": "Miliion-Zhang"
+            }
+          ],
+          "name": "hyperledger/hyperledger",
+          "users": [
+            {
+              "count": 2,
+              "name": "danoprey"
+            },
+            {
+              "count": 1,
+              "name": "ManfredNeustifter"
+            },
+            {
+              "count": 1,
+              "name": "Miliion-Zhang"
             }
           ]
-        }
-      ],
-      "activityTypes": [
-        {
-          "name": "CreateEvent",
-          "count": 2
-        },
-        {
-          "name": "WatchEvent",
-          "count": 2
         }
       ]
     }
