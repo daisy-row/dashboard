@@ -3,7 +3,7 @@
     {
       "activityTypes": [
         {
-          "count": 603,
+          "count": 598,
           "name": "PullRequestEvent"
         },
         {
@@ -19,15 +19,15 @@
           "name": "ForkEvent"
         },
         {
-          "count": 301,
-          "name": "IssueCommentEvent"
-        },
-        {
           "count": 258,
           "name": "PushEvent"
         },
         {
-          "count": 27,
+          "count": 234,
+          "name": "IssueCommentEvent"
+        },
+        {
+          "count": 25,
           "name": "CreateEvent"
         },
         {
@@ -47,7 +47,7 @@
           "name": "CommitCommentEvent"
         }
       ],
-      "count": 2575,
+      "count": 2501,
       "name": "Fabric",
       "repos": [
         {
@@ -65,12 +65,12 @@
               "name": "PullRequestEvent"
             },
             {
-              "count": 180,
-              "name": "IssueCommentEvent"
-            },
-            {
               "count": 169,
               "name": "ForkEvent"
+            },
+            {
+              "count": 133,
+              "name": "IssueCommentEvent"
             },
             {
               "count": 85,
@@ -85,7 +85,7 @@
               "name": "ReleaseEvent"
             }
           ],
-          "count": 1378,
+          "count": 1331,
           "events": [
             {
               "t": "2019-12-01T19:49:40Z",
@@ -438,11 +438,6 @@
               "u": "Janek7"
             },
             {
-              "t": "2019-12-02T02:28:25Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
               "t": "2019-12-02T15:19:54Z",
               "tp": "IssueCommentEvent",
               "u": "pamandrejko"
@@ -496,21 +491,6 @@
               "t": "2019-12-02T03:11:34Z",
               "tp": "WatchEvent",
               "u": "justahuman1"
-            },
-            {
-              "t": "2019-12-02T15:16:50Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
-              "t": "2019-12-02T15:18:43Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
-              "t": "2019-12-02T15:20:33Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
             },
             {
               "t": "2019-12-02T07:31:59Z",
@@ -831,26 +811,6 @@
               "t": "2019-12-03T05:42:37Z",
               "tp": "PushEvent",
               "u": "guoger"
-            },
-            {
-              "t": "2019-12-03T14:11:54Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-03T14:13:32Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-03T15:10:06Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-03T15:29:31Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
             },
             {
               "t": "2019-12-03T12:07:17Z",
@@ -1383,11 +1343,6 @@
               "u": "lanwav"
             },
             {
-              "t": "2019-12-04T20:29:23Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
               "t": "2019-12-04T21:59:28Z",
               "tp": "IssueCommentEvent",
               "u": "pamandrejko"
@@ -1406,11 +1361,6 @@
               "t": "2019-12-04T06:03:42Z",
               "tp": "ForkEvent",
               "u": "esbug"
-            },
-            {
-              "t": "2019-12-04T19:04:19Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
             },
             {
               "t": "2019-12-04T12:52:46Z",
@@ -1783,61 +1733,6 @@
               "u": "SirRainman"
             },
             {
-              "t": "2019-12-05T04:59:43Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-05T05:15:14Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-05T05:15:58Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-05T05:16:05Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-05T05:16:12Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-05T05:16:19Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-05T05:29:26Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-05T05:30:14Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-05T07:34:40Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-05T14:46:36Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-05T15:15:27Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
               "t": "2019-12-05T21:13:10Z",
               "tp": "IssueCommentEvent",
               "u": "pamandrejko"
@@ -1891,21 +1786,6 @@
               "t": "2019-12-05T18:34:22Z",
               "tp": "PullRequestEvent",
               "u": "idiota101"
-            },
-            {
-              "t": "2019-12-05T04:54:20Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
-              "t": "2019-12-05T05:08:18Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
-              "t": "2019-12-05T07:34:13Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
             },
             {
               "t": "2019-12-05T09:23:26Z",
@@ -2378,44 +2258,9 @@
               "u": "win1728"
             },
             {
-              "t": "2019-12-06T21:56:20Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-06T21:57:59Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
               "t": "2019-12-06T07:50:43Z",
               "tp": "WatchEvent",
               "u": "wangkang"
-            },
-            {
-              "t": "2019-12-06T18:11:11Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
-              "t": "2019-12-06T20:22:28Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
-              "t": "2019-12-06T21:41:45Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
-              "t": "2019-12-06T23:08:56Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
-              "t": "2019-12-06T23:34:55Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
             },
             {
               "t": "2019-12-06T12:16:51Z",
@@ -2621,21 +2466,6 @@
               "t": "2019-12-08T15:05:07Z",
               "tp": "ForkEvent",
               "u": "binhn"
-            },
-            {
-              "t": "2019-12-08T22:27:31Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-08T22:28:04Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-08T22:28:19Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
             },
             {
               "t": "2019-12-08T14:02:13Z",
@@ -2901,16 +2731,6 @@
               "t": "2019-12-09T06:57:11Z",
               "tp": "PullRequestEvent",
               "u": "idiota101"
-            },
-            {
-              "t": "2019-12-09T15:28:05Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
-              "t": "2019-12-09T15:35:24Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
             },
             {
               "t": "2019-12-09T07:14:43Z",
@@ -3858,21 +3678,6 @@
               "u": "idiota101"
             },
             {
-              "t": "2019-12-11T16:54:44Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
-              "t": "2019-12-11T17:17:54Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
-              "t": "2019-12-11T19:11:52Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
-            },
-            {
               "t": "2019-12-11T02:46:21Z",
               "tp": "WatchEvent",
               "u": "xxl-cc"
@@ -4388,11 +4193,6 @@
               "u": "a1oleg"
             },
             {
-              "t": "2019-12-12T19:08:46Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
               "t": "2019-12-12T13:34:08Z",
               "tp": "PullRequestReviewCommentEvent",
               "u": "pamandrejko"
@@ -4576,11 +4376,6 @@
               "t": "2019-12-12T22:05:35Z",
               "tp": "PullRequestReviewCommentEvent",
               "u": "pamandrejko"
-            },
-            {
-              "t": "2019-12-12T20:11:41Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
             },
             {
               "t": "2019-12-12T13:45:05Z",
@@ -5318,11 +5113,6 @@
               "u": "GitHub-ZhuTao"
             },
             {
-              "t": "2019-12-17T07:50:12Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
               "t": "2019-12-17T06:57:05Z",
               "tp": "WatchEvent",
               "u": "yunjuanyunshu07"
@@ -5346,11 +5136,6 @@
               "t": "2019-12-17T18:30:41Z",
               "tp": "PullRequestReviewCommentEvent",
               "u": "caod123"
-            },
-            {
-              "t": "2019-12-17T16:41:38Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
             },
             {
               "t": "2019-12-17T01:34:17Z",
@@ -5591,21 +5376,6 @@
               "t": "2019-12-18T09:53:36Z",
               "tp": "WatchEvent",
               "u": "leonwgc"
-            },
-            {
-              "t": "2019-12-18T05:32:05Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-18T13:56:58Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2019-12-18T15:51:51Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
             },
             {
               "t": "2019-12-18T23:11:40Z",
@@ -6056,11 +5826,6 @@
               "t": "2019-12-22T14:40:00Z",
               "tp": "WatchEvent",
               "u": "THZSummer"
-            },
-            {
-              "t": "2019-12-22T21:28:41Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
             },
             {
               "t": "2019-12-22T08:56:27Z",
@@ -7017,20 +6782,12 @@
               "name": "nikhil550"
             },
             {
-              "count": 26,
-              "name": "azure-pipelines[bot]"
-            },
-            {
               "count": 25,
               "name": "muralisrini"
             },
             {
               "count": 25,
               "name": "wlahti"
-            },
-            {
-              "count": 21,
-              "name": "github-actions[bot]"
             },
             {
               "count": 14,
@@ -10212,7 +9969,7 @@
               "name": "PushEvent"
             },
             {
-              "count": 16,
+              "count": 14,
               "name": "IssueCommentEvent"
             },
             {
@@ -10224,7 +9981,7 @@
               "name": "ForkEvent"
             }
           ],
-          "count": 149,
+          "count": 147,
           "events": [
             {
               "t": "2019-12-01T23:28:59Z",
@@ -10547,11 +10304,6 @@
               "u": "harrisob"
             },
             {
-              "t": "2019-12-12T20:10:04Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
               "t": "2019-12-12T13:50:48Z",
               "tp": "ForkEvent",
               "u": "ryjones"
@@ -10575,11 +10327,6 @@
               "t": "2019-12-13T15:29:33Z",
               "tp": "PushEvent",
               "u": "harrisob"
-            },
-            {
-              "t": "2019-12-13T12:54:09Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
             },
             {
               "t": "2019-12-13T15:47:35Z",
@@ -11007,10 +10754,6 @@
               "name": "sstone1"
             },
             {
-              "count": 2,
-              "name": "azure-pipelines[bot]"
-            },
-            {
               "count": 1,
               "name": "amcelroy"
             },
@@ -11111,7 +10854,7 @@
               "name": "PushEvent"
             },
             {
-              "count": 16,
+              "count": 13,
               "name": "IssueCommentEvent"
             },
             {
@@ -11135,7 +10878,7 @@
               "name": "ReleaseEvent"
             }
           ],
-          "count": 140,
+          "count": 137,
           "events": [
             {
               "t": "2019-12-02T14:48:50Z",
@@ -11406,16 +11149,6 @@
               "t": "2019-12-05T15:21:46Z",
               "tp": "PullRequestEvent",
               "u": "bharadwajambati95"
-            },
-            {
-              "t": "2019-12-05T04:01:52Z",
-              "tp": "IssueCommentEvent",
-              "u": "lgtm-com[bot]"
-            },
-            {
-              "t": "2019-12-05T15:03:15Z",
-              "tp": "IssueCommentEvent",
-              "u": "lgtm-com[bot]"
             },
             {
               "t": "2019-12-05T09:02:51Z",
@@ -11748,11 +11481,6 @@
               "u": "bharadwajambati95"
             },
             {
-              "t": "2019-12-17T16:28:29Z",
-              "tp": "IssueCommentEvent",
-              "u": "lgtm-com[bot]"
-            },
-            {
               "t": "2019-12-18T15:32:56Z",
               "tp": "PullRequestEvent",
               "u": "rameshthoomu"
@@ -11867,10 +11595,6 @@
             {
               "count": 4,
               "name": "mastersingh24"
-            },
-            {
-              "count": 3,
-              "name": "lgtm-com[bot]"
             },
             {
               "count": 2,
@@ -13117,10 +12841,6 @@
               "name": "PullRequestEvent"
             },
             {
-              "count": 12,
-              "name": "IssueCommentEvent"
-            },
-            {
               "count": 10,
               "name": "ForkEvent"
             },
@@ -13129,11 +12849,15 @@
               "name": "PushEvent"
             },
             {
+              "count": 4,
+              "name": "IssueCommentEvent"
+            },
+            {
               "count": 1,
               "name": "ReleaseEvent"
             }
           ],
-          "count": 95,
+          "count": 87,
           "events": [
             {
               "t": "2019-12-02T14:08:53Z",
@@ -13164,11 +12888,6 @@
               "t": "2019-12-04T01:41:03Z",
               "tp": "ForkEvent",
               "u": "TheRainight"
-            },
-            {
-              "t": "2019-12-05T02:36:58Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
             },
             {
               "t": "2019-12-05T13:57:07Z",
@@ -13246,11 +12965,6 @@
               "u": "troyronda"
             },
             {
-              "t": "2019-12-09T14:31:16Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
               "t": "2019-12-09T14:23:09Z",
               "tp": "ReleaseEvent",
               "u": "bstasyszyn"
@@ -13294,16 +13008,6 @@
               "t": "2019-12-13T08:47:07Z",
               "tp": "WatchEvent",
               "u": "NzKSO"
-            },
-            {
-              "t": "2019-12-13T00:38:53Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-12-13T18:36:59Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2019-12-13T00:24:49Z",
@@ -13359,16 +13063,6 @@
               "t": "2019-12-16T08:21:25Z",
               "tp": "ForkEvent",
               "u": "streamye"
-            },
-            {
-              "t": "2019-12-19T16:36:12Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-12-19T16:51:05Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2019-12-19T16:23:55Z",
@@ -13469,11 +13163,6 @@
               "t": "2019-12-27T17:16:47Z",
               "tp": "PullRequestReviewCommentEvent",
               "u": "yakumioto"
-            },
-            {
-              "t": "2019-12-27T06:31:19Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2019-12-27T16:22:29Z",
@@ -13591,11 +13280,6 @@
               "u": "yakumioto"
             },
             {
-              "t": "2019-12-31T11:02:15Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
               "t": "2019-12-31T10:16:59Z",
               "tp": "WatchEvent",
               "u": "NarimasaSakurai"
@@ -13630,10 +13314,6 @@
               "name": "troyronda"
             },
             {
-              "count": 7,
-              "name": "codecov[bot]"
-            },
-            {
               "count": 2,
               "name": "TheRainight"
             },
@@ -13652,10 +13332,6 @@
             {
               "count": 1,
               "name": "GreatMartial"
-            },
-            {
-              "count": 1,
-              "name": "stale[bot]"
             },
             {
               "count": 1,
@@ -13746,7 +13422,7 @@
               "name": "IssueCommentEvent"
             },
             {
-              "count": 17,
+              "count": 16,
               "name": "PullRequestEvent"
             },
             {
@@ -13766,7 +13442,7 @@
               "name": "PushEvent"
             },
             {
-              "count": 2,
+              "count": 1,
               "name": "CreateEvent"
             },
             {
@@ -13774,7 +13450,7 @@
               "name": "CommitCommentEvent"
             }
           ],
-          "count": 83,
+          "count": 81,
           "events": [
             {
               "t": "2019-12-02T05:05:14Z",
@@ -14002,16 +13678,6 @@
               "u": "yeasy"
             },
             {
-              "t": "2019-12-10T02:59:13Z",
-              "tp": "CreateEvent",
-              "u": "dependabot[bot]"
-            },
-            {
-              "t": "2019-12-10T02:59:14Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot[bot]"
-            },
-            {
               "t": "2019-12-10T08:16:51Z",
               "tp": "PullRequestReviewCommentEvent",
               "u": "dexhunter"
@@ -14221,10 +13887,6 @@
             {
               "count": 2,
               "name": "syegres8"
-            },
-            {
-              "count": 2,
-              "name": "dependabot[bot]"
             },
             {
               "count": 2,
@@ -16240,12 +15902,8 @@
         {
           "activityTypes": [
             {
-              "count": 14,
+              "count": 12,
               "name": "PullRequestEvent"
-            },
-            {
-              "count": 6,
-              "name": "IssueCommentEvent"
             },
             {
               "count": 3,
@@ -16268,7 +15926,7 @@
               "name": "WatchEvent"
             }
           ],
-          "count": 29,
+          "count": 21,
           "events": [
             {
               "t": "2019-12-05T13:16:37Z",
@@ -16321,16 +15979,6 @@
               "u": "denyeart"
             },
             {
-              "t": "2019-12-05T11:04:35Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-12-05T18:04:35Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
               "t": "2019-12-05T10:58:09Z",
               "tp": "PullRequestEvent",
               "u": "mastersingh24"
@@ -16341,39 +15989,9 @@
               "u": "denyeart"
             },
             {
-              "t": "2019-12-06T18:08:04Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-12-06T18:08:05Z",
-              "tp": "PullRequestEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-12-06T19:08:03Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-12-07T19:39:51Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-12-07T19:39:53Z",
-              "tp": "PullRequestEvent",
-              "u": "stale[bot]"
-            },
-            {
               "t": "2019-12-08T19:03:33Z",
               "tp": "PullRequestEvent",
               "u": "denyeart"
-            },
-            {
-              "t": "2019-12-08T19:14:58Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
             },
             {
               "t": "2019-12-08T21:16:59Z",
@@ -16423,10 +16041,6 @@
               "name": "denyeart"
             },
             {
-              "count": 8,
-              "name": "stale[bot]"
-            },
-            {
               "count": 7,
               "name": "mastersingh24"
             },
@@ -16437,121 +16051,6 @@
             {
               "count": 1,
               "name": "serial-coder"
-            }
-          ]
-        },
-        {
-          "activityTypes": [
-            {
-              "count": 6,
-              "name": "PullRequestEvent"
-            },
-            {
-              "count": 3,
-              "name": "ForkEvent"
-            },
-            {
-              "count": 2,
-              "name": "IssueCommentEvent"
-            },
-            {
-              "count": 2,
-              "name": "PushEvent"
-            }
-          ],
-          "count": 13,
-          "events": [
-            {
-              "t": "2019-12-12T15:45:07Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-12-12T15:45:08Z",
-              "tp": "PullRequestEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-12-12T17:15:35Z",
-              "tp": "ForkEvent",
-              "u": "ryjones"
-            },
-            {
-              "t": "2019-12-12T17:16:57Z",
-              "tp": "PullRequestEvent",
-              "u": "ryjones"
-            },
-            {
-              "t": "2019-12-12T17:17:34Z",
-              "tp": "PullRequestEvent",
-              "u": "ryjones"
-            },
-            {
-              "t": "2019-12-12T17:18:06Z",
-              "tp": "IssueCommentEvent",
-              "u": "ryjones"
-            },
-            {
-              "t": "2019-12-12T17:55:53Z",
-              "tp": "PullRequestEvent",
-              "u": "bpbuch"
-            },
-            {
-              "t": "2019-12-12T17:55:54Z",
-              "tp": "PushEvent",
-              "u": "bpbuch"
-            },
-            {
-              "t": "2019-12-15T20:58:57Z",
-              "tp": "PullRequestEvent",
-              "u": "troyronda"
-            },
-            {
-              "t": "2019-12-15T20:58:57Z",
-              "tp": "PushEvent",
-              "u": "troyronda"
-            },
-            {
-              "t": "2019-12-15T19:43:45Z",
-              "tp": "ForkEvent",
-              "u": "bstasyszyn"
-            },
-            {
-              "t": "2019-12-15T20:05:35Z",
-              "tp": "PullRequestEvent",
-              "u": "bstasyszyn"
-            },
-            {
-              "t": "2019-12-24T11:18:33Z",
-              "tp": "ForkEvent",
-              "u": "vishwajeety12"
-            }
-          ],
-          "name": "hyperledger/fabric-cli",
-          "users": [
-            {
-              "count": 4,
-              "name": "ryjones"
-            },
-            {
-              "count": 2,
-              "name": "stale[bot]"
-            },
-            {
-              "count": 2,
-              "name": "bpbuch"
-            },
-            {
-              "count": 2,
-              "name": "troyronda"
-            },
-            {
-              "count": 2,
-              "name": "bstasyszyn"
-            },
-            {
-              "count": 1,
-              "name": "vishwajeety12"
             }
           ]
         },
@@ -16853,6 +16352,107 @@
         {
           "activityTypes": [
             {
+              "count": 5,
+              "name": "PullRequestEvent"
+            },
+            {
+              "count": 3,
+              "name": "ForkEvent"
+            },
+            {
+              "count": 2,
+              "name": "PushEvent"
+            },
+            {
+              "count": 1,
+              "name": "IssueCommentEvent"
+            }
+          ],
+          "count": 11,
+          "events": [
+            {
+              "t": "2019-12-12T17:15:35Z",
+              "tp": "ForkEvent",
+              "u": "ryjones"
+            },
+            {
+              "t": "2019-12-12T17:16:57Z",
+              "tp": "PullRequestEvent",
+              "u": "ryjones"
+            },
+            {
+              "t": "2019-12-12T17:17:34Z",
+              "tp": "PullRequestEvent",
+              "u": "ryjones"
+            },
+            {
+              "t": "2019-12-12T17:18:06Z",
+              "tp": "IssueCommentEvent",
+              "u": "ryjones"
+            },
+            {
+              "t": "2019-12-12T17:55:53Z",
+              "tp": "PullRequestEvent",
+              "u": "bpbuch"
+            },
+            {
+              "t": "2019-12-12T17:55:54Z",
+              "tp": "PushEvent",
+              "u": "bpbuch"
+            },
+            {
+              "t": "2019-12-15T20:58:57Z",
+              "tp": "PullRequestEvent",
+              "u": "troyronda"
+            },
+            {
+              "t": "2019-12-15T20:58:57Z",
+              "tp": "PushEvent",
+              "u": "troyronda"
+            },
+            {
+              "t": "2019-12-15T19:43:45Z",
+              "tp": "ForkEvent",
+              "u": "bstasyszyn"
+            },
+            {
+              "t": "2019-12-15T20:05:35Z",
+              "tp": "PullRequestEvent",
+              "u": "bstasyszyn"
+            },
+            {
+              "t": "2019-12-24T11:18:33Z",
+              "tp": "ForkEvent",
+              "u": "vishwajeety12"
+            }
+          ],
+          "name": "hyperledger/fabric-cli",
+          "users": [
+            {
+              "count": 4,
+              "name": "ryjones"
+            },
+            {
+              "count": 2,
+              "name": "bpbuch"
+            },
+            {
+              "count": 2,
+              "name": "troyronda"
+            },
+            {
+              "count": 2,
+              "name": "bstasyszyn"
+            },
+            {
+              "count": 1,
+              "name": "vishwajeety12"
+            }
+          ]
+        },
+        {
+          "activityTypes": [
+            {
               "count": 3,
               "name": "WatchEvent"
             },
@@ -17072,38 +16672,6 @@
           "activityTypes": [
             {
               "count": 1,
-              "name": "CreateEvent"
-            },
-            {
-              "count": 1,
-              "name": "PullRequestEvent"
-            }
-          ],
-          "count": 2,
-          "events": [
-            {
-              "t": "2019-12-30T02:56:43Z",
-              "tp": "CreateEvent",
-              "u": "dependabot[bot]"
-            },
-            {
-              "t": "2019-12-30T02:56:44Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot[bot]"
-            }
-          ],
-          "name": "hyperledger-labs/hyperledger-fabric-based-access-control",
-          "users": [
-            {
-              "count": 2,
-              "name": "dependabot[bot]"
-            }
-          ]
-        },
-        {
-          "activityTypes": [
-            {
-              "count": 1,
               "name": "IssueCommentEvent"
             }
           ],
@@ -17128,11 +16696,11 @@
     {
       "activityTypes": [
         {
-          "count": 63,
+          "count": 56,
           "name": "IssueCommentEvent"
         },
         {
-          "count": 55,
+          "count": 52,
           "name": "PullRequestEvent"
         },
         {
@@ -17152,7 +16720,7 @@
           "name": "IssuesEvent"
         },
         {
-          "count": 10,
+          "count": 8,
           "name": "CreateEvent"
         },
         {
@@ -17162,13 +16730,9 @@
         {
           "count": 1,
           "name": "ReleaseEvent"
-        },
-        {
-          "count": 1,
-          "name": "DeleteEvent"
         }
       ],
-      "count": 235,
+      "count": 222,
       "name": "Hyperledger Labs",
       "repos": [
         {
@@ -18088,19 +17652,19 @@
               "name": "PullRequestEvent"
             },
             {
-              "count": 2,
-              "name": "IssueCommentEvent"
-            },
-            {
               "count": 1,
               "name": "WatchEvent"
             },
             {
               "count": 1,
               "name": "PushEvent"
+            },
+            {
+              "count": 1,
+              "name": "IssueCommentEvent"
             }
           ],
-          "count": 19,
+          "count": 18,
           "events": [
             {
               "t": "2019-12-16T20:00:26Z",
@@ -18111,11 +17675,6 @@
               "t": "2019-12-16T17:56:13Z",
               "tp": "WatchEvent",
               "u": "lvoooo"
-            },
-            {
-              "t": "2019-12-16T17:01:02Z",
-              "tp": "IssueCommentEvent",
-              "u": "lgtm-com[bot]"
             },
             {
               "t": "2019-12-16T16:53:58Z",
@@ -18215,141 +17774,6 @@
             {
               "count": 1,
               "name": "lvoooo"
-            },
-            {
-              "count": 1,
-              "name": "lgtm-com[bot]"
-            }
-          ]
-        },
-        {
-          "activityTypes": [
-            {
-              "count": 7,
-              "name": "PushEvent"
-            },
-            {
-              "count": 4,
-              "name": "IssueCommentEvent"
-            },
-            {
-              "count": 3,
-              "name": "PullRequestEvent"
-            },
-            {
-              "count": 2,
-              "name": "CreateEvent"
-            },
-            {
-              "count": 1,
-              "name": "DeleteEvent"
-            }
-          ],
-          "count": 17,
-          "events": [
-            {
-              "t": "2019-12-09T17:27:15Z",
-              "tp": "CreateEvent",
-              "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-12-09T17:27:48Z",
-              "tp": "PushEvent",
-              "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-12-09T18:17:09Z",
-              "tp": "PushEvent",
-              "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-12-09T18:17:57Z",
-              "tp": "PushEvent",
-              "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-12-10T10:45:42Z",
-              "tp": "PushEvent",
-              "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-12-10T10:53:30Z",
-              "tp": "PushEvent",
-              "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-12-10T18:15:25Z",
-              "tp": "PushEvent",
-              "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-12-10T18:16:31Z",
-              "tp": "PullRequestEvent",
-              "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-12-10T19:00:28Z",
-              "tp": "PushEvent",
-              "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-12-10T18:29:12Z",
-              "tp": "IssueCommentEvent",
-              "u": "lgtm-com[bot]"
-            },
-            {
-              "t": "2019-12-10T19:14:02Z",
-              "tp": "IssueCommentEvent",
-              "u": "lgtm-com[bot]"
-            },
-            {
-              "t": "2019-12-14T13:58:19Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-12-14T13:50:08Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-12-14T13:50:08Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-12-14T13:50:11Z",
-              "tp": "IssueCommentEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-12-14T13:50:12Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-12-14T13:50:13Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            }
-          ],
-          "name": "hyperledger-labs/nephos",
-          "users": [
-            {
-              "count": 9,
-              "name": "alexvicegrab"
-            },
-            {
-              "count": 5,
-              "name": "dependabot-preview[bot]"
-            },
-            {
-              "count": 2,
-              "name": "lgtm-com[bot]"
-            },
-            {
-              "count": 1,
-              "name": "codecov[bot]"
             }
           ]
         },
@@ -18454,12 +17878,79 @@
         {
           "activityTypes": [
             {
-              "count": 4,
-              "name": "PullRequestEvent"
+              "count": 7,
+              "name": "PushEvent"
             },
             {
-              "count": 2,
-              "name": "IssueCommentEvent"
+              "count": 1,
+              "name": "CreateEvent"
+            },
+            {
+              "count": 1,
+              "name": "PullRequestEvent"
+            }
+          ],
+          "count": 9,
+          "events": [
+            {
+              "t": "2019-12-09T17:27:15Z",
+              "tp": "CreateEvent",
+              "u": "alexvicegrab"
+            },
+            {
+              "t": "2019-12-09T17:27:48Z",
+              "tp": "PushEvent",
+              "u": "alexvicegrab"
+            },
+            {
+              "t": "2019-12-09T18:17:09Z",
+              "tp": "PushEvent",
+              "u": "alexvicegrab"
+            },
+            {
+              "t": "2019-12-09T18:17:57Z",
+              "tp": "PushEvent",
+              "u": "alexvicegrab"
+            },
+            {
+              "t": "2019-12-10T10:45:42Z",
+              "tp": "PushEvent",
+              "u": "alexvicegrab"
+            },
+            {
+              "t": "2019-12-10T10:53:30Z",
+              "tp": "PushEvent",
+              "u": "alexvicegrab"
+            },
+            {
+              "t": "2019-12-10T18:15:25Z",
+              "tp": "PushEvent",
+              "u": "alexvicegrab"
+            },
+            {
+              "t": "2019-12-10T18:16:31Z",
+              "tp": "PullRequestEvent",
+              "u": "alexvicegrab"
+            },
+            {
+              "t": "2019-12-10T19:00:28Z",
+              "tp": "PushEvent",
+              "u": "alexvicegrab"
+            }
+          ],
+          "name": "hyperledger-labs/nephos",
+          "users": [
+            {
+              "count": 9,
+              "name": "alexvicegrab"
+            }
+          ]
+        },
+        {
+          "activityTypes": [
+            {
+              "count": 4,
+              "name": "PullRequestEvent"
             },
             {
               "count": 2,
@@ -18474,7 +17965,7 @@
               "name": "ReleaseEvent"
             }
           ],
-          "count": 10,
+          "count": 8,
           "events": [
             {
               "t": "2019-12-13T00:15:19Z",
@@ -18485,11 +17976,6 @@
               "t": "2019-12-13T00:15:21Z",
               "tp": "ReleaseEvent",
               "u": "dpitt"
-            },
-            {
-              "t": "2019-12-14T19:27:24Z",
-              "tp": "IssueCommentEvent",
-              "u": "lgtm-com[bot]"
             },
             {
               "t": "2019-12-14T19:23:34Z",
@@ -18505,11 +17991,6 @@
               "t": "2019-12-14T19:27:41Z",
               "tp": "PushEvent",
               "u": "dpitt"
-            },
-            {
-              "t": "2019-12-15T14:45:06Z",
-              "tp": "IssueCommentEvent",
-              "u": "lgtm-com[bot]"
             },
             {
               "t": "2019-12-15T14:41:33Z",
@@ -18532,10 +18013,6 @@
             {
               "count": 8,
               "name": "dpitt"
-            },
-            {
-              "count": 2,
-              "name": "lgtm-com[bot]"
             }
           ]
         },
@@ -18552,17 +18029,9 @@
             {
               "count": 1,
               "name": "IssueCommentEvent"
-            },
-            {
-              "count": 1,
-              "name": "CreateEvent"
-            },
-            {
-              "count": 1,
-              "name": "PullRequestEvent"
             }
           ],
-          "count": 6,
+          "count": 4,
           "events": [
             {
               "t": "2019-12-10T12:05:35Z",
@@ -18583,24 +18052,10 @@
               "t": "2019-12-23T10:07:25Z",
               "tp": "WatchEvent",
               "u": "T-Jedsada"
-            },
-            {
-              "t": "2019-12-28T15:13:34Z",
-              "tp": "CreateEvent",
-              "u": "dependabot[bot]"
-            },
-            {
-              "t": "2019-12-28T15:13:34Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot[bot]"
             }
           ],
           "name": "hyperledger-labs/convector",
           "users": [
-            {
-              "count": 2,
-              "name": "dependabot[bot]"
-            },
             {
               "count": 1,
               "name": "sumitchauhanlab"

@@ -7,6 +7,7 @@ const ROOT_DIR = path.resolve(__dirname, '../new-actions');
 const DATA_DIR = path.resolve(__dirname, '../public/data');
 const INDEX_FILE = path.join(DATA_DIR, 'index.json');
 const PROJECTS_CONFIG = path.resolve(__dirname, '../projects.json');
+const BLOCK_CONFIG = path.resolve(__dirname, '../block.json');
 
 interface ProjectConfig {
   name: string;
@@ -74,6 +75,16 @@ async function aggregate() {
       console.log(`Loaded ${config.length} projects with ${Object.keys(repoToProject).length} repos.`);
     }
 
+    // Load blocked actors
+    const blockedActors = new Set<string>();
+    if (fs.existsSync(BLOCK_CONFIG)) {
+      const blocked: string[] = await fs.readJson(BLOCK_CONFIG);
+      for (const actor of blocked) {
+        blockedActors.add(actor);
+      }
+      console.log(`Loaded ${blockedActors.size} blocked actors.`);
+    }
+
     // projectsByMonth[YYYY-MM][projectName]
     const projectsByMonth: Record<string, Record<string, ProjectActivity>> = {};
 
@@ -111,6 +122,8 @@ async function aggregate() {
             actor = event.actor.login || String(event.actor.id);
           }
         }
+
+        if (blockedActors.has(actor)) continue;
 
         const type = event.type || 'UnknownEvent';
         const timestamp = event.timestamp || event.created_at || new Date().toISOString();

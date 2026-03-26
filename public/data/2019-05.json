@@ -15,11 +15,11 @@
           "name": "PushEvent"
         },
         {
-          "count": 60,
+          "count": 57,
           "name": "PullRequestEvent"
         },
         {
-          "count": 32,
+          "count": 26,
           "name": "IssueCommentEvent"
         },
         {
@@ -35,7 +35,7 @@
           "name": "CommitCommentEvent"
         }
       ],
-      "count": 928,
+      "count": 919,
       "name": "Fabric",
       "repos": [
         {
@@ -3526,19 +3526,19 @@
               "name": "WatchEvent"
             },
             {
-              "count": 12,
-              "name": "PullRequestEvent"
-            },
-            {
               "count": 9,
               "name": "PushEvent"
             },
             {
               "count": 9,
+              "name": "PullRequestEvent"
+            },
+            {
+              "count": 3,
               "name": "IssueCommentEvent"
             }
           ],
-          "count": 140,
+          "count": 131,
           "events": [
             {
               "t": "2019-05-01T16:21:47Z",
@@ -4011,21 +4011,6 @@
               "u": "zheng19970225"
             },
             {
-              "t": "2019-05-24T11:35:10Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-05-24T11:35:11Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-05-24T11:35:12Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
               "t": "2019-05-24T10:49:17Z",
               "tp": "PullRequestEvent",
               "u": "mana0306"
@@ -4094,36 +4079,6 @@
               "t": "2019-05-25T22:24:36Z",
               "tp": "ForkEvent",
               "u": "basha2016"
-            },
-            {
-              "t": "2019-05-25T12:01:57Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-05-25T12:01:58Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-05-25T12:01:59Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-05-25T12:02:00Z",
-              "tp": "PullRequestEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-05-25T12:02:02Z",
-              "tp": "PullRequestEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-05-25T12:02:02Z",
-              "tp": "PullRequestEvent",
-              "u": "stale[bot]"
             },
             {
               "t": "2019-05-25T09:14:51Z",
@@ -4250,10 +4205,6 @@
             {
               "count": 9,
               "name": "hyperledger-github"
-            },
-            {
-              "count": 9,
-              "name": "stale[bot]"
             },
             {
               "count": 3,
@@ -7241,7 +7192,7 @@
           "name": "PullRequestEvent"
         },
         {
-          "count": 47,
+          "count": 45,
           "name": "IssueCommentEvent"
         },
         {
@@ -7269,7 +7220,7 @@
           "name": "CommitCommentEvent"
         }
       ],
-      "count": 483,
+      "count": 481,
       "name": "Hyperledger Labs",
       "repos": [
         {
@@ -9466,12 +9417,12 @@
               "name": "PullRequestEvent"
             },
             {
-              "count": 4,
-              "name": "IssueCommentEvent"
+              "count": 2,
+              "name": "PullRequestReviewCommentEvent"
             },
             {
               "count": 2,
-              "name": "PullRequestReviewCommentEvent"
+              "name": "IssueCommentEvent"
             },
             {
               "count": 2,
@@ -9482,7 +9433,7 @@
               "name": "PushEvent"
             }
           ],
-          "count": 27,
+          "count": 25,
           "events": [
             {
               "t": "2019-05-02T15:32:21Z",
@@ -9498,11 +9449,6 @@
               "t": "2019-05-02T11:46:50Z",
               "tp": "ForkEvent",
               "u": "aidtechnology"
-            },
-            {
-              "t": "2019-05-02T15:09:34Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2019-05-02T12:57:06Z",
@@ -9580,11 +9526,6 @@
               "u": "chain-gang"
             },
             {
-              "t": "2019-05-14T21:35:21Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
               "t": "2019-05-15T14:34:26Z",
               "tp": "PullRequestEvent",
               "u": "nicolapaoli"
@@ -9629,10 +9570,6 @@
             {
               "count": 6,
               "name": "nicolapaoli"
-            },
-            {
-              "count": 2,
-              "name": "codecov[bot]"
             },
             {
               "count": 2,

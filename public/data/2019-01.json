@@ -19,11 +19,11 @@
           "name": "IssuesEvent"
         },
         {
-          "count": 92,
+          "count": 90,
           "name": "PullRequestEvent"
         },
         {
-          "count": 49,
+          "count": 40,
           "name": "IssueCommentEvent"
         },
         {
@@ -35,7 +35,7 @@
           "name": "CommitCommentEvent"
         }
       ],
-      "count": 1159,
+      "count": 1148,
       "name": "Fabric",
       "repos": [
         {
@@ -5085,19 +5085,15 @@
               "name": "PushEvent"
             },
             {
-              "count": 4,
+              "count": 3,
               "name": "PullRequestEvent"
-            },
-            {
-              "count": 4,
-              "name": "IssueCommentEvent"
             },
             {
               "count": 2,
               "name": "CreateEvent"
             }
           ],
-          "count": 109,
+          "count": 104,
           "events": [
             {
               "t": "2019-01-01T16:31:57Z",
@@ -5225,11 +5221,6 @@
               "u": "suman123das123"
             },
             {
-              "t": "2019-01-08T23:41:20Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
               "t": "2019-01-08T09:21:51Z",
               "tp": "ForkEvent",
               "u": "skykira"
@@ -5278,21 +5269,6 @@
               "t": "2019-01-10T07:05:04Z",
               "tp": "WatchEvent",
               "u": "5sWind"
-            },
-            {
-              "t": "2019-01-10T00:36:58Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-01-10T00:37:01Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-01-10T00:37:03Z",
-              "tp": "PullRequestEvent",
-              "u": "stale[bot]"
             },
             {
               "t": "2019-01-10T14:00:06Z",
@@ -5535,11 +5511,6 @@
               "u": "smartheye"
             },
             {
-              "t": "2019-01-25T18:04:41Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
               "t": "2019-01-25T07:37:30Z",
               "tp": "ForkEvent",
               "u": "preminem"
@@ -5650,10 +5621,6 @@
             {
               "count": 11,
               "name": "hyperledger-github"
-            },
-            {
-              "count": 5,
-              "name": "stale[bot]"
             },
             {
               "count": 4,
@@ -6000,432 +5967,6 @@
         {
           "activityTypes": [
             {
-              "count": 18,
-              "name": "WatchEvent"
-            },
-            {
-              "count": 15,
-              "name": "ForkEvent"
-            },
-            {
-              "count": 8,
-              "name": "PullRequestEvent"
-            },
-            {
-              "count": 6,
-              "name": "IssueCommentEvent"
-            },
-            {
-              "count": 3,
-              "name": "PushEvent"
-            },
-            {
-              "count": 2,
-              "name": "CreateEvent"
-            }
-          ],
-          "count": 52,
-          "events": [
-            {
-              "t": "2019-01-02T13:53:26Z",
-              "tp": "ForkEvent",
-              "u": "skaglobal"
-            },
-            {
-              "t": "2019-01-03T05:34:29Z",
-              "tp": "ForkEvent",
-              "u": "nhancv"
-            },
-            {
-              "t": "2019-01-03T15:01:15Z",
-              "tp": "WatchEvent",
-              "u": "xiruanliuwei"
-            },
-            {
-              "t": "2019-01-03T15:01:16Z",
-              "tp": "ForkEvent",
-              "u": "xiruanliuwei"
-            },
-            {
-              "t": "2019-01-03T01:22:34Z",
-              "tp": "ForkEvent",
-              "u": "Dingxining"
-            },
-            {
-              "t": "2019-01-07T09:42:26Z",
-              "tp": "WatchEvent",
-              "u": "smalloneSAMA"
-            },
-            {
-              "t": "2019-01-08T10:36:50Z",
-              "tp": "ForkEvent",
-              "u": "skykira"
-            },
-            {
-              "t": "2019-01-09T17:42:02Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-01-09T15:58:36Z",
-              "tp": "ForkEvent",
-              "u": "cgballance"
-            },
-            {
-              "t": "2019-01-09T16:03:14Z",
-              "tp": "PullRequestEvent",
-              "u": "cgballance"
-            },
-            {
-              "t": "2019-01-09T20:46:33Z",
-              "tp": "PullRequestEvent",
-              "u": "cgballance"
-            },
-            {
-              "t": "2019-01-10T07:35:33Z",
-              "tp": "WatchEvent",
-              "u": "xdcrazyboy"
-            },
-            {
-              "t": "2019-01-10T14:17:10Z",
-              "tp": "ForkEvent",
-              "u": "yufy1989"
-            },
-            {
-              "t": "2019-01-11T00:00:35Z",
-              "tp": "PushEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-01-11T14:01:40Z",
-              "tp": "CreateEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-01-11T14:12:37Z",
-              "tp": "CreateEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-01-11T02:55:37Z",
-              "tp": "ForkEvent",
-              "u": "z4-idea"
-            },
-            {
-              "t": "2019-01-14T11:38:45Z",
-              "tp": "WatchEvent",
-              "u": "dgdsingen"
-            },
-            {
-              "t": "2019-01-15T14:11:50Z",
-              "tp": "WatchEvent",
-              "u": "jinuxx"
-            },
-            {
-              "t": "2019-01-17T23:44:34Z",
-              "tp": "WatchEvent",
-              "u": "irakov"
-            },
-            {
-              "t": "2019-01-17T01:21:50Z",
-              "tp": "WatchEvent",
-              "u": "sunyoubo"
-            },
-            {
-              "t": "2019-01-18T15:06:39Z",
-              "tp": "PushEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-01-20T09:50:16Z",
-              "tp": "WatchEvent",
-              "u": "001mn"
-            },
-            {
-              "t": "2019-01-21T13:04:41Z",
-              "tp": "ForkEvent",
-              "u": "luotuo"
-            },
-            {
-              "t": "2019-01-21T13:09:40Z",
-              "tp": "PullRequestEvent",
-              "u": "luotuo"
-            },
-            {
-              "t": "2019-01-21T16:14:15Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-01-21T08:07:23Z",
-              "tp": "ForkEvent",
-              "u": "ian-jehmi"
-            },
-            {
-              "t": "2019-01-22T01:37:15Z",
-              "tp": "IssueCommentEvent",
-              "u": "luotuo"
-            },
-            {
-              "t": "2019-01-22T13:41:00Z",
-              "tp": "PullRequestEvent",
-              "u": "luotuo"
-            },
-            {
-              "t": "2019-01-22T15:17:46Z",
-              "tp": "PushEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-01-22T07:17:47Z",
-              "tp": "WatchEvent",
-              "u": "wxlrainGit"
-            },
-            {
-              "t": "2019-01-22T06:20:39Z",
-              "tp": "ForkEvent",
-              "u": "SelvaDC"
-            },
-            {
-              "t": "2019-01-22T09:05:01Z",
-              "tp": "WatchEvent",
-              "u": "cxws"
-            },
-            {
-              "t": "2019-01-23T06:19:41Z",
-              "tp": "WatchEvent",
-              "u": "xiezhangxing"
-            },
-            {
-              "t": "2019-01-24T16:38:32Z",
-              "tp": "WatchEvent",
-              "u": "lleiwang"
-            },
-            {
-              "t": "2019-01-25T08:44:41Z",
-              "tp": "WatchEvent",
-              "u": "Gurut"
-            },
-            {
-              "t": "2019-01-25T03:10:05Z",
-              "tp": "WatchEvent",
-              "u": "meuiue"
-            },
-            {
-              "t": "2019-01-25T06:50:44Z",
-              "tp": "WatchEvent",
-              "u": "hongweichang"
-            },
-            {
-              "t": "2019-01-25T06:50:50Z",
-              "tp": "ForkEvent",
-              "u": "hongweichang"
-            },
-            {
-              "t": "2019-01-27T16:41:32Z",
-              "tp": "ForkEvent",
-              "u": "qzucas"
-            },
-            {
-              "t": "2019-01-27T01:07:19Z",
-              "tp": "WatchEvent",
-              "u": "huan-xi"
-            },
-            {
-              "t": "2019-01-29T03:03:59Z",
-              "tp": "WatchEvent",
-              "u": "lssac"
-            },
-            {
-              "t": "2019-01-29T16:33:06Z",
-              "tp": "ForkEvent",
-              "u": "apetersson"
-            },
-            {
-              "t": "2019-01-29T16:37:00Z",
-              "tp": "PullRequestEvent",
-              "u": "apetersson"
-            },
-            {
-              "t": "2019-01-29T17:01:23Z",
-              "tp": "PullRequestEvent",
-              "u": "apetersson"
-            },
-            {
-              "t": "2019-01-29T17:02:09Z",
-              "tp": "PullRequestEvent",
-              "u": "apetersson"
-            },
-            {
-              "t": "2019-01-29T08:10:46Z",
-              "tp": "WatchEvent",
-              "u": "Joick"
-            },
-            {
-              "t": "2019-01-29T16:56:18Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-01-29T02:56:02Z",
-              "tp": "ForkEvent",
-              "u": "flavorzyb"
-            },
-            {
-              "t": "2019-01-30T18:10:05Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-01-31T21:42:45Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-01-31T21:42:48Z",
-              "tp": "PullRequestEvent",
-              "u": "stale[bot]"
-            }
-          ],
-          "name": "hyperledger/fabric-sdk-java",
-          "users": [
-            {
-              "count": 6,
-              "name": "stale[bot]"
-            },
-            {
-              "count": 5,
-              "name": "hyperledger-github"
-            },
-            {
-              "count": 4,
-              "name": "luotuo"
-            },
-            {
-              "count": 4,
-              "name": "apetersson"
-            },
-            {
-              "count": 3,
-              "name": "cgballance"
-            },
-            {
-              "count": 2,
-              "name": "xiruanliuwei"
-            },
-            {
-              "count": 2,
-              "name": "hongweichang"
-            },
-            {
-              "count": 1,
-              "name": "skaglobal"
-            },
-            {
-              "count": 1,
-              "name": "nhancv"
-            },
-            {
-              "count": 1,
-              "name": "Dingxining"
-            },
-            {
-              "count": 1,
-              "name": "smalloneSAMA"
-            },
-            {
-              "count": 1,
-              "name": "skykira"
-            },
-            {
-              "count": 1,
-              "name": "xdcrazyboy"
-            },
-            {
-              "count": 1,
-              "name": "yufy1989"
-            },
-            {
-              "count": 1,
-              "name": "z4-idea"
-            },
-            {
-              "count": 1,
-              "name": "dgdsingen"
-            },
-            {
-              "count": 1,
-              "name": "jinuxx"
-            },
-            {
-              "count": 1,
-              "name": "irakov"
-            },
-            {
-              "count": 1,
-              "name": "sunyoubo"
-            },
-            {
-              "count": 1,
-              "name": "001mn"
-            },
-            {
-              "count": 1,
-              "name": "ian-jehmi"
-            },
-            {
-              "count": 1,
-              "name": "wxlrainGit"
-            },
-            {
-              "count": 1,
-              "name": "SelvaDC"
-            },
-            {
-              "count": 1,
-              "name": "cxws"
-            },
-            {
-              "count": 1,
-              "name": "xiezhangxing"
-            },
-            {
-              "count": 1,
-              "name": "lleiwang"
-            },
-            {
-              "count": 1,
-              "name": "Gurut"
-            },
-            {
-              "count": 1,
-              "name": "meuiue"
-            },
-            {
-              "count": 1,
-              "name": "qzucas"
-            },
-            {
-              "count": 1,
-              "name": "huan-xi"
-            },
-            {
-              "count": 1,
-              "name": "lssac"
-            },
-            {
-              "count": 1,
-              "name": "Joick"
-            },
-            {
-              "count": 1,
-              "name": "flavorzyb"
-            }
-          ]
-        },
-        {
-          "activityTypes": [
-            {
               "count": 29,
               "name": "PushEvent"
             },
@@ -6763,6 +6304,398 @@
             {
               "count": 1,
               "name": "nihalmurmu"
+            }
+          ]
+        },
+        {
+          "activityTypes": [
+            {
+              "count": 18,
+              "name": "WatchEvent"
+            },
+            {
+              "count": 15,
+              "name": "ForkEvent"
+            },
+            {
+              "count": 7,
+              "name": "PullRequestEvent"
+            },
+            {
+              "count": 3,
+              "name": "PushEvent"
+            },
+            {
+              "count": 2,
+              "name": "CreateEvent"
+            },
+            {
+              "count": 1,
+              "name": "IssueCommentEvent"
+            }
+          ],
+          "count": 46,
+          "events": [
+            {
+              "t": "2019-01-02T13:53:26Z",
+              "tp": "ForkEvent",
+              "u": "skaglobal"
+            },
+            {
+              "t": "2019-01-03T05:34:29Z",
+              "tp": "ForkEvent",
+              "u": "nhancv"
+            },
+            {
+              "t": "2019-01-03T15:01:15Z",
+              "tp": "WatchEvent",
+              "u": "xiruanliuwei"
+            },
+            {
+              "t": "2019-01-03T15:01:16Z",
+              "tp": "ForkEvent",
+              "u": "xiruanliuwei"
+            },
+            {
+              "t": "2019-01-03T01:22:34Z",
+              "tp": "ForkEvent",
+              "u": "Dingxining"
+            },
+            {
+              "t": "2019-01-07T09:42:26Z",
+              "tp": "WatchEvent",
+              "u": "smalloneSAMA"
+            },
+            {
+              "t": "2019-01-08T10:36:50Z",
+              "tp": "ForkEvent",
+              "u": "skykira"
+            },
+            {
+              "t": "2019-01-09T15:58:36Z",
+              "tp": "ForkEvent",
+              "u": "cgballance"
+            },
+            {
+              "t": "2019-01-09T16:03:14Z",
+              "tp": "PullRequestEvent",
+              "u": "cgballance"
+            },
+            {
+              "t": "2019-01-09T20:46:33Z",
+              "tp": "PullRequestEvent",
+              "u": "cgballance"
+            },
+            {
+              "t": "2019-01-10T07:35:33Z",
+              "tp": "WatchEvent",
+              "u": "xdcrazyboy"
+            },
+            {
+              "t": "2019-01-10T14:17:10Z",
+              "tp": "ForkEvent",
+              "u": "yufy1989"
+            },
+            {
+              "t": "2019-01-11T00:00:35Z",
+              "tp": "PushEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-01-11T14:01:40Z",
+              "tp": "CreateEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-01-11T14:12:37Z",
+              "tp": "CreateEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-01-11T02:55:37Z",
+              "tp": "ForkEvent",
+              "u": "z4-idea"
+            },
+            {
+              "t": "2019-01-14T11:38:45Z",
+              "tp": "WatchEvent",
+              "u": "dgdsingen"
+            },
+            {
+              "t": "2019-01-15T14:11:50Z",
+              "tp": "WatchEvent",
+              "u": "jinuxx"
+            },
+            {
+              "t": "2019-01-17T23:44:34Z",
+              "tp": "WatchEvent",
+              "u": "irakov"
+            },
+            {
+              "t": "2019-01-17T01:21:50Z",
+              "tp": "WatchEvent",
+              "u": "sunyoubo"
+            },
+            {
+              "t": "2019-01-18T15:06:39Z",
+              "tp": "PushEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-01-20T09:50:16Z",
+              "tp": "WatchEvent",
+              "u": "001mn"
+            },
+            {
+              "t": "2019-01-21T13:04:41Z",
+              "tp": "ForkEvent",
+              "u": "luotuo"
+            },
+            {
+              "t": "2019-01-21T13:09:40Z",
+              "tp": "PullRequestEvent",
+              "u": "luotuo"
+            },
+            {
+              "t": "2019-01-21T08:07:23Z",
+              "tp": "ForkEvent",
+              "u": "ian-jehmi"
+            },
+            {
+              "t": "2019-01-22T01:37:15Z",
+              "tp": "IssueCommentEvent",
+              "u": "luotuo"
+            },
+            {
+              "t": "2019-01-22T13:41:00Z",
+              "tp": "PullRequestEvent",
+              "u": "luotuo"
+            },
+            {
+              "t": "2019-01-22T15:17:46Z",
+              "tp": "PushEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-01-22T07:17:47Z",
+              "tp": "WatchEvent",
+              "u": "wxlrainGit"
+            },
+            {
+              "t": "2019-01-22T06:20:39Z",
+              "tp": "ForkEvent",
+              "u": "SelvaDC"
+            },
+            {
+              "t": "2019-01-22T09:05:01Z",
+              "tp": "WatchEvent",
+              "u": "cxws"
+            },
+            {
+              "t": "2019-01-23T06:19:41Z",
+              "tp": "WatchEvent",
+              "u": "xiezhangxing"
+            },
+            {
+              "t": "2019-01-24T16:38:32Z",
+              "tp": "WatchEvent",
+              "u": "lleiwang"
+            },
+            {
+              "t": "2019-01-25T08:44:41Z",
+              "tp": "WatchEvent",
+              "u": "Gurut"
+            },
+            {
+              "t": "2019-01-25T03:10:05Z",
+              "tp": "WatchEvent",
+              "u": "meuiue"
+            },
+            {
+              "t": "2019-01-25T06:50:44Z",
+              "tp": "WatchEvent",
+              "u": "hongweichang"
+            },
+            {
+              "t": "2019-01-25T06:50:50Z",
+              "tp": "ForkEvent",
+              "u": "hongweichang"
+            },
+            {
+              "t": "2019-01-27T16:41:32Z",
+              "tp": "ForkEvent",
+              "u": "qzucas"
+            },
+            {
+              "t": "2019-01-27T01:07:19Z",
+              "tp": "WatchEvent",
+              "u": "huan-xi"
+            },
+            {
+              "t": "2019-01-29T03:03:59Z",
+              "tp": "WatchEvent",
+              "u": "lssac"
+            },
+            {
+              "t": "2019-01-29T16:33:06Z",
+              "tp": "ForkEvent",
+              "u": "apetersson"
+            },
+            {
+              "t": "2019-01-29T16:37:00Z",
+              "tp": "PullRequestEvent",
+              "u": "apetersson"
+            },
+            {
+              "t": "2019-01-29T17:01:23Z",
+              "tp": "PullRequestEvent",
+              "u": "apetersson"
+            },
+            {
+              "t": "2019-01-29T17:02:09Z",
+              "tp": "PullRequestEvent",
+              "u": "apetersson"
+            },
+            {
+              "t": "2019-01-29T08:10:46Z",
+              "tp": "WatchEvent",
+              "u": "Joick"
+            },
+            {
+              "t": "2019-01-29T02:56:02Z",
+              "tp": "ForkEvent",
+              "u": "flavorzyb"
+            }
+          ],
+          "name": "hyperledger/fabric-sdk-java",
+          "users": [
+            {
+              "count": 5,
+              "name": "hyperledger-github"
+            },
+            {
+              "count": 4,
+              "name": "luotuo"
+            },
+            {
+              "count": 4,
+              "name": "apetersson"
+            },
+            {
+              "count": 3,
+              "name": "cgballance"
+            },
+            {
+              "count": 2,
+              "name": "xiruanliuwei"
+            },
+            {
+              "count": 2,
+              "name": "hongweichang"
+            },
+            {
+              "count": 1,
+              "name": "skaglobal"
+            },
+            {
+              "count": 1,
+              "name": "nhancv"
+            },
+            {
+              "count": 1,
+              "name": "Dingxining"
+            },
+            {
+              "count": 1,
+              "name": "smalloneSAMA"
+            },
+            {
+              "count": 1,
+              "name": "skykira"
+            },
+            {
+              "count": 1,
+              "name": "xdcrazyboy"
+            },
+            {
+              "count": 1,
+              "name": "yufy1989"
+            },
+            {
+              "count": 1,
+              "name": "z4-idea"
+            },
+            {
+              "count": 1,
+              "name": "dgdsingen"
+            },
+            {
+              "count": 1,
+              "name": "jinuxx"
+            },
+            {
+              "count": 1,
+              "name": "irakov"
+            },
+            {
+              "count": 1,
+              "name": "sunyoubo"
+            },
+            {
+              "count": 1,
+              "name": "001mn"
+            },
+            {
+              "count": 1,
+              "name": "ian-jehmi"
+            },
+            {
+              "count": 1,
+              "name": "wxlrainGit"
+            },
+            {
+              "count": 1,
+              "name": "SelvaDC"
+            },
+            {
+              "count": 1,
+              "name": "cxws"
+            },
+            {
+              "count": 1,
+              "name": "xiezhangxing"
+            },
+            {
+              "count": 1,
+              "name": "lleiwang"
+            },
+            {
+              "count": 1,
+              "name": "Gurut"
+            },
+            {
+              "count": 1,
+              "name": "meuiue"
+            },
+            {
+              "count": 1,
+              "name": "qzucas"
+            },
+            {
+              "count": 1,
+              "name": "huan-xi"
+            },
+            {
+              "count": 1,
+              "name": "lssac"
+            },
+            {
+              "count": 1,
+              "name": "Joick"
+            },
+            {
+              "count": 1,
+              "name": "flavorzyb"
             }
           ]
         },

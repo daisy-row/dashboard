@@ -15,7 +15,7 @@
           "name": "ForkEvent"
         },
         {
-          "count": 21,
+          "count": 19,
           "name": "PullRequestEvent"
         },
         {
@@ -31,19 +31,15 @@
           "name": "CommitCommentEvent"
         },
         {
-          "count": 10,
+          "count": 7,
           "name": "IssueCommentEvent"
         },
         {
-          "count": 4,
+          "count": 3,
           "name": "CreateEvent"
-        },
-        {
-          "count": 1,
-          "name": "DeleteEvent"
         }
       ],
-      "count": 937,
+      "count": 930,
       "name": "Fabric",
       "repos": [
         {
@@ -3948,17 +3944,9 @@
             {
               "count": 11,
               "name": "PushEvent"
-            },
-            {
-              "count": 2,
-              "name": "IssueCommentEvent"
-            },
-            {
-              "count": 1,
-              "name": "PullRequestEvent"
             }
           ],
-          "count": 110,
+          "count": 107,
           "events": [
             {
               "t": "2019-06-01T21:11:17Z",
@@ -4171,11 +4159,6 @@
               "u": "YessineAmor"
             },
             {
-              "t": "2019-06-12T16:28:48Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
               "t": "2019-06-12T18:36:48Z",
               "tp": "WatchEvent",
               "u": "e-schultz"
@@ -4219,16 +4202,6 @@
               "t": "2019-06-13T02:59:39Z",
               "tp": "ForkEvent",
               "u": "iamksseo"
-            },
-            {
-              "t": "2019-06-13T17:16:30Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-06-13T17:16:32Z",
-              "tp": "PullRequestEvent",
-              "u": "stale[bot]"
             },
             {
               "t": "2019-06-13T02:23:58Z",
@@ -4516,10 +4489,6 @@
             {
               "count": 11,
               "name": "hyperledger-github"
-            },
-            {
-              "count": 3,
-              "name": "stale[bot]"
             },
             {
               "count": 2,
@@ -5882,14 +5851,14 @@
             },
             {
               "count": 2,
-              "name": "IssueCommentEvent"
+              "name": "PullRequestEvent"
             },
             {
-              "count": 2,
-              "name": "PullRequestEvent"
+              "count": 1,
+              "name": "IssueCommentEvent"
             }
           ],
-          "count": 29,
+          "count": 28,
           "events": [
             {
               "t": "2019-06-01T21:40:03Z",
@@ -5945,11 +5914,6 @@
               "t": "2019-06-11T08:12:50Z",
               "tp": "ForkEvent",
               "u": "iruvan"
-            },
-            {
-              "t": "2019-06-13T18:35:08Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
             },
             {
               "t": "2019-06-13T08:24:46Z",
@@ -6086,10 +6050,6 @@
             {
               "count": 1,
               "name": "iruvan"
-            },
-            {
-              "count": 1,
-              "name": "stale[bot]"
             },
             {
               "count": 1,
@@ -7159,23 +7119,15 @@
         {
           "activityTypes": [
             {
-              "count": 2,
+              "count": 1,
               "name": "PullRequestEvent"
             },
             {
               "count": 1,
               "name": "PushEvent"
-            },
-            {
-              "count": 1,
-              "name": "CreateEvent"
-            },
-            {
-              "count": 1,
-              "name": "DeleteEvent"
             }
           ],
-          "count": 5,
+          "count": 2,
           "events": [
             {
               "t": "2019-06-05T15:18:08Z",
@@ -7186,29 +7138,10 @@
               "t": "2019-06-05T15:18:09Z",
               "tp": "PushEvent",
               "u": "DanielMcSheehy"
-            },
-            {
-              "t": "2019-06-05T07:31:50Z",
-              "tp": "CreateEvent",
-              "u": "dependabot[bot]"
-            },
-            {
-              "t": "2019-06-05T07:31:50Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot[bot]"
-            },
-            {
-              "t": "2019-06-05T15:18:20Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot[bot]"
             }
           ],
           "name": "hyperledger-labs/fabric-chrome-extension",
           "users": [
-            {
-              "count": 3,
-              "name": "dependabot[bot]"
-            },
             {
               "count": 2,
               "name": "DanielMcSheehy"
@@ -7220,32 +7153,24 @@
     {
       "activityTypes": [
         {
-          "count": 123,
+          "count": 92,
           "name": "PullRequestEvent"
         },
         {
-          "count": 117,
+          "count": 86,
           "name": "IssueCommentEvent"
-        },
-        {
-          "count": 66,
-          "name": "PushEvent"
         },
         {
           "count": 54,
           "name": "PullRequestReviewCommentEvent"
         },
         {
-          "count": 34,
-          "name": "CreateEvent"
+          "count": 52,
+          "name": "PushEvent"
         },
         {
           "count": 32,
           "name": "IssuesEvent"
-        },
-        {
-          "count": 28,
-          "name": "DeleteEvent"
         },
         {
           "count": 14,
@@ -7256,34 +7181,30 @@
           "name": "ForkEvent"
         },
         {
+          "count": 4,
+          "name": "CreateEvent"
+        },
+        {
           "count": 1,
           "name": "ReleaseEvent"
         }
       ],
-      "count": 475,
+      "count": 341,
       "name": "Hyperledger Labs",
       "repos": [
         {
           "activityTypes": [
             {
-              "count": 88,
+              "count": 58,
               "name": "IssueCommentEvent"
             },
             {
-              "count": 74,
+              "count": 44,
               "name": "PullRequestEvent"
             },
             {
-              "count": 45,
-              "name": "PushEvent"
-            },
-            {
               "count": 31,
-              "name": "CreateEvent"
-            },
-            {
-              "count": 27,
-              "name": "DeleteEvent"
+              "name": "PushEvent"
             },
             {
               "count": 10,
@@ -7298,11 +7219,15 @@
               "name": "PullRequestReviewCommentEvent"
             },
             {
+              "count": 2,
+              "name": "CreateEvent"
+            },
+            {
               "count": 1,
               "name": "ForkEvent"
             }
           ],
-          "count": 280,
+          "count": 150,
           "events": [
             {
               "t": "2019-06-06T12:09:33Z",
@@ -7375,11 +7300,6 @@
               "u": "alexvicegrab"
             },
             {
-              "t": "2019-06-11T09:18:40Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
               "t": "2019-06-11T15:06:17Z",
               "tp": "IssueCommentEvent",
               "u": "nicolapaoli"
@@ -7403,16 +7323,6 @@
               "t": "2019-06-12T14:31:10Z",
               "tp": "IssueCommentEvent",
               "u": "inzamam-iqbal"
-            },
-            {
-              "t": "2019-06-12T23:10:54Z",
-              "tp": "CreateEvent",
-              "u": "dependabot[bot]"
-            },
-            {
-              "t": "2019-06-12T23:10:55Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot[bot]"
             },
             {
               "t": "2019-06-13T15:09:13Z",
@@ -7455,24 +7365,9 @@
               "u": "alexvicegrab"
             },
             {
-              "t": "2019-06-16T08:25:44Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-16T09:05:44Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot[bot]"
-            },
-            {
               "t": "2019-06-17T10:01:44Z",
               "tp": "PullRequestEvent",
               "u": "inzamam-iqbal"
-            },
-            {
-              "t": "2019-06-17T10:16:17Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2019-06-18T12:50:48Z",
@@ -7523,11 +7418,6 @@
               "t": "2019-06-18T16:35:06Z",
               "tp": "PullRequestEvent",
               "u": "inzamam-iqbal"
-            },
-            {
-              "t": "2019-06-18T18:50:47Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2019-06-18T10:08:15Z",
@@ -7690,11 +7580,6 @@
               "u": "DTaste"
             },
             {
-              "t": "2019-06-20T12:35:25Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
               "t": "2019-06-22T17:08:44Z",
               "tp": "CreateEvent",
               "u": "dbandin"
@@ -7825,96 +7710,6 @@
               "u": "alexvicegrab"
             },
             {
-              "t": "2019-06-24T14:37:41Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-24T15:36:06Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-24T15:38:09Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-24T14:14:20Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T14:14:21Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T14:14:40Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T14:14:40Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T14:15:03Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T14:15:05Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T14:15:19Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T14:15:20Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T14:15:39Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T14:15:40Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T15:29:00Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T15:29:19Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T15:37:08Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T15:38:07Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-24T17:49:40Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
               "t": "2019-06-24T09:17:48Z",
               "tp": "IssueCommentEvent",
               "u": "nicolapaoli"
@@ -7963,91 +7758,6 @@
               "t": "2019-06-25T15:08:22Z",
               "tp": "PushEvent",
               "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-06-25T06:22:44Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-25T07:29:33Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-25T15:09:32Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-25T15:46:05Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-25T06:16:38Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T06:46:48Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T06:46:49Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T06:47:37Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T06:47:38Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T06:48:05Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T06:48:06Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T06:48:48Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T06:48:49Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T06:49:28Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T06:49:29Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T15:08:29Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-25T15:09:29Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
             },
             {
               "t": "2019-06-26T10:16:31Z",
@@ -8140,161 +7850,6 @@
               "u": "alexvicegrab"
             },
             {
-              "t": "2019-06-26T10:48:03Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-26T10:52:20Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-26T10:52:22Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-26T10:52:23Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-26T11:39:05Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-26T11:54:20Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-26T13:22:10Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-26T06:40:17Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T06:40:18Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T06:40:47Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T06:40:47Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T06:41:26Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T06:41:27Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T06:42:16Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T06:42:17Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T06:42:59Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T06:43:00Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T10:16:43Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T10:51:10Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T10:52:13Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T10:52:20Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T10:52:21Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T11:26:11Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T11:26:12Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T11:53:10Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T11:54:17Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T14:47:56Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T14:47:57Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T19:13:14Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T19:13:36Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-26T20:33:09Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
               "t": "2019-06-27T05:32:35Z",
               "tp": "IssueCommentEvent",
               "u": "alexvicegrab"
@@ -8375,141 +7930,6 @@
               "u": "alexvicegrab"
             },
             {
-              "t": "2019-06-27T05:48:34Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-27T06:48:44Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-27T07:24:51Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-27T07:51:52Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-27T08:00:09Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-27T01:15:58Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T01:15:59Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T05:33:46Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T05:54:12Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T06:32:35Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T06:32:35Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T06:33:01Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T06:33:02Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T06:33:38Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T06:33:39Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T06:33:55Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T06:33:57Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T06:34:57Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T06:34:57Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T07:23:45Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T07:24:49Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T07:47:01Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T07:48:00Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T07:53:55Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T09:53:33Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T09:54:46Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-27T11:08:57Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
               "t": "2019-06-28T10:04:08Z",
               "tp": "PullRequestEvent",
               "u": "alexvicegrab"
@@ -8558,166 +7978,13 @@
               "t": "2019-06-28T13:29:34Z",
               "tp": "PushEvent",
               "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-06-28T08:35:38Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-28T08:43:42Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-28T08:58:19Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-28T09:14:00Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-28T10:06:56Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-06-28T06:37:19Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T06:37:20Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T06:37:45Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T06:37:45Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T06:38:21Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T06:38:22Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T06:38:47Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T06:38:47Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T06:39:23Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T06:39:24Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T10:04:21Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T10:04:54Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T10:05:26Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T10:05:46Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T10:06:45Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T10:06:54Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T13:29:08Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T13:29:41Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-28T13:30:16Z",
-              "tp": "PushEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-29T01:15:49Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-29T01:15:49Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-29T01:15:52Z",
-              "tp": "IssueCommentEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-29T01:15:53Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2019-06-29T01:15:54Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
             }
           ],
           "name": "hyperledger-labs/nephos",
           "users": [
             {
-              "count": 98,
-              "name": "dependabot-preview[bot]"
-            },
-            {
               "count": 85,
               "name": "alexvicegrab"
-            },
-            {
-              "count": 29,
-              "name": "codecov[bot]"
             },
             {
               "count": 28,
@@ -8730,10 +7997,6 @@
             {
               "count": 8,
               "name": "nicolapaoli"
-            },
-            {
-              "count": 3,
-              "name": "dependabot[bot]"
             },
             {
               "count": 1,
@@ -9715,12 +8978,12 @@
         {
           "activityTypes": [
             {
-              "count": 6,
-              "name": "PullRequestEvent"
+              "count": 5,
+              "name": "WatchEvent"
             },
             {
               "count": 5,
-              "name": "WatchEvent"
+              "name": "PullRequestEvent"
             },
             {
               "count": 3,
@@ -9737,32 +9000,14 @@
             {
               "count": 2,
               "name": "ForkEvent"
-            },
-            {
-              "count": 1,
-              "name": "CreateEvent"
-            },
-            {
-              "count": 1,
-              "name": "DeleteEvent"
             }
           ],
-          "count": 24,
+          "count": 21,
           "events": [
             {
               "t": "2019-06-05T14:09:46Z",
               "tp": "WatchEvent",
               "u": "GreatMartial"
-            },
-            {
-              "t": "2019-06-05T07:01:48Z",
-              "tp": "CreateEvent",
-              "u": "dependabot[bot]"
-            },
-            {
-              "t": "2019-06-05T07:01:49Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot[bot]"
             },
             {
               "t": "2019-06-11T15:39:02Z",
@@ -9788,11 +9033,6 @@
               "t": "2019-06-12T16:58:47Z",
               "tp": "PushEvent",
               "u": "ryjones"
-            },
-            {
-              "t": "2019-06-12T16:58:54Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot[bot]"
             },
             {
               "t": "2019-06-16T19:34:40Z",
@@ -9875,10 +9115,6 @@
             {
               "count": 6,
               "name": "diestrin"
-            },
-            {
-              "count": 3,
-              "name": "dependabot[bot]"
             },
             {
               "count": 2,
@@ -10065,17 +9301,12 @@
         {
           "activityTypes": [
             {
-              "count": 3,
+              "count": 2,
               "name": "IssueCommentEvent"
             }
           ],
-          "count": 3,
+          "count": 2,
           "events": [
-            {
-              "t": "2019-06-12T23:11:22Z",
-              "tp": "IssueCommentEvent",
-              "u": "pullapprove[bot]"
-            },
             {
               "t": "2019-06-12T23:04:15Z",
               "tp": "IssueCommentEvent",
@@ -10092,10 +9323,6 @@
             {
               "count": 2,
               "name": "ryjones"
-            },
-            {
-              "count": 1,
-              "name": "pullapprove[bot]"
             }
           ]
         },

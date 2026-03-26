@@ -15,7 +15,7 @@
           "name": "ForkEvent"
         },
         {
-          "count": 32,
+          "count": 30,
           "name": "PullRequestEvent"
         },
         {
@@ -27,7 +27,7 @@
           "name": "CreateEvent"
         },
         {
-          "count": 12,
+          "count": 7,
           "name": "IssueCommentEvent"
         },
         {
@@ -35,7 +35,7 @@
           "name": "MemberEvent"
         }
       ],
-      "count": 999,
+      "count": 992,
       "name": "Fabric",
       "repos": [
         {
@@ -3794,19 +3794,15 @@
               "name": "PushEvent"
             },
             {
-              "count": 2,
+              "count": 1,
               "name": "PullRequestEvent"
-            },
-            {
-              "count": 2,
-              "name": "IssueCommentEvent"
             },
             {
               "count": 1,
               "name": "CreateEvent"
             }
           ],
-          "count": 127,
+          "count": 124,
           "events": [
             {
               "t": "2019-04-01T09:42:49Z",
@@ -3969,11 +3965,6 @@
               "u": "xingyushu"
             },
             {
-              "t": "2019-04-09T02:51:14Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
               "t": "2019-04-09T08:55:36Z",
               "tp": "ForkEvent",
               "u": "thecoinmaniac"
@@ -4002,16 +3993,6 @@
               "t": "2019-04-10T11:48:50Z",
               "tp": "WatchEvent",
               "u": "binnyang179"
-            },
-            {
-              "t": "2019-04-10T03:05:20Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-04-10T03:05:21Z",
-              "tp": "PullRequestEvent",
-              "u": "stale[bot]"
             },
             {
               "t": "2019-04-10T06:16:37Z",
@@ -4449,10 +4430,6 @@
             {
               "count": 22,
               "name": "hyperledger-github"
-            },
-            {
-              "count": 3,
-              "name": "stale[bot]"
             },
             {
               "count": 2,
@@ -6519,270 +6496,6 @@
         {
           "activityTypes": [
             {
-              "count": 8,
-              "name": "WatchEvent"
-            },
-            {
-              "count": 8,
-              "name": "ForkEvent"
-            },
-            {
-              "count": 7,
-              "name": "PushEvent"
-            },
-            {
-              "count": 3,
-              "name": "IssueCommentEvent"
-            },
-            {
-              "count": 2,
-              "name": "PullRequestEvent"
-            },
-            {
-              "count": 1,
-              "name": "CreateEvent"
-            },
-            {
-              "count": 1,
-              "name": "MemberEvent"
-            }
-          ],
-          "count": 30,
-          "events": [
-            {
-              "t": "2019-04-01T10:57:08Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-04-01T13:57:08Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-04-01T21:30:59Z",
-              "tp": "WatchEvent",
-              "u": "Daunt02"
-            },
-            {
-              "t": "2019-04-01T10:29:05Z",
-              "tp": "ForkEvent",
-              "u": "abitrolly"
-            },
-            {
-              "t": "2019-04-01T10:30:11Z",
-              "tp": "PullRequestEvent",
-              "u": "abitrolly"
-            },
-            {
-              "t": "2019-04-02T14:41:43Z",
-              "tp": "IssueCommentEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-04-02T14:41:44Z",
-              "tp": "PullRequestEvent",
-              "u": "stale[bot]"
-            },
-            {
-              "t": "2019-04-03T06:27:25Z",
-              "tp": "ForkEvent",
-              "u": "defilab"
-            },
-            {
-              "t": "2019-04-05T00:08:53Z",
-              "tp": "ForkEvent",
-              "u": "abhimaaahi"
-            },
-            {
-              "t": "2019-04-05T11:49:50Z",
-              "tp": "ForkEvent",
-              "u": "blockchain-Bobby"
-            },
-            {
-              "t": "2019-04-09T02:55:57Z",
-              "tp": "ForkEvent",
-              "u": "oldamboo"
-            },
-            {
-              "t": "2019-04-10T22:20:13Z",
-              "tp": "WatchEvent",
-              "u": "tony-blake"
-            },
-            {
-              "t": "2019-04-10T16:59:08Z",
-              "tp": "WatchEvent",
-              "u": "TsungLi-Wang"
-            },
-            {
-              "t": "2019-04-12T21:57:37Z",
-              "tp": "WatchEvent",
-              "u": "tspannhw"
-            },
-            {
-              "t": "2019-04-12T12:57:09Z",
-              "tp": "PushEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-04-13T01:34:38Z",
-              "tp": "WatchEvent",
-              "u": "aiolos404"
-            },
-            {
-              "t": "2019-04-13T09:20:20Z",
-              "tp": "PushEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-04-13T10:03:36Z",
-              "tp": "CreateEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-04-17T18:43:28Z",
-              "tp": "WatchEvent",
-              "u": "epappas"
-            },
-            {
-              "t": "2019-04-18T01:13:00Z",
-              "tp": "PushEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-04-19T02:09:05Z",
-              "tp": "PushEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-04-19T13:08:12Z",
-              "tp": "PushEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-04-19T02:53:05Z",
-              "tp": "WatchEvent",
-              "u": "thangphuocnguyen"
-            },
-            {
-              "t": "2019-04-21T17:52:42Z",
-              "tp": "ForkEvent",
-              "u": "hengfun"
-            },
-            {
-              "t": "2019-04-22T17:06:12Z",
-              "tp": "PushEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-04-22T15:35:51Z",
-              "tp": "ForkEvent",
-              "u": "oleksiyVeretiuk"
-            },
-            {
-              "t": "2019-04-23T15:58:07Z",
-              "tp": "MemberEvent",
-              "u": "MilJ19LF"
-            },
-            {
-              "t": "2019-04-24T08:22:51Z",
-              "tp": "PushEvent",
-              "u": "hyperledger-github"
-            },
-            {
-              "t": "2019-04-24T14:37:23Z",
-              "tp": "WatchEvent",
-              "u": "chaoliu92"
-            },
-            {
-              "t": "2019-04-27T09:55:00Z",
-              "tp": "ForkEvent",
-              "u": "WeiRuiCoding"
-            }
-          ],
-          "name": "hyperledger/fabric-sdk-py",
-          "users": [
-            {
-              "count": 8,
-              "name": "hyperledger-github"
-            },
-            {
-              "count": 4,
-              "name": "stale[bot]"
-            },
-            {
-              "count": 2,
-              "name": "abitrolly"
-            },
-            {
-              "count": 1,
-              "name": "Daunt02"
-            },
-            {
-              "count": 1,
-              "name": "defilab"
-            },
-            {
-              "count": 1,
-              "name": "abhimaaahi"
-            },
-            {
-              "count": 1,
-              "name": "blockchain-Bobby"
-            },
-            {
-              "count": 1,
-              "name": "oldamboo"
-            },
-            {
-              "count": 1,
-              "name": "tony-blake"
-            },
-            {
-              "count": 1,
-              "name": "TsungLi-Wang"
-            },
-            {
-              "count": 1,
-              "name": "tspannhw"
-            },
-            {
-              "count": 1,
-              "name": "aiolos404"
-            },
-            {
-              "count": 1,
-              "name": "epappas"
-            },
-            {
-              "count": 1,
-              "name": "thangphuocnguyen"
-            },
-            {
-              "count": 1,
-              "name": "hengfun"
-            },
-            {
-              "count": 1,
-              "name": "oleksiyVeretiuk"
-            },
-            {
-              "count": 1,
-              "name": "MilJ19LF"
-            },
-            {
-              "count": 1,
-              "name": "chaoliu92"
-            },
-            {
-              "count": 1,
-              "name": "WeiRuiCoding"
-            }
-          ]
-        },
-        {
-          "activityTypes": [
-            {
               "count": 12,
               "name": "PushEvent"
             },
@@ -7420,6 +7133,242 @@
         {
           "activityTypes": [
             {
+              "count": 8,
+              "name": "WatchEvent"
+            },
+            {
+              "count": 8,
+              "name": "ForkEvent"
+            },
+            {
+              "count": 7,
+              "name": "PushEvent"
+            },
+            {
+              "count": 1,
+              "name": "PullRequestEvent"
+            },
+            {
+              "count": 1,
+              "name": "CreateEvent"
+            },
+            {
+              "count": 1,
+              "name": "MemberEvent"
+            }
+          ],
+          "count": 26,
+          "events": [
+            {
+              "t": "2019-04-01T21:30:59Z",
+              "tp": "WatchEvent",
+              "u": "Daunt02"
+            },
+            {
+              "t": "2019-04-01T10:29:05Z",
+              "tp": "ForkEvent",
+              "u": "abitrolly"
+            },
+            {
+              "t": "2019-04-01T10:30:11Z",
+              "tp": "PullRequestEvent",
+              "u": "abitrolly"
+            },
+            {
+              "t": "2019-04-03T06:27:25Z",
+              "tp": "ForkEvent",
+              "u": "defilab"
+            },
+            {
+              "t": "2019-04-05T00:08:53Z",
+              "tp": "ForkEvent",
+              "u": "abhimaaahi"
+            },
+            {
+              "t": "2019-04-05T11:49:50Z",
+              "tp": "ForkEvent",
+              "u": "blockchain-Bobby"
+            },
+            {
+              "t": "2019-04-09T02:55:57Z",
+              "tp": "ForkEvent",
+              "u": "oldamboo"
+            },
+            {
+              "t": "2019-04-10T22:20:13Z",
+              "tp": "WatchEvent",
+              "u": "tony-blake"
+            },
+            {
+              "t": "2019-04-10T16:59:08Z",
+              "tp": "WatchEvent",
+              "u": "TsungLi-Wang"
+            },
+            {
+              "t": "2019-04-12T21:57:37Z",
+              "tp": "WatchEvent",
+              "u": "tspannhw"
+            },
+            {
+              "t": "2019-04-12T12:57:09Z",
+              "tp": "PushEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-04-13T01:34:38Z",
+              "tp": "WatchEvent",
+              "u": "aiolos404"
+            },
+            {
+              "t": "2019-04-13T09:20:20Z",
+              "tp": "PushEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-04-13T10:03:36Z",
+              "tp": "CreateEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-04-17T18:43:28Z",
+              "tp": "WatchEvent",
+              "u": "epappas"
+            },
+            {
+              "t": "2019-04-18T01:13:00Z",
+              "tp": "PushEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-04-19T02:09:05Z",
+              "tp": "PushEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-04-19T13:08:12Z",
+              "tp": "PushEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-04-19T02:53:05Z",
+              "tp": "WatchEvent",
+              "u": "thangphuocnguyen"
+            },
+            {
+              "t": "2019-04-21T17:52:42Z",
+              "tp": "ForkEvent",
+              "u": "hengfun"
+            },
+            {
+              "t": "2019-04-22T17:06:12Z",
+              "tp": "PushEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-04-22T15:35:51Z",
+              "tp": "ForkEvent",
+              "u": "oleksiyVeretiuk"
+            },
+            {
+              "t": "2019-04-23T15:58:07Z",
+              "tp": "MemberEvent",
+              "u": "MilJ19LF"
+            },
+            {
+              "t": "2019-04-24T08:22:51Z",
+              "tp": "PushEvent",
+              "u": "hyperledger-github"
+            },
+            {
+              "t": "2019-04-24T14:37:23Z",
+              "tp": "WatchEvent",
+              "u": "chaoliu92"
+            },
+            {
+              "t": "2019-04-27T09:55:00Z",
+              "tp": "ForkEvent",
+              "u": "WeiRuiCoding"
+            }
+          ],
+          "name": "hyperledger/fabric-sdk-py",
+          "users": [
+            {
+              "count": 8,
+              "name": "hyperledger-github"
+            },
+            {
+              "count": 2,
+              "name": "abitrolly"
+            },
+            {
+              "count": 1,
+              "name": "Daunt02"
+            },
+            {
+              "count": 1,
+              "name": "defilab"
+            },
+            {
+              "count": 1,
+              "name": "abhimaaahi"
+            },
+            {
+              "count": 1,
+              "name": "blockchain-Bobby"
+            },
+            {
+              "count": 1,
+              "name": "oldamboo"
+            },
+            {
+              "count": 1,
+              "name": "tony-blake"
+            },
+            {
+              "count": 1,
+              "name": "TsungLi-Wang"
+            },
+            {
+              "count": 1,
+              "name": "tspannhw"
+            },
+            {
+              "count": 1,
+              "name": "aiolos404"
+            },
+            {
+              "count": 1,
+              "name": "epappas"
+            },
+            {
+              "count": 1,
+              "name": "thangphuocnguyen"
+            },
+            {
+              "count": 1,
+              "name": "hengfun"
+            },
+            {
+              "count": 1,
+              "name": "oleksiyVeretiuk"
+            },
+            {
+              "count": 1,
+              "name": "MilJ19LF"
+            },
+            {
+              "count": 1,
+              "name": "chaoliu92"
+            },
+            {
+              "count": 1,
+              "name": "WeiRuiCoding"
+            }
+          ]
+        },
+        {
+          "activityTypes": [
+            {
               "count": 11,
               "name": "PushEvent"
             },
@@ -7824,7 +7773,7 @@
           "name": "PullRequestEvent"
         },
         {
-          "count": 59,
+          "count": 58,
           "name": "IssueCommentEvent"
         },
         {
@@ -7852,7 +7801,7 @@
           "name": "CommitCommentEvent"
         }
       ],
-      "count": 438,
+      "count": 437,
       "name": "Hyperledger Labs",
       "repos": [
         {
@@ -9905,10 +9854,6 @@
             },
             {
               "count": 3,
-              "name": "IssueCommentEvent"
-            },
-            {
-              "count": 3,
               "name": "IssuesEvent"
             },
             {
@@ -9921,6 +9866,10 @@
             },
             {
               "count": 2,
+              "name": "IssueCommentEvent"
+            },
+            {
+              "count": 2,
               "name": "CreateEvent"
             },
             {
@@ -9928,17 +9877,12 @@
               "name": "PullRequestEvent"
             }
           ],
-          "count": 23,
+          "count": 22,
           "events": [
             {
               "t": "2019-04-02T15:57:35Z",
               "tp": "IssueCommentEvent",
               "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-04-02T15:28:47Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2019-04-02T10:49:11Z",
@@ -10063,10 +10007,6 @@
             {
               "count": 2,
               "name": "bcouetil"
-            },
-            {
-              "count": 1,
-              "name": "codecov[bot]"
             },
             {
               "count": 1,

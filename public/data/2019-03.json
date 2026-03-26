@@ -9888,7 +9888,7 @@
           "name": "PullRequestEvent"
         },
         {
-          "count": 70,
+          "count": 64,
           "name": "IssueCommentEvent"
         },
         {
@@ -9920,7 +9920,7 @@
           "name": "ReleaseEvent"
         }
       ],
-      "count": 594,
+      "count": 588,
       "name": "Hyperledger Labs",
       "repos": [
         {
@@ -12257,12 +12257,12 @@
               "name": "IssuesEvent"
             },
             {
-              "count": 22,
-              "name": "IssueCommentEvent"
-            },
-            {
               "count": 21,
               "name": "PullRequestEvent"
+            },
+            {
+              "count": 16,
+              "name": "IssueCommentEvent"
             },
             {
               "count": 11,
@@ -12285,7 +12285,7 @@
               "name": "PullRequestReviewCommentEvent"
             }
           ],
-          "count": 92,
+          "count": 86,
           "events": [
             {
               "t": "2019-03-14T15:49:19Z",
@@ -12341,11 +12341,6 @@
               "t": "2019-03-15T23:05:48Z",
               "tp": "PushEvent",
               "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-03-15T22:12:39Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2019-03-15T17:10:08Z",
@@ -12498,16 +12493,6 @@
               "u": "alexvicegrab"
             },
             {
-              "t": "2019-03-19T09:57:52Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-03-19T17:47:51Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
               "t": "2019-03-19T05:25:41Z",
               "tp": "ForkEvent",
               "u": "knagware9"
@@ -12581,21 +12566,6 @@
               "t": "2019-03-21T21:53:31Z",
               "tp": "PullRequestEvent",
               "u": "alexvicegrab"
-            },
-            {
-              "t": "2019-03-21T00:18:35Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-03-21T01:15:32Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2019-03-21T22:01:55Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2019-03-22T09:48:43Z",
@@ -12761,10 +12731,6 @@
             {
               "count": 10,
               "name": "ryjones"
-            },
-            {
-              "count": 6,
-              "name": "codecov[bot]"
             },
             {
               "count": 5,

@@ -7,19 +7,15 @@
           "name": "PullRequestReviewCommentEvent"
         },
         {
-          "count": 637,
+          "count": 607,
           "name": "PullRequestEvent"
-        },
-        {
-          "count": 350,
-          "name": "IssueCommentEvent"
         },
         {
           "count": 334,
           "name": "WatchEvent"
         },
         {
-          "count": 330,
+          "count": 315,
           "name": "PushEvent"
         },
         {
@@ -27,16 +23,16 @@
           "name": "ForkEvent"
         },
         {
-          "count": 40,
+          "count": 306,
+          "name": "IssueCommentEvent"
+        },
+        {
+          "count": 25,
           "name": "CreateEvent"
         },
         {
           "count": 25,
           "name": "IssuesEvent"
-        },
-        {
-          "count": 16,
-          "name": "DeleteEvent"
         },
         {
           "count": 12,
@@ -45,9 +41,13 @@
         {
           "count": 4,
           "name": "CommitCommentEvent"
+        },
+        {
+          "count": 3,
+          "name": "DeleteEvent"
         }
       ],
-      "count": 2903,
+      "count": 2786,
       "name": "Fabric",
       "repos": [
         {
@@ -57,31 +57,31 @@
               "name": "PullRequestReviewCommentEvent"
             },
             {
-              "count": 298,
+              "count": 269,
               "name": "PullRequestEvent"
-            },
-            {
-              "count": 183,
-              "name": "IssueCommentEvent"
             },
             {
               "count": 171,
               "name": "WatchEvent"
             },
             {
+              "count": 153,
+              "name": "IssueCommentEvent"
+            },
+            {
               "count": 146,
               "name": "ForkEvent"
             },
             {
-              "count": 130,
+              "count": 115,
               "name": "PushEvent"
             },
             {
-              "count": 18,
+              "count": 4,
               "name": "CreateEvent"
             },
             {
-              "count": 15,
+              "count": 2,
               "name": "DeleteEvent"
             },
             {
@@ -89,7 +89,7 @@
               "name": "ReleaseEvent"
             }
           ],
-          "count": 1456,
+          "count": 1355,
           "events": [
             {
               "t": "2020-06-01T11:06:26Z",
@@ -230,11 +230,6 @@
               "t": "2020-06-01T15:22:25Z",
               "tp": "ForkEvent",
               "u": "DgnrtnX"
-            },
-            {
-              "t": "2020-06-01T23:37:15Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
             },
             {
               "t": "2020-06-01T20:47:22Z",
@@ -942,46 +937,6 @@
               "u": "guoger"
             },
             {
-              "t": "2020-06-04T20:38:25Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-04T20:38:34Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-04T20:39:03Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-04T20:39:03Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-04T20:39:04Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-04T20:45:31Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-04T20:45:33Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-04T20:45:38Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
-            },
-            {
               "t": "2020-06-04T15:25:30Z",
               "tp": "WatchEvent",
               "u": "afrouzMashaykhi"
@@ -1115,21 +1070,6 @@
               "t": "2020-06-05T15:34:49Z",
               "tp": "IssueCommentEvent",
               "u": "ale-linux"
-            },
-            {
-              "t": "2020-06-05T13:17:54Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-05T14:32:12Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-05T14:32:20Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
             },
             {
               "t": "2020-06-05T14:43:09Z",
@@ -1495,31 +1435,6 @@
               "t": "2020-06-08T19:38:43Z",
               "tp": "IssueCommentEvent",
               "u": "pamandrejko"
-            },
-            {
-              "t": "2020-06-08T19:37:13Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-08T19:37:15Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-08T19:39:56Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-08T19:39:56Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-08T19:39:57Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
             },
             {
               "t": "2020-06-08T20:09:50Z",
@@ -1950,11 +1865,6 @@
               "t": "2020-06-11T03:05:45Z",
               "tp": "ForkEvent",
               "u": "yeyanrong"
-            },
-            {
-              "t": "2020-06-11T06:25:31Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
             },
             {
               "t": "2020-06-11T20:41:12Z",
@@ -2467,41 +2377,6 @@
               "u": "lcl1024"
             },
             {
-              "t": "2020-06-15T13:52:58Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-15T13:52:58Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-15T13:52:59Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-15T13:53:23Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-15T13:53:24Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-15T13:53:24Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-15T14:24:48Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
-            },
-            {
               "t": "2020-06-15T09:18:54Z",
               "tp": "ForkEvent",
               "u": "yangzhiwen911"
@@ -2775,41 +2650,6 @@
               "t": "2020-06-16T07:53:51Z",
               "tp": "ForkEvent",
               "u": "danasmile"
-            },
-            {
-              "t": "2020-06-16T02:58:21Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2020-06-16T17:49:50Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-16T17:49:51Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-16T17:49:59Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-16T17:50:14Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-16T17:50:14Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-16T17:50:16Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
             },
             {
               "t": "2020-06-16T21:16:11Z",
@@ -3522,84 +3362,9 @@
               "u": "zghh"
             },
             {
-              "t": "2020-06-18T19:54:14Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
               "t": "2020-06-18T09:38:59Z",
               "tp": "WatchEvent",
               "u": "liujun212"
-            },
-            {
-              "t": "2020-06-18T02:10:30Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T02:10:31Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T14:59:34Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T14:59:35Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T14:59:36Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T15:24:13Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T15:24:16Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T15:24:18Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T15:24:19Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T15:24:22Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T15:24:25Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T15:25:14Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T15:25:16Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-18T15:25:18Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
             },
             {
               "t": "2020-06-18T15:37:55Z",
@@ -3620,11 +3385,6 @@
               "t": "2020-06-18T20:27:21Z",
               "tp": "IssueCommentEvent",
               "u": "caod123"
-            },
-            {
-              "t": "2020-06-18T16:56:13Z",
-              "tp": "IssueCommentEvent",
-              "u": "github-actions[bot]"
             },
             {
               "t": "2020-06-18T13:37:51Z",
@@ -4297,16 +4057,6 @@
               "u": "sean-liu"
             },
             {
-              "t": "2020-06-22T16:02:23Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2020-06-22T16:15:11Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
               "t": "2020-06-22T15:29:18Z",
               "tp": "ForkEvent",
               "u": "shichangzhi"
@@ -4575,11 +4325,6 @@
               "t": "2020-06-23T18:06:07Z",
               "tp": "ForkEvent",
               "u": "LittleStinky123"
-            },
-            {
-              "t": "2020-06-23T17:38:11Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
             },
             {
               "t": "2020-06-23T14:35:51Z",
@@ -5367,11 +5112,6 @@
               "u": "OnMyTeam"
             },
             {
-              "t": "2020-06-25T18:22:19Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
               "t": "2020-06-25T00:38:41Z",
               "tp": "ForkEvent",
               "u": "elDoctor1996"
@@ -5917,16 +5657,6 @@
               "u": "sijocherian"
             },
             {
-              "t": "2020-06-27T20:53:30Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-27T20:53:33Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
               "t": "2020-06-27T08:09:22Z",
               "tp": "WatchEvent",
               "u": "PLearn121"
@@ -6050,31 +5780,6 @@
               "t": "2020-06-28T15:46:52Z",
               "tp": "IssueCommentEvent",
               "u": "pamandrejko"
-            },
-            {
-              "t": "2020-06-28T14:44:03Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-28T14:44:03Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-28T14:44:04Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-28T15:47:46Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-28T21:35:13Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
             },
             {
               "t": "2020-06-28T07:45:49Z",
@@ -6262,16 +5967,6 @@
               "u": "1196614768"
             },
             {
-              "t": "2020-06-29T14:09:18Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
-              "t": "2020-06-29T21:28:29Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
               "t": "2020-06-29T12:20:55Z",
               "tp": "PullRequestEvent",
               "u": "pamandrejko"
@@ -6290,66 +5985,6 @@
               "t": "2020-06-29T14:09:07Z",
               "tp": "IssueCommentEvent",
               "u": "pamandrejko"
-            },
-            {
-              "t": "2020-06-29T13:33:32Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-29T13:33:34Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-29T14:15:52Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-29T14:15:53Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-29T15:09:02Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-29T15:09:05Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-29T19:51:13Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-29T19:51:13Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-29T19:51:14Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-29T22:28:34Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-29T22:29:12Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-29T22:30:03Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
             },
             {
               "t": "2020-06-29T13:47:26Z",
@@ -6972,146 +6607,6 @@
               "u": "pamandrejko"
             },
             {
-              "t": "2020-06-30T00:56:50Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T00:56:51Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T00:56:51Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T09:35:33Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T09:35:34Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T09:35:35Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T09:43:17Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T11:54:07Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T11:54:17Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T12:22:15Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T12:53:38Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T12:53:41Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T12:53:42Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T12:54:54Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T12:54:55Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T12:54:56Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T13:32:33Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T13:32:37Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T13:32:38Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T13:51:14Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T13:51:15Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T13:51:16Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T14:11:18Z",
-              "tp": "DeleteEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T16:58:06Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T16:58:14Z",
-              "tp": "PushEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T19:15:08Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T19:15:08Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-30T19:15:08Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
               "t": "2020-06-30T00:02:32Z",
               "tp": "PullRequestEvent",
               "u": "caod123"
@@ -7387,10 +6882,6 @@
               "name": "btl5037"
             },
             {
-              "count": 91,
-              "name": "mergify[bot]"
-            },
-            {
               "count": 80,
               "name": "yacovm"
             },
@@ -7441,10 +6932,6 @@
             {
               "count": 10,
               "name": "ODOWDAIBM"
-            },
-            {
-              "count": 9,
-              "name": "azure-pipelines[bot]"
             },
             {
               "count": 9,
@@ -8281,10 +7768,6 @@
             {
               "count": 1,
               "name": "liujun212"
-            },
-            {
-              "count": 1,
-              "name": "github-actions[bot]"
             },
             {
               "count": 1,
@@ -11072,7 +10555,7 @@
               "name": "PullRequestReviewCommentEvent"
             },
             {
-              "count": 18,
+              "count": 16,
               "name": "IssueCommentEvent"
             },
             {
@@ -11096,7 +10579,7 @@
               "name": "CommitCommentEvent"
             }
           ],
-          "count": 176,
+          "count": 174,
           "events": [
             {
               "t": "2020-06-01T08:57:41Z",
@@ -11387,11 +10870,6 @@
               "t": "2020-06-12T17:50:03Z",
               "tp": "PullRequestReviewCommentEvent",
               "u": "harrisob"
-            },
-            {
-              "t": "2020-06-12T00:26:39Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
             },
             {
               "t": "2020-06-12T12:01:42Z",
@@ -11934,11 +11412,6 @@
               "u": "harrisob"
             },
             {
-              "t": "2020-06-29T22:14:02Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
-            },
-            {
               "t": "2020-06-29T17:23:19Z",
               "tp": "PullRequestEvent",
               "u": "btl5037"
@@ -12004,10 +11477,6 @@
             {
               "count": 3,
               "name": "Manphil"
-            },
-            {
-              "count": 2,
-              "name": "azure-pipelines[bot]"
             },
             {
               "count": 1,
@@ -13748,15 +13217,15 @@
               "name": "PullRequestReviewCommentEvent"
             },
             {
-              "count": 15,
-              "name": "IssueCommentEvent"
-            },
-            {
               "count": 14,
               "name": "ForkEvent"
             },
             {
-              "count": 14,
+              "count": 13,
+              "name": "IssueCommentEvent"
+            },
+            {
+              "count": 13,
               "name": "PullRequestEvent"
             },
             {
@@ -13769,14 +13238,10 @@
             },
             {
               "count": 1,
-              "name": "CreateEvent"
-            },
-            {
-              "count": 1,
               "name": "DeleteEvent"
             }
           ],
-          "count": 103,
+          "count": 99,
           "events": [
             {
               "t": "2020-06-01T14:25:51Z",
@@ -14044,26 +13509,6 @@
               "u": "stephyee"
             },
             {
-              "t": "2020-06-24T19:08:22Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-24T19:10:12Z",
-              "tp": "CreateEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-24T19:10:12Z",
-              "tp": "PullRequestEvent",
-              "u": "mergify[bot]"
-            },
-            {
-              "t": "2020-06-24T19:10:13Z",
-              "tp": "IssueCommentEvent",
-              "u": "mergify[bot]"
-            },
-            {
               "t": "2020-06-24T13:39:20Z",
               "tp": "PullRequestReviewCommentEvent",
               "u": "caod123"
@@ -14327,10 +13772,6 @@
             {
               "count": 4,
               "name": "btl5037"
-            },
-            {
-              "count": 4,
-              "name": "mergify[bot]"
             },
             {
               "count": 2,
@@ -15419,10 +14860,6 @@
             },
             {
               "count": 11,
-              "name": "IssueCommentEvent"
-            },
-            {
-              "count": 11,
               "name": "ForkEvent"
             },
             {
@@ -15436,9 +14873,13 @@
             {
               "count": 1,
               "name": "ReleaseEvent"
+            },
+            {
+              "count": 1,
+              "name": "IssueCommentEvent"
             }
           ],
-          "count": 66,
+          "count": 56,
           "events": [
             {
               "t": "2020-06-01T13:05:42Z",
@@ -15454,16 +14895,6 @@
               "t": "2020-06-01T19:48:53Z",
               "tp": "PullRequestEvent",
               "u": "troyronda"
-            },
-            {
-              "t": "2020-06-01T15:21:24Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2020-06-01T19:59:34Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2020-06-01T19:24:35Z",
@@ -15581,19 +15012,9 @@
               "u": "pol9kov"
             },
             {
-              "t": "2020-06-17T12:35:12Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
               "t": "2020-06-17T07:17:41Z",
               "tp": "ForkEvent",
               "u": "datachainlab"
-            },
-            {
-              "t": "2020-06-17T12:51:50Z",
-              "tp": "IssueCommentEvent",
-              "u": "azure-pipelines[bot]"
             },
             {
               "t": "2020-06-17T01:46:22Z",
@@ -15621,11 +15042,6 @@
               "u": "troyronda"
             },
             {
-              "t": "2020-06-18T10:44:05Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
               "t": "2020-06-18T10:33:18Z",
               "tp": "PullRequestEvent",
               "u": "andrew-coleman"
@@ -15644,11 +15060,6 @@
               "t": "2020-06-22T17:54:00Z",
               "tp": "PullRequestEvent",
               "u": "pol9kov"
-            },
-            {
-              "t": "2020-06-22T18:06:31Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2020-06-22T07:45:12Z",
@@ -15706,21 +15117,6 @@
               "u": "troyronda"
             },
             {
-              "t": "2020-06-24T14:33:16Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2020-06-24T15:33:10Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2020-06-24T16:12:24Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
               "t": "2020-06-24T15:01:56Z",
               "tp": "ForkEvent",
               "u": "sijocherian"
@@ -15744,11 +15140,6 @@
               "t": "2020-06-29T22:20:09Z",
               "tp": "PullRequestEvent",
               "u": "troyronda"
-            },
-            {
-              "t": "2020-06-29T22:40:50Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
             },
             {
               "t": "2020-06-29T06:09:48Z",
@@ -15776,10 +15167,6 @@
             {
               "count": 23,
               "name": "troyronda"
-            },
-            {
-              "count": 9,
-              "name": "codecov[bot]"
             },
             {
               "count": 4,
@@ -15848,10 +15235,6 @@
             {
               "count": 1,
               "name": "datachainlab"
-            },
-            {
-              "count": 1,
-              "name": "azure-pipelines[bot]"
             },
             {
               "count": 1,
@@ -21507,7 +20890,7 @@
     {
       "activityTypes": [
         {
-          "count": 81,
+          "count": 75,
           "name": "PullRequestEvent"
         },
         {
@@ -21519,11 +20902,11 @@
           "name": "PushEvent"
         },
         {
-          "count": 28,
+          "count": 21,
           "name": "IssueCommentEvent"
         },
         {
-          "count": 25,
+          "count": 21,
           "name": "CreateEvent"
         },
         {
@@ -21535,19 +20918,19 @@
           "name": "WatchEvent"
         },
         {
-          "count": 8,
-          "name": "DeleteEvent"
-        },
-        {
           "count": 7,
           "name": "IssuesEvent"
+        },
+        {
+          "count": 6,
+          "name": "DeleteEvent"
         },
         {
           "count": 4,
           "name": "ReleaseEvent"
         }
       ],
-      "count": 259,
+      "count": 240,
       "name": "Hyperledger Labs",
       "repos": [
         {
@@ -22223,13 +21606,9 @@
             {
               "count": 1,
               "name": "WatchEvent"
-            },
-            {
-              "count": 1,
-              "name": "IssueCommentEvent"
             }
           ],
-          "count": 38,
+          "count": 37,
           "events": [
             {
               "t": "2020-06-01T17:56:18Z",
@@ -22352,11 +21731,6 @@
               "u": "masomel"
             },
             {
-              "t": "2020-06-25T00:45:12Z",
-              "tp": "IssueCommentEvent",
-              "u": "lgtm-com[bot]"
-            },
-            {
               "t": "2020-06-26T18:35:01Z",
               "tp": "PullRequestEvent",
               "u": "masomel"
@@ -22447,10 +21821,6 @@
             {
               "count": 1,
               "name": "Lunaticf"
-            },
-            {
-              "count": 1,
-              "name": "lgtm-com[bot]"
             }
           ]
         },
@@ -22614,190 +21984,6 @@
             {
               "count": 1,
               "name": "dewanz"
-            }
-          ]
-        },
-        {
-          "activityTypes": [
-            {
-              "count": 7,
-              "name": "IssueCommentEvent"
-            },
-            {
-              "count": 5,
-              "name": "PullRequestEvent"
-            },
-            {
-              "count": 3,
-              "name": "CreateEvent"
-            },
-            {
-              "count": 2,
-              "name": "WatchEvent"
-            },
-            {
-              "count": 2,
-              "name": "DeleteEvent"
-            },
-            {
-              "count": 1,
-              "name": "IssuesEvent"
-            },
-            {
-              "count": 1,
-              "name": "ForkEvent"
-            },
-            {
-              "count": 1,
-              "name": "PushEvent"
-            }
-          ],
-          "count": 22,
-          "events": [
-            {
-              "t": "2020-06-02T16:27:28Z",
-              "tp": "IssuesEvent",
-              "u": "swapnildahiphale"
-            },
-            {
-              "t": "2020-06-02T16:51:23Z",
-              "tp": "IssueCommentEvent",
-              "u": "alexvicegrab"
-            },
-            {
-              "t": "2020-06-04T14:59:12Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-04T14:59:14Z",
-              "tp": "IssueCommentEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-04T14:59:15Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-10T05:57:49Z",
-              "tp": "ForkEvent",
-              "u": "appbootup"
-            },
-            {
-              "t": "2020-06-10T05:57:55Z",
-              "tp": "WatchEvent",
-              "u": "sillysachin"
-            },
-            {
-              "t": "2020-06-11T23:42:16Z",
-              "tp": "PushEvent",
-              "u": "alexvicegrab"
-            },
-            {
-              "t": "2020-06-11T23:56:34Z",
-              "tp": "IssueCommentEvent",
-              "u": "lgtm-com[bot]"
-            },
-            {
-              "t": "2020-06-23T01:39:20Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2020-06-23T01:31:42Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-23T01:31:42Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-23T01:31:44Z",
-              "tp": "IssueCommentEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-23T01:31:45Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-23T01:31:46Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-24T11:52:07Z",
-              "tp": "IssueCommentEvent",
-              "u": "codecov[bot]"
-            },
-            {
-              "t": "2020-06-24T11:38:30Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-24T11:38:30Z",
-              "tp": "CreateEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-24T11:38:32Z",
-              "tp": "IssueCommentEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-24T11:38:34Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-24T11:38:35Z",
-              "tp": "DeleteEvent",
-              "u": "dependabot-preview[bot]"
-            },
-            {
-              "t": "2020-06-26T12:30:35Z",
-              "tp": "WatchEvent",
-              "u": "oonid"
-            }
-          ],
-          "name": "hyperledger-labs/nephos",
-          "users": [
-            {
-              "count": 13,
-              "name": "dependabot-preview[bot]"
-            },
-            {
-              "count": 2,
-              "name": "alexvicegrab"
-            },
-            {
-              "count": 2,
-              "name": "codecov[bot]"
-            },
-            {
-              "count": 1,
-              "name": "swapnildahiphale"
-            },
-            {
-              "count": 1,
-              "name": "appbootup"
-            },
-            {
-              "count": 1,
-              "name": "sillysachin"
-            },
-            {
-              "count": 1,
-              "name": "lgtm-com[bot]"
-            },
-            {
-              "count": 1,
-              "name": "oonid"
             }
           ]
         },
@@ -23236,6 +22422,86 @@
         {
           "activityTypes": [
             {
+              "count": 2,
+              "name": "WatchEvent"
+            },
+            {
+              "count": 1,
+              "name": "IssuesEvent"
+            },
+            {
+              "count": 1,
+              "name": "IssueCommentEvent"
+            },
+            {
+              "count": 1,
+              "name": "ForkEvent"
+            },
+            {
+              "count": 1,
+              "name": "PushEvent"
+            }
+          ],
+          "count": 6,
+          "events": [
+            {
+              "t": "2020-06-02T16:27:28Z",
+              "tp": "IssuesEvent",
+              "u": "swapnildahiphale"
+            },
+            {
+              "t": "2020-06-02T16:51:23Z",
+              "tp": "IssueCommentEvent",
+              "u": "alexvicegrab"
+            },
+            {
+              "t": "2020-06-10T05:57:49Z",
+              "tp": "ForkEvent",
+              "u": "appbootup"
+            },
+            {
+              "t": "2020-06-10T05:57:55Z",
+              "tp": "WatchEvent",
+              "u": "sillysachin"
+            },
+            {
+              "t": "2020-06-11T23:42:16Z",
+              "tp": "PushEvent",
+              "u": "alexvicegrab"
+            },
+            {
+              "t": "2020-06-26T12:30:35Z",
+              "tp": "WatchEvent",
+              "u": "oonid"
+            }
+          ],
+          "name": "hyperledger-labs/nephos",
+          "users": [
+            {
+              "count": 2,
+              "name": "alexvicegrab"
+            },
+            {
+              "count": 1,
+              "name": "swapnildahiphale"
+            },
+            {
+              "count": 1,
+              "name": "appbootup"
+            },
+            {
+              "count": 1,
+              "name": "sillysachin"
+            },
+            {
+              "count": 1,
+              "name": "oonid"
+            }
+          ]
+        },
+        {
+          "activityTypes": [
+            {
               "count": 1,
               "name": "ForkEvent"
             },
@@ -23311,38 +22577,6 @@
             {
               "count": 1,
               "name": "markolonius"
-            }
-          ]
-        },
-        {
-          "activityTypes": [
-            {
-              "count": 1,
-              "name": "CreateEvent"
-            },
-            {
-              "count": 1,
-              "name": "PullRequestEvent"
-            }
-          ],
-          "count": 2,
-          "events": [
-            {
-              "t": "2020-06-06T15:32:17Z",
-              "tp": "CreateEvent",
-              "u": "dependabot[bot]"
-            },
-            {
-              "t": "2020-06-06T15:32:17Z",
-              "tp": "PullRequestEvent",
-              "u": "dependabot[bot]"
-            }
-          ],
-          "name": "hyperledger-labs/byzantine-config",
-          "users": [
-            {
-              "count": 2,
-              "name": "dependabot[bot]"
             }
           ]
         },
