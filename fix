@@ -1,0 +1,11 @@
+f(){
+  echo $1
+  jq -S . < $1 > .$$ && mv .$$ $1 && git add $1
+}
+
+
+for ACTIONS in `find public -type f -name "*json"`; do
+  f $ACTIONS
+done
+git commit -s -m "`date -u` update"
+git push
