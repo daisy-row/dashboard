@@ -372,7 +372,7 @@ const App: React.FC = () => {
                     <GitBranch className="w-5 h-5 mr-2 text-blue-500" />
                     Activity per Repo
                   </h3>
-                  <div className="h-64">
+                  <div className="h-80 min-w-0 min-h-0">
                     <ResponsiveContainer width="100%" height="100%">
                       <BarChart data={selectedProject.repos.slice(0, 10)} layout="vertical">
                         <CartesianGrid strokeDasharray="3 3" horizontal={false} />
@@ -390,13 +390,14 @@ const App: React.FC = () => {
                     <Activity className="w-5 h-5 mr-2 text-purple-500" />
                     Activity Types
                   </h3>
-                  <div className="h-64">
+                  <div className="h-80 min-w-0 min-h-0">
                     <ResponsiveContainer width="100%" height="100%">
                       <PieChart>
                         <Pie
                           data={selectedProject.activityTypes}
-                          innerRadius={60}
-                          outerRadius={80}
+                          cx="30%"
+                          innerRadius={40}
+                          outerRadius={60}
                           paddingAngle={5}
                           dataKey="count"
                         >
@@ -405,7 +406,7 @@ const App: React.FC = () => {
                           ))}
                         </Pie>
                         <Tooltip />
-                        <Legend verticalAlign="bottom" height={36}/>
+                        <Legend layout="vertical" align="right" verticalAlign="middle" wrapperStyle={{ fontSize: '10px' }} />
                       </PieChart>
                     </ResponsiveContainer>
                   </div>
@@ -416,7 +417,7 @@ const App: React.FC = () => {
                     <Users className="w-5 h-5 mr-2 text-green-500" />
                     Top Contributors
                   </h3>
-                  <div className="space-y-3 max-h-64 overflow-y-auto pr-2 text-sm">
+                  <div className="space-y-3 max-h-80 overflow-y-auto pr-2 text-sm">
                     {selectedProject.repos.flatMap(r => r.users)
                       .reduce((acc: UserActivity[], u) => {
                         const existing = acc.find(x => x.name === u.name);
@@ -510,7 +511,7 @@ const App: React.FC = () => {
                 <h2 className="text-lg font-bold text-gray-900">Activity Distribution by Project</h2>
                 {loading && <div className="text-xs text-blue-500 animate-pulse">Loading more data...</div>}
               </div>
-              <div className="h-[400px]">
+              <div className="h-[400px] min-w-0 min-h-0">
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart data={processedData.slice(0, 20)}>
                     <CartesianGrid strokeDasharray="3 3" vertical={false} />
