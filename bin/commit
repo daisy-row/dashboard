@@ -6,7 +6,7 @@ if [[ `git status --porcelain` ]]; then
   git config --global user.name "Ry Jones"
   git add .
   git commit -s -m "`date -u` update"
-  git push origin main
+  git push origin gh-pages
 else
   echo No changes
 fi
