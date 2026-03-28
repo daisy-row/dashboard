@@ -7,7 +7,4 @@ f(){
 for ACTIONS in `find public -type f -name "*json"`; do
   f $ACTIONS
 done
-git config --global user.email "ry@linux.com"
-git config --global user.name "Ry Jones"
-git commit -s -m "`date -u` update"
-git push
+bash -e bin/commit
