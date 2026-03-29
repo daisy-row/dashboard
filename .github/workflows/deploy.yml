@@ -31,8 +31,8 @@ jobs:
       - name: Build Dashboard (Vite)
         run: npm run build
           
-      - name: Fix files
-        run: bash -e bin/fix
+#      - name: Fix files
+#        run: bash -e bin/fix
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@0ca16172ca884f0a37117fed41734f29784cc980
