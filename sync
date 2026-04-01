@@ -1,0 +1,16 @@
+f(){
+rsync -rav --progress ../FILTER/$1/ new-actions/$1
+}
+
+f 2015
+f 2016
+f 2017
+f 2018
+f 2019
+f 2020
+f 2021
+f 2022
+f 2023
+f 2024
+f 2025
+f 2026
