@@ -1,0 +1,43 @@
+#!/bin/zsh
+# Read enterprise slugs from enterprises.json, list every org in each
+# enterprise (GraphQL, needs read:enterprise scope), then every repo in
+# each org, and write the result to repos.json.
+set -euo pipefail
+
+ROOT=${0:a:h:h}
+cd "$ROOT"
+
+ENTERPRISES_FILE=enterprises.json
+OUT_FILE=repos.json
+
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT
+
+for slug in $(jq -r '.[]' "$ENTERPRISES_FILE"); do
+  echo "enterprise: $slug"
+  gh api graphql --paginate -f slug="$slug" -f query='
+    query($slug: String!, $endCursor: String) {
+      enterprise(slug: $slug) {
+        organizations(first: 100, after: $endCursor) {
+          pageInfo { hasNextPage endCursor }
+          nodes { login }
+        }
+      }
+    }' --jq '.data.enterprise.organizations.nodes[].login' | sort -f > "$tmp/orgs.txt"
+
+  : > "$tmp/$slug.ndjson"
+  while read -r org; do
+    repos=$(gh api --paginate "orgs/$org/repos?per_page=100" \
+      --jq '[.[] | select(.visibility == "public") | .full_name]' \
+      | jq -s 'add // [] | sort')
+    echo "  $org: $(echo "$repos" | jq length) repos"
+    jq -cn --arg org "$org" --argjson repos "$repos" '{org: $org, repos: $repos}' \
+      >> "$tmp/$slug.ndjson"
+  done < "$tmp/orgs.txt"
+
+  jq -s --arg enterprise "$slug" '{enterprise: $enterprise, orgs: .}' "$tmp/$slug.ndjson" \
+    >> "$tmp/enterprises.ndjson"
+done
+
+jq -s . "$tmp/enterprises.ndjson" > "$OUT_FILE"
+echo "wrote $OUT_FILE: $(jq '[.[].orgs[].repos[]] | length' "$OUT_FILE") repos"

@@ -1,0 +1,7 @@
+#!/bin/zsh
+# Thin wrapper: build and run the Rust exporter in tools/update-data.
+# usage: bin/update-data [START [END]]   (dates inclusive, default 2014-01-01..today)
+set -euo pipefail
+ROOT=${0:a:h:h}
+cd "$ROOT"
+exec cargo run --release --quiet --manifest-path tools/update-data/Cargo.toml -- "$@"

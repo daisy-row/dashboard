@@ -6,6 +6,7 @@ import path from 'path';
 
 const app = express();
 const PORT = 3001;
+const BLOCK_CONFIG = path.resolve(__dirname, 'block.json');
 
 app.use(cors());
 app.use(express.json());
@@ -47,6 +48,15 @@ app.get('/api/activity', async (req, res) => {
     const files = await glob('../*-actions/*.json');
     const projects: Record<string, ProjectActivity> = {};
 
+    // Load blocked actors
+    const blockedActors = new Set<string>();
+    if (fs.existsSync(BLOCK_CONFIG)) {
+      const blocked: string[] = await fs.readJson(BLOCK_CONFIG);
+      for (const actor of blocked) {
+        blockedActors.add(actor);
+      }
+    }
+
     for (const file of files) {
       const projectName = path.dirname(file).split(path.sep).pop()!.replace('-actions', '');
 
@@ -75,6 +85,8 @@ app.get('/api/activity', async (req, res) => {
         const repoName = event.repo;
         const actor = event.actor;
         const type = event.type;
+
+        if (blockedActors.has(actor)) continue;
 
         if (!projects[projectName].repos[repoName]) {
           projects[projectName].repos[repoName] = { name: repoName, count: 0, users: {}, activityTypes: {} };

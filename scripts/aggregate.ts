@@ -1,28 +1,27 @@
-import { glob } from 'glob';
 import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT_DIR = path.resolve(__dirname, '../../');
-const OUTPUT_FILE = path.resolve(__dirname, '../public/data.json');
+const ROOT_DIR = path.resolve(__dirname, '../new-actions');
+const DATA_DIR = path.resolve(__dirname, '../public/data');
+const INDEX_FILE = path.join(DATA_DIR, 'index.json');
+const PROJECTS_CONFIG = path.resolve(__dirname, '../projects.json');
+const BLOCK_CONFIG = path.resolve(__dirname, '../block.json');
+
+interface ProjectConfig {
+  name: string;
+  repos: string[];
+}
 
 interface ActivityEvent {
-  action: string;
-  actor: string;
-  repo: string;
+  action?: string;
+  actor: any;
+  repo: any;
   type: string;
-  timestamp: string;
-}
-
-interface UserActivity {
-  name: string;
-  count: number;
-}
-
-interface ActivityType {
-  name: string;
-  count: number;
+  timestamp?: string;
+  created_at?: string;
+  org?: any;
 }
 
 interface RepoActivity {
@@ -30,7 +29,7 @@ interface RepoActivity {
   count: number;
   users: Record<string, number>;
   activityTypes: Record<string, number>;
-  events: { t: string; u: string; tp: string }[]; // minified: timestamp, user, type
+  events: { t: string; u: string; tp: string }[];
 }
 
 interface ProjectActivity {
@@ -40,74 +39,158 @@ interface ProjectActivity {
   activityTypes: Record<string, number>;
 }
 
+function getAllFiles(dir: string, fileList: string[] = []): string[] {
+  if (!fs.existsSync(dir)) return fileList;
+  const files = fs.readdirSync(dir);
+  files.forEach(file => {
+    const filePath = path.join(dir, file);
+    if (fs.statSync(filePath).isDirectory()) {
+      getAllFiles(filePath, fileList);
+    } else if (file.endsWith('.json')) {
+      fileList.push(filePath);
+    }
+  });
+  return fileList;
+}
+
 async function aggregate() {
   try {
-    console.log('Scanning files from:', ROOT_DIR);
-    const files = await glob('*-actions/*.json', { cwd: ROOT_DIR });
+    console.log('Scanning directory:', ROOT_DIR);
+    if (!fs.existsSync(ROOT_DIR)) {
+      throw new Error(`Directory ${ROOT_DIR} does not exist`);
+    }
+
+    const files = getAllFiles(ROOT_DIR);
     console.log(`Found ${files.length} files. Aggregating...`);
     
-    const projects: Record<string, ProjectActivity> = {};
+    // Load project config
+    const repoToProject: Record<string, string> = {};
+    if (fs.existsSync(PROJECTS_CONFIG)) {
+      const config: ProjectConfig[] = await fs.readJson(PROJECTS_CONFIG);
+      for (const project of config) {
+        for (const repo of project.repos) {
+          repoToProject[repo] = project.name;
+        }
+      }
+      console.log(`Loaded ${config.length} projects with ${Object.keys(repoToProject).length} repos.`);
+    }
 
-    for (const file of files) {
-      const projectName = path.dirname(file).replace('-actions', '');
-      
-      if (!projects[projectName]) {
-        projects[projectName] = { name: projectName, count: 0, repos: {}, activityTypes: {} };
+    // Load blocked actors
+    const blockedActors = new Set<string>();
+    if (fs.existsSync(BLOCK_CONFIG)) {
+      const blocked: string[] = await fs.readJson(BLOCK_CONFIG);
+      for (const actor of blocked) {
+        blockedActors.add(actor);
+      }
+      console.log(`Loaded ${blockedActors.size} blocked actors.`);
+    }
+
+    // projectsByMonth[YYYY-MM][projectName]
+    const projectsByMonth: Record<string, Record<string, ProjectActivity>> = {};
+
+    for (const filePath of files) {
+      const rawContent = await fs.readFile(filePath, 'utf8');
+      if (!rawContent.trim()) continue;
+
+      let events: ActivityEvent[] = [];
+      try {
+        const parsed = JSON.parse(rawContent);
+        events = Array.isArray(parsed) ? parsed : [parsed];
+      } catch (e) {
+        events = rawContent.split('\n')
+          .filter(line => line.trim())
+          .map(line => {
+            try { return JSON.parse(line); } catch (err) { return null; }
+          })
+          .filter(ev => ev !== null);
       }
 
-      const filePath = path.join(ROOT_DIR, file);
-      const content = await fs.readJson(filePath);
-      const events: ActivityEvent[] = Array.isArray(content) ? content : [];
-
-      projects[projectName].count += events.length;
-
       for (const event of events) {
-        const repoName = event.repo;
-        const actor = event.actor;
-        const type = event.type;
-        const timestamp = event.timestamp;
+        let repoName = 'unknown';
+        if (event.repo) {
+          if (typeof event.repo === 'string') repoName = event.repo;
+          else if (typeof event.repo === 'object' && event.repo.name) repoName = event.repo.name;
+        }
 
-        if (!projects[projectName].repos[repoName]) {
-          projects[projectName].repos[repoName] = { 
-            name: repoName, 
-            count: 0, 
-            users: {}, 
-            activityTypes: {},
-            events: []
+        const projectName = repoToProject[repoName];
+        if (!projectName) continue; // Only read data from projects and repos in the projects.json file
+
+        let actor = 'unknown';
+        if (event.actor) {
+          if (typeof event.actor === 'string') actor = event.actor;
+          else if (typeof event.actor === 'object' && (event.actor.login || event.actor.id)) {
+            actor = event.actor.login || String(event.actor.id);
+          }
+        }
+
+        if (blockedActors.has(actor)) continue;
+
+        const type = event.type || 'UnknownEvent';
+        const timestamp = event.timestamp || event.created_at || new Date().toISOString();
+        const date = new Date(timestamp);
+        const monthKey = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+
+        if (!projectsByMonth[monthKey]) projectsByMonth[monthKey] = {};
+        if (!projectsByMonth[monthKey][projectName]) {
+          projectsByMonth[monthKey][projectName] = { name: projectName, count: 0, repos: {}, activityTypes: {} };
+        }
+
+        const project = projectsByMonth[monthKey][projectName];
+        project.count++;
+        project.activityTypes[type] = (project.activityTypes[type] || 0) + 1;
+
+        if (!project.repos[repoName]) {
+          project.repos[repoName] = { 
+            name: repoName, count: 0, users: {}, activityTypes: {}, events: []
           };
         }
 
-        const repo = projects[projectName].repos[repoName];
+        const repo = project.repos[repoName];
         repo.count++;
         repo.users[actor] = (repo.users[actor] || 0) + 1;
         repo.activityTypes[type] = (repo.activityTypes[type] || 0) + 1;
         repo.events.push({ t: timestamp, u: actor, tp: type });
-        
-        projects[projectName].activityTypes[type] = (projects[projectName].activityTypes[type] || 0) + 1;
       }
     }
 
-    const transformedProjects = Object.values(projects).map(p => ({
-      ...p,
-      activityTypes: Object.entries(p.activityTypes).map(([name, count]) => ({ name, count }))
-        .sort((a, b) => b.count - a.count),
-      repos: Object.values(p.repos).map(r => ({
-        ...r,
-        activityTypes: Object.entries(r.activityTypes).map(([name, count]) => ({ name, count }))
-          .sort((a, b) => b.count - a.count),
-        users: Object.entries(r.users).map(([name, count]) => ({ name, count }))
-          .sort((a, b) => b.count - a.count)
-      })).sort((a, b) => b.count - a.count)
-    })).sort((a, b) => b.count - a.count);
+    await fs.ensureDir(DATA_DIR);
+    // Clear existing monthly files to avoid stale data
+    const existingFiles = fs.readdirSync(DATA_DIR);
+    for (const file of existingFiles) {
+      if (file.match(/^\d{4}-\d{2}\.json$/)) {
+        fs.unlinkSync(path.join(DATA_DIR, file));
+      }
+    }
 
-    const result = {
-      projects: transformedProjects,
+    const availableMonths = Object.keys(projectsByMonth).sort();
+    
+    for (const monthKey of availableMonths) {
+      const monthProjects = projectsByMonth[monthKey];
+      const transformedProjects = Object.values(monthProjects).map(p => ({
+        ...p,
+        activityTypes: Object.entries(p.activityTypes).map(([name, count]) => ({ name, count }))
+          .sort((a, b) => b.count - a.count),
+        repos: Object.values(p.repos).map(r => ({
+          ...r,
+          activityTypes: Object.entries(r.activityTypes).map(([name, count]) => ({ name, count }))
+            .sort((a, b) => b.count - a.count),
+          users: Object.entries(r.users).map(([name, count]) => ({ name, count }))
+            .sort((a, b) => b.count - a.count)
+        })).sort((a, b) => b.count - a.count)
+      })).sort((a, b) => b.count - a.count);
+
+      const monthFile = path.join(DATA_DIR, `${monthKey}.json`);
+      await fs.writeJson(monthFile, { projects: transformedProjects }, { spaces: 0 });
+      console.log(`Generated ${monthFile}`);
+    }
+
+    const index = {
+      availableMonths,
       lastUpdated: new Date().toISOString()
     };
+    await fs.writeJson(INDEX_FILE, index, { spaces: 2 });
+    console.log(`Generated ${INDEX_FILE}`);
 
-    await fs.ensureDir(path.dirname(OUTPUT_FILE));
-    await fs.writeJson(OUTPUT_FILE, result, { spaces: 0 }); // Minify for smaller download
-    console.log(`Successfully generated ${OUTPUT_FILE}`);
   } catch (error) {
     console.error('Aggregation failed:', error);
     process.exit(1);

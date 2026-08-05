@@ -3,9 +3,9 @@ name: Deploy Activity Dashboard
 on:
   push:
     branches: [ gh-pages ]
-#  schedule:
-#    - cron: '0 * * * *' # Run every hour to update data
   workflow_dispatch: # Allow manual trigger
+#  schedule:
+#    - cron: '0 4 * * *' # Run every hour to update data
 
 permissions:
   contents: read
@@ -16,10 +16,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 24
           cache: 'npm'
@@ -28,11 +28,14 @@ jobs:
       - name: Install dependencies
         run: npm install
           
-      - name: Build Dashboard (Aggregates + Vite)
+      - name: Build Dashboard (Vite)
         run: npm run build
           
+#      - name: Fix files
+#        run: bash -e bin/fix
+          
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@0ca16172ca884f0a37117fed41734f29784cc980
         with:
           path: dist
 
@@ -45,4 +48,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
